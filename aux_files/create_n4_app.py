@@ -7,7 +7,7 @@ from pathlib import Path
 
 # --- CONFIGURATION ---
 DATA_FILE = 'data.json'
-OUTPUT_DIR = 'dist'
+OUTPUT_DIR = '.'
 APP_TITLE = 'Grammar App (N4)'
 APP_SHORT_NAME = 'N4 Grammar'
 APP_THEME_COLOR = '#2c3e50'
@@ -46,23 +46,22 @@ def build_app():
     data = json.loads(raw)
     print(f"  Loaded {len(data)} chapters")
 
-    # 2. Clean and recreate the output directory
-    if os.path.exists(OUTPUT_DIR):
-        shutil.rmtree(OUTPUT_DIR)
-    os.makedirs(OUTPUT_DIR)
+    # 2. Ensure the output directory exists
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     # 3. Generate icons if they don't exist on disk
     icon_192_path = os.path.join(OUTPUT_DIR, 'icon-192.png')
-    icon_512_path = os.path.join(OUTPUT_DIR, 'icon-512.png')
     for src in ['icon-192.png', 'icon-512.png']:
-        if os.path.exists(src):
-            shutil.copyfile(src, os.path.join(OUTPUT_DIR, src))
+        dst = os.path.join(OUTPUT_DIR, src)
+        if os.path.exists(src) and os.path.abspath(src) != os.path.abspath(dst):
+            shutil.copyfile(src, dst)
             print(f"  Copied {src}")
+        elif os.path.exists(src):
+            print(f"  {src} already in place")
         else:
             # Generate minimal PNG icon
             sz = 192 if '192' in src else 512
             png_data = create_png(sz, sz, 44, 62, 80)
-            dst = os.path.join(OUTPUT_DIR, src)
             with open(dst, 'wb') as f:
                 f.write(png_data)
             print(f"  Generated {src}")
@@ -123,7 +122,9 @@ self.addEventListener('fetch', event => {
         f.write(sw_code)
 
     # 6. Copy data.json
-    shutil.copyfile(DATA_FILE, os.path.join(OUTPUT_DIR, DATA_FILE))
+    dst_data = os.path.join(OUTPUT_DIR, DATA_FILE)
+    if os.path.abspath(DATA_FILE) != os.path.abspath(dst_data):
+        shutil.copyfile(DATA_FILE, dst_data)
 
     # 7. Generate index.html
     html_code = generate_html()
@@ -131,7 +132,7 @@ self.addEventListener('fetch', event => {
         f.write(html_code)
 
     print(f"Build successful! Output saved to '{OUTPUT_DIR}/'")
-    print("Push the 'dist' folder to your GitHub Pages branch.")
+    print("Files written to project root. Push to GitHub Pages.")
 
 
 # --- HTML TEMPLATE (regular string — NOT an f-string) ---
@@ -518,7 +519,7 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
         rows.forEach(function(row) {
             html += '<tr>';
             keys.forEach(function(k) {
-                html += '<td>' + escapeHtml(row[k] || '') + '</td>';
+                html += '<td>' + (row[k] || '') + '</td>';
             });
             html += '</tr>';
         });
@@ -592,7 +593,7 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
         options.forEach(function(opt) {
             var val = opt.split(' ')[0];
             var checked = (savedVal === val) ? ' checked' : '';
-            html += '<label><input type="radio" name="ans-' + uid + '" value="' + val + '"' + checked + '> ' + escapeHtml(opt) + '</label>';
+            html += '<label><input type="radio" name="ans-' + uid + '" value="' + val + '"' + checked + '> ' + opt + '</label>';
         });
         html += '</div>';
         return html;
@@ -604,7 +605,7 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
             ex.choices.forEach(function(choice) {
                 var val = choice.split(' ')[0];
                 var checked = (savedVal === val) ? ' checked' : '';
-                html += '<label><input type="radio" name="ans-' + uid + '" value="' + val + '"' + checked + '> ' + escapeHtml(choice) + '</label>';
+                html += '<label><input type="radio" name="ans-' + uid + '" value="' + val + '"' + checked + '> ' + choice + '</label>';
             });
             html += '</div>';
             return html;
@@ -628,7 +629,7 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
             if (cellVal === '') {
                 html += '<td><input type="text" id="ct-' + uid + '-' + colIdx + '" value="' + escapeHtml(savedCell || '') + '"></td>';
             } else {
-                html += '<td class="prefilled">' + escapeHtml(cellVal) + '</td>';
+                html += '<td class="prefilled">' + cellVal + '</td>';
             }
         });
         html += '</tr></tbody></table>';

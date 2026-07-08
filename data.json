@@ -1914,7 +1914,7 @@
           {
             "point_id": "g1_1",
             "title": "1. ～より…／～ほど…ません",
-            "explanation": "話題として取り上げたものの程度を、ほかのものと比べる言い方。「疑問詞+より」で最上級を表す③。否定文では「～ほど…ません」という形で使う④。",
+            "explanation": "A way of comparing the degree of one thing to another. Using 'question word + より' expresses the superlative (③). In negative sentences, the form '～ほど…ません' is used (④).",
             "examples": [
               {
                 "text": "①この <ruby> アパート <rt> あぱーと </rt></ruby> は <ruby> 前 <rt> まえ </rt></ruby> の <ruby> アパート <rt> あぱーと </rt></ruby> より べんりです。"
@@ -1934,7 +1934,7 @@
           {
             "point_id": "g1_2",
             "title": "2. ～より～のほう",
-            "explanation": "二つのものを比べて、一方(名2)が他方(名1)より程度が上(名2 > 名1)であることを表す。ふつう、否定文では使わない。",
+            "explanation": "Expresses that when comparing two things, one (noun 2) has a higher degree than the other (noun 1), i.e. noun 2 > noun 1. Generally not used in negative sentences.",
             "examples": [
               {
                 "text": "①わたしより <ruby> 弟 <rt> おとうと </rt></ruby> の <ruby> 方 <rt> ほう </rt></ruby> が <ruby> 背 <rt> せ </rt></ruby> が <ruby> 高 <rt> たか </rt></ruby> いです。"
@@ -1951,7 +1951,7 @@
           {
             "point_id": "g1_3",
             "title": "3. ～と～とどちら",
-            "explanation": "二つのものの程度を比べて聞く言い方。この質問には、ふつう「～のほう／どちらも」の形で答える②③。",
+            "explanation": "A way of asking by comparing the degree of two things. Responses to this question typically use the forms '～のほう' or 'どちらも' (②③).",
             "examples": [
               {
                 "text": "①コーヒーと <ruby> 紅茶 <rt> こうちゃ </rt></ruby> と どちらが いいですか。"
@@ -2056,7 +2056,7 @@
           {
             "point_id": "g2_1",
             "title": "1. ～ながら…",
-            "explanation": "主となる動作(～)を行うときに、同時に別の動作(～)を付帯的に行うことを表す。継続的な動作を表す動詞につく。",
+            "explanation": "Expresses that while performing a main action (～), another action (～) is done simultaneously as a secondary action. Attaches to verbs expressing continuous actions.",
             "examples": [
               {
                 "text": "①きれいな <ruby> 海 <rt> うみ </rt></ruby> を <ruby> 見 <rt> み </rt></ruby> ながら さんぽしました。"
@@ -2073,7 +2073,7 @@
           {
             "point_id": "g2_2",
             "title": "2. ～ところです",
-            "explanation": "行為や変化のどの段階であるかを表す。直前(辞書形＋ところ)、進行中(ている＋ところ)、直後(た形＋ところ)。",
+            "explanation": "Expresses which stage of an action or change something is at: just before (dictionary form + ところ), in progress (ている + ところ), just after (た-form + ところ).",
             "examples": [
               {
                 "text": "①あ、<ruby> 試合 <rt> しあい </rt></ruby> が <ruby> 始 <rt> はじ </rt></ruby> まる ところですよ。<ruby> 早 <rt> はや </rt></ruby> く、<ruby> 早 <rt> はや </rt></ruby> く。"
@@ -2090,7 +2090,7 @@
           {
             "point_id": "g2_3",
             "title": "3. ～まで…・～までに…",
-            "explanation": "時間の限度を表す。「～まで」の後には継続的な動作や状態を表す文が来る。「～までに」の後には瞬間的な動作を表す文が来る。",
+            "explanation": "Expresses a time limit. After '～まで', a sentence expressing a continuous action or state follows. After '～までに', a sentence expressing an instantaneous action follows.",
             "examples": [
               {
                 "text": "①ひこうきの <ruby> 出発 <rt> しゅっぱつ </rt></ruby> <ruby> 時間 <rt> じかん </rt></ruby> まで ここで まって います。"
@@ -2221,7 +2221,7 @@
           {
             "point_id": "g3_1",
             "title": "1. ～ませんか",
-            "explanation": "提案したり勧誘したりするときに使う。一緒にする場合(①)も、相手だけがする場合(②③)もある。",
+            "explanation": "Used when making a suggestion or invitation. Can be used when doing something together (①) or when only the other person does it (②③).",
             "examples": [
               {
                 "text": "①A「ひさしぶりに テニスを しませんか。」<br>B「あ、いいですね。」"
@@ -2238,7 +2238,7 @@
           {
             "point_id": "g3_2",
             "title": "2. ～ましょう(か)",
-            "explanation": "相手の合意のある行為を一緒にすることを提案するとき(①②)や、自分がすることを申し出るとき(③④)に使う。親しい人との会話では「う・よう」の形(→22ページ)になる(④)。",
+            "explanation": "Used when proposing to do something together with the other person's agreement (①②) or when offering to do something oneself (③④). In conversation with close friends, the 'う・よう' form (see page 22) is used (④).",
             "examples": [
               {
                 "text": "①A「もう 5<ruby> 時 <rt> じ </rt></ruby> ですね。」<br>B「じゃ、<ruby> 帰 <rt> かえ </rt></ruby> りましょうか。」"
@@ -2329,7 +2329,7 @@
           {
             "point_id": "g4_1",
             "title": "1. ～(られ)ます",
-            "explanation": "能力があること(①②)や可能な状況が整っていること(③)を表す。④のように物の性質として可能なことを表すこともある。人の意志的な行為を表す動詞を使う。①②のように目的語の助詞「を」を「が」にすることが多い。",
+            "explanation": "Expresses that one has the ability (①②) or that the circumstances make something possible (③). Can also express that something is possible as a property of the thing (④). Uses verbs expressing volitional human actions. The object particle 'を' is often changed to 'が' as in ①②.",
             "examples": [
               {
                 "text": "①ジョーさんは <ruby> 英語 <rt> えいご </rt></ruby> と <ruby> 日本語 <rt> にほんご </rt></ruby> と <ruby> 中国語 <rt> ちゅうごくご </rt></ruby> が <ruby> 話 <rt> はな </rt></ruby> せます。"
@@ -2349,7 +2349,7 @@
           {
             "point_id": "g4_2",
             "title": "2. ～ができます・～ことができます",
-            "explanation": "可能な状況が整っていること(①②)や能力があること(③)を表す。人の意志的な行為を表す動詞を使う。「～(られ)ます」よりもやや改まった言い方。",
+            "explanation": "Expresses that circumstances make something possible (①②) or that one has the ability (③). Uses verbs expressing volitional human actions. Somewhat more formal than '～(られ)ます'.",
             "examples": [
               {
                 "text": "①この コンビニでは 24<ruby> 時間 <rt> じかん </rt></ruby> <ruby> 買 <rt> か </rt></ruby> い<ruby> 物 <rt> もの </rt></ruby> が できます。"
@@ -2366,7 +2366,7 @@
           {
             "point_id": "g4_3",
             "title": "3. 見えます・聞こえます",
-            "explanation": "自然に目に入ること、自然に耳に入ることを表す。",
+            "explanation": "Expresses that something naturally enters one's eyes (見えます = is visible) or naturally enters one's ears (聞こえます = is audible).",
             "examples": [
               {
                 "text": "①いい へやですね。まどから <ruby> 海 <rt> うみ </rt></ruby> が <ruby> 見 <rt> み </rt></ruby> えます。"
@@ -2514,7 +2514,7 @@
           {
             "point_id": "g5_1",
             "title": "1. ～たことがあります",
-            "explanation": "過去の経験を表す。近い過去のことには使わない。「一度・一度も・何度か・何度も」など、頻度を表す言葉と一緒に使うことが多く、「いつも・たいてい」など、常時を表す言葉といっしょには使わない。",
+            "explanation": "Expresses past experience. Not used for very recent past events. Often used together with frequency words like '一度' (once), '一度も' (not even once), '何度か' (several times), '何度も' (many times). Not used with words expressing constancy like 'いつも' (always) or 'たいてい' (usually).",
             "examples": [
               {
                 "text": "①<ruby> 前 <rt> まえ </rt></ruby> に <ruby> 一度 <rt> いちど </rt></ruby> テレビドラマに <ruby> 出 <rt> で </rt></ruby> た ことが あります。"
@@ -2534,7 +2534,7 @@
           {
             "point_id": "g5_2",
             "title": "2. ～ことがあります",
-            "explanation": "特別なことが起こると言いたいときに使う。回数が非常に多い場合には使わない。「～こともあります」という形でも使われる(④)。",
+            "explanation": "Used when you want to say that something special occurs. Not used when the frequency is extremely high. Also used in the form '～こともあります' (④).",
             "examples": [
               {
                 "text": "①<ruby> 母 <rt> はは </rt></ruby> は このごろ <ruby> 人 <rt> ひと </rt></ruby> の <ruby> 名前 <rt> なまえ </rt></ruby> を <ruby> 忘 <rt> わす </rt></ruby> れる ことが あります。"
@@ -2776,7 +2776,7 @@
           {
             "point_id": "g6_1",
             "title": "1. ～てもいいです／～てはいけません",
-            "explanation": "「～てもいいです」は許可や譲歩を表す。「～てはいけません」は禁止を表す。",
+            "explanation": "'～てもいいです' expresses permission or concession. '～てはいけません' expresses prohibition.",
             "examples": [
               {
                 "text": "①トム「ここに すわっても いいですか。」<br><ruby> 女 <rt> おんな </rt></ruby> の人「ええ、どうぞ。」"
@@ -2796,7 +2796,7 @@
           {
             "point_id": "g6_2",
             "title": "2. ～なくてもいいです／～なければなりません",
-            "explanation": "「～なくてもいいです」は必要がないことや譲歩を表す。「～なければなりません」は必要であることや義務を表す。",
+            "explanation": "'～なくてもいいです' expresses that something is not necessary or concession. '～なければなりません' expresses necessity or obligation.",
             "examples": [
               {
                 "text": "①<ruby> 医者 <rt> いしゃ </rt></ruby> 「もう <ruby> 薬 <rt> くすり </rt></ruby> を <ruby> 飲 <rt> の </rt></ruby> まなくても いいですよ。」<br><ruby> 病気 <rt> びょうき </rt></ruby> の人「そうですか。ああ、よかった。」"
@@ -2915,7 +2915,7 @@
           {
             "point_id": "g7_1",
             "title": "1. ～がほしいです・～たいです",
-            "explanation": "話者の希望・欲求を表す。③のように、目的語の助詞「を」を「が」にする場合もある(本を読む→本が読みたい)。第三者の希望・欲求を表す場合は「～がります」の形になる(⑥⑦)。",
+            "explanation": "Expresses the speaker's wish or desire. As in ③, the object particle 'を' may change to 'が' (e.g. 本を読む → 本が読みたい). When expressing a third person's wish or desire, the form '～がります' is used (⑥⑦).",
             "examples": [
               {
                 "text": "①わたしは <ruby> 自分 <rt> じぶん </rt></ruby> の へやが ほしいです。"
@@ -2944,7 +2944,7 @@
           {
             "point_id": "g7_2",
             "title": "2. ～といいです",
-            "explanation": "話者が希望している状況を表す。話者の意志を含まない動詞(無意志動詞・可能の意味の動詞・三人称が主語になる動詞など)につく。文末に「ね・けど・なあ」などをつけることが多い。",
+            "explanation": "Expresses a situation the speaker hopes for. Attaches to verbs that do not include the speaker's volition (non-volitional verbs, potential verbs, verbs with a third-person subject, etc.). Sentence-final particles like 'ね・けど・なあ' are often added.",
             "examples": [
               {
                 "text": "①いい <ruby> 仕事 <rt> しごと </rt></ruby> が <ruby> 見 <rt> み </rt></ruby> つかると いいですね。"
@@ -3088,7 +3088,7 @@
           {
             "point_id": "g8_1",
             "title": "1. ～そうです",
-            "explanation": "外観や状況から、何かが起きる兆候(①)、性質・様子(②③)を推察して述べたり、判断・予感(④⑤)などを述べたりする言い方。",
+            "explanation": "A way of saying something by inferring from appearance or situation: signs that something is about to happen (①), nature/state (②③), or expressing a judgment/premonition (④⑤).",
             "examples": [
               {
                 "text": "①あ、テーブルの 上の コップが おちそうですよ。"
@@ -3111,7 +3111,7 @@
           {
             "point_id": "g8_2",
             "title": "2. ～がっています・～がります",
-            "explanation": "第三者（主に身内の人や話者より下の立場の人）の欲求・感情の様子を表す。今の様子ではなく、一般的な傾向があると言いたいときは「～がります」の形を使う(③)。",
+            "explanation": "Expresses the appearance of a third person's (mainly family members or those of lower status than the speaker) desires or emotions. When you want to say there is a general tendency rather than describing the current state, use the form '～がります' (③).",
             "examples": [
               {
                 "text": "①<ruby> 犬 <rt> いぬ </rt></ruby> が <ruby> 死 <rt> し </rt></ruby> にました。<ruby> 母 <rt> はは </rt></ruby> は さびしがって います。"
@@ -3128,7 +3128,7 @@
           {
             "point_id": "g8_3",
             "title": "3. ～まま…",
-            "explanation": "状態が変わらないで続いている様子を表す。状態が変わらないために好ましくない状態になっていることを言う場合に使われることが多い。",
+            "explanation": "Expresses a state that continues without changing. Often used to say that because the state hasn't changed, an undesirable situation has resulted.",
             "examples": [
               {
                 "text": "①きのう、まどを <ruby> 開 <rt> あ </rt></ruby> けた <ruby> まま </rt></ruby> ねました。"
@@ -3271,7 +3271,7 @@
           {
             "point_id": "g9_1",
             "title": "1. ～から…・～からです",
-            "explanation": "原因・理由・根拠を強く言うときに使う。",
+            "explanation": "Used when strongly expressing a cause, reason, or basis.",
             "examples": [
               {
                 "text": "①ちょっと <ruby> 用事 <rt> ようじ </rt></ruby> が ありますから、<ruby> 今日 <rt> きょう </rt></ruby> は <ruby> 先 <rt> さき </rt></ruby> に <ruby> 帰 <rt> かえ </rt></ruby> ります。"
@@ -3288,7 +3288,7 @@
           {
             "point_id": "g9_2",
             "title": "2. ～ので…",
-            "explanation": "原因・理由を表す。「～から」より丁寧な言い方。後には命令の文（読め・見ろ・来いなど）やあいさつ表現（すみません・ありがとうなど）は来ない。",
+            "explanation": "Expresses cause or reason. More polite than '～から'. Imperative sentences (読め・見ろ・来い etc.) or greeting expressions (すみません・ありがとう etc.) do not follow.",
             "examples": [
               {
                 "text": "①すみません、<ruby> 頭 <rt> あたま </rt></ruby> が いたいので、<ruby> 今日 <rt> きょう </rt></ruby> は <ruby> 休 <rt> やす </rt></ruby> みます。"
@@ -3305,7 +3305,7 @@
           {
             "point_id": "g9_3",
             "title": "3. ～て…・～くて…・～で…",
-            "explanation": "原因・理由を表す。「～から・～ので」よりも、ある感情や感覚の原因・理由を言うことが多い。後には「ともかく・さびしいなど」、気持ちを表す言葉のほかに、不可能表現や「すみません・ありがとう」などのあいさつ表現が来ることが多い。話者の希望・意向を表す文や相手への働きかけの文は来ない。",
+            "explanation": "Expresses cause or reason. Compared to '～から・～ので', it more often expresses the cause or reason for a certain emotion or sensation. Impossible expressions, greeting expressions like 'すみません・ありがとう', and words expressing feelings like 'さびしい' often follow. Sentences expressing the speaker's hope/intention or sentences that are appeals to the listener do not follow.",
             "examples": [
               {
                 "text": "①きのうは たくさん <ruby> 仕事 <rt> しごと </rt></ruby> が あって、たいへんでした。"
@@ -3444,7 +3444,7 @@
           {
             "point_id": "g11_1",
             "title": "1. (～も)～し、(～も)…",
-            "explanation": "複数の理由を重ねて言うときの言い方。「～し」が一つの場合でも、理由がほかにもあるという含みがある。",
+            "explanation": "A way of listing multiple reasons together. Even when there is only one '～し', it implies that there are other reasons as well.",
             "examples": [
               {
                 "text": "A① にもつも <ruby> 多 <rt> おお </rt></ruby> いし、<ruby> 雨 <rt> あめ </rt></ruby> も ふって いるし、タクシーで <ruby> 行 <rt> い </rt></ruby> きましょう。"
@@ -3461,7 +3461,7 @@
           {
             "point_id": "g11_2",
             "title": "2. ～たり～たりします",
-            "explanation": "時間的順序に関係なく、いくつかの行為を表す。意味が対立する動詞を並べて、二つの動きが繰り返すことを表す。",
+            "explanation": "Expresses several actions regardless of their temporal order. By listing verbs with opposing meanings, it expresses that two actions repeat.",
             "examples": [
               {
                 "text": "A① <ruby> 休 <rt> やす </rt></ruby> みの <ruby> 日 <rt> ひ </rt></ruby> は プールで およいだり テニスを したり します。"
@@ -3610,7 +3610,7 @@
           {
             "point_id": "g12_1",
             "title": "1. ～かもしれません",
-            "explanation": "可能性があることを表す。",
+            "explanation": "Expresses that something is possible / there is a possibility.",
             "examples": [
               {
                 "text": "①あしたは ゆきが ふるかもしれませんね。"
@@ -3630,7 +3630,7 @@
           {
             "point_id": "g12_2",
             "title": "2. ～はずです",
-            "explanation": "客観的な根拠によって確信していることを言うときに使う。",
+            "explanation": "Used when saying you are convinced based on objective grounds.",
             "examples": [
               {
                 "text": "①この <ruby> 犬 <rt> いぬ </rt></ruby> は 2さいの とき うちに <ruby> 来 <rt> く </rt></ruby> たのです。<ruby> 今年 <rt> ことし </rt></ruby> 12さいの はずです。"
@@ -3650,7 +3650,7 @@
           {
             "point_id": "g12_3",
             "title": "3. ～ようです・～みたいです",
-            "explanation": "話者の個人的な観察から推量したことを言うときに使う。「～みたいです」は改まった場面では使わないほうがよい。",
+            "explanation": "Used when stating something inferred from the speaker's personal observation. '～みたいです' is better not used in formal situations.",
             "examples": [
               {
                 "text": "①この <ruby> 肉 <rt> にく </rt></ruby> は 少し <ruby> 古 <rt> ふる </rt></ruby> いようです。へんな においが します。"
@@ -3795,7 +3795,7 @@
           {
             "point_id": "g13_1",
             "title": "1. ～なさい",
-            "explanation": "<ruby> 教師 <rt> きょうし </rt></ruby> が <ruby> 学生 <rt> がくせい </rt></ruby> に、<ruby> 親 <rt> おや </rt></ruby> が<ruby> 子 <rt> こ </rt></ruby> に<ruby> 指示 <rt> しじ </rt></ruby> を<ruby> 出 <rt> だ </rt></ruby> すときに<ruby> 使 <rt> つか </rt></ruby> う。また、<ruby> 試験 <rt> しけん </rt></ruby> の<ruby> 指示 <rt> しじ </rt></ruby><ruby> 文 <rt> ぶん </rt></ruby> で<ruby> 使 <rt> つか </rt></ruby> う③。",
+            "explanation": "Used when a teacher gives instructions to students, or a parent gives instructions to a child. Also used in exam instruction sentences (③).",
             "examples": [
               {
                 "text": "① こどもは <ruby> 早 <rt> はや </rt></ruby> く ねなさい。"
@@ -3812,7 +3812,7 @@
           {
             "point_id": "g13_2",
             "title": "2. ～ほうがいいです",
-            "explanation": "<ruby> 勧告 <rt> かんこく </rt></ruby> を<ruby> 表 <rt> あらわ </rt></ruby> す。～しなければ<ruby> 悪 <rt> わる </rt></ruby> い<ruby> 結果 <rt> けっか </rt></ruby> になりそうなときに<ruby> 使 <rt> つか </rt></ruby> われることが<ruby> 多 <rt> おお </rt></ruby> い。<ruby> 終助詞 <rt> しゅうじょし </rt></ruby>（よ・ねなど）をつけることが<ruby> 多 <rt> おお </rt></ruby> い。",
+            "explanation": "Expresses advice/recommendation. Often used when it seems that if you don't do something, a bad result will follow. Sentence-final particles (よ・ね etc.) are often added.",
             "examples": [
               {
                 "text": "① <ruby> 会場 <rt> かいじょう </rt></ruby> に <ruby> 行 <rt> い </rt></ruby> く <ruby> 前 <rt> まえ </rt></ruby> に <ruby> 地図 <rt> ちず </rt></ruby> で <ruby> 場所 <rt> ばしょ </rt></ruby> を しらべたほうが いいですね。"
@@ -3829,7 +3829,7 @@
           {
             "point_id": "g13_3",
             "title": "3. ～ないと",
-            "explanation": "～をしないとよくない<ruby> 状況 <rt> じょうきょう </rt></ruby> になるという<ruby> 気持 <rt> きもち </rt></ruby> ちで<ruby> 自分自身 <rt> じぶんじしん </rt></ruby> や<ruby> 相手 <rt> あいて </rt></ruby> に<ruby> 行動 <rt> こうどう </rt></ruby> を<ruby> 促 <rt> うなが </rt></ruby> すときに<ruby> 使 <rt> つか </rt></ruby> われる。<ruby> 口語的 <rt> こうごてき </rt></ruby> な<ruby> 言 <rt> い </rt></ruby> い<ruby> 方 <rt> かた </rt></ruby>。",
+            "explanation": "Used when urging oneself or the other person to take action, with the feeling that if you don't do ~, the situation will become unfavorable. A colloquial expression.",
             "examples": [
               {
                 "text": "① けん、ご<ruby> 飯 <rt> はん </rt></ruby> の <ruby> 前 <rt> まえ </rt></ruby> には <ruby> 手 <rt> て </rt></ruby> を あらわないと。"
@@ -3967,7 +3967,7 @@
           {
             "point_id": "g14_1",
             "title": "1. ～たら…",
-            "explanation": "～と<ruby> 仮定 <rt> かてい </rt></ruby> したとき、…が<ruby> 成 <rt> な </rt></ruby> り<ruby> 立 <rt> た </rt></ruby> つことを<ruby> 表 <rt> あらわ </rt></ruby> す。「もし」をよくいっしょに<ruby> 使 <rt> つか </rt></ruby> う。",
+            "explanation": "Expresses that if you assume ~, then ... holds true. 'もし' is often used together with this.",
             "examples": [
               {
                 "text": "① もし <ruby> 水 <rt> みず </rt></ruby> が なかったら、わたしたちは いきられません。"
@@ -3984,7 +3984,7 @@
           {
             "point_id": "g14_2",
             "title": "2. ～ば…・～なら…",
-            "explanation": "～という<ruby> 条件 <rt> じょうけん </rt></ruby> のときに…が<ruby> 成 <rt> な </rt></ruby> り<ruby> 立 <rt> た </rt></ruby> つことを<ruby> 表 <rt> あらわ </rt></ruby> す。～が<ruby> 動 <rt> どう </rt></ruby> きを<ruby> 表 <rt> あらわ </rt></ruby> す<ruby> 動詞 <rt> どうし </rt></ruby> のとき、…には<ruby> 話者 <rt> わしゃ </rt></ruby> の<ruby> 意向 <rt> いこう </rt></ruby> を<ruby> 表 <rt> あらわ </rt></ruby> す<ruby> 文 <rt> ぶん </rt></ruby> や<ruby> 相手 <rt> あいて </rt></ruby> への<ruby> 働 <rt> はたら </rt></ruby> きかけの<ruby> 文 <rt> ぶん </rt></ruby> は<ruby> 来 <rt> き </rt></ruby> ない。「もし」をいっしょに<ruby> 使 <rt> つか </rt></ruby> うことがある。",
+            "explanation": "Expresses that under the condition ~, ... holds true. When ~ is a verb expressing an action, ... can contain a sentence expressing the speaker's intention or an appeal to the listener.",
             "examples": [
               {
                 "text": "① バスに <ruby> 乗 <rt> の </rt></ruby> れば、<ruby> 駅 <rt> えき </rt></ruby> まで 10<ruby> 分 <rt> ぷん </rt></ruby> です。"
@@ -4004,7 +4004,7 @@
           {
             "point_id": "g14_3",
             "title": "3. ～と…",
-            "explanation": "～のとき、<ruby> 必 <rt> かなら </rt></ruby> ず…になることを<ruby> 表 <rt> あらわ </rt></ruby> す。…には<ruby> 話者 <rt> わしゃ </rt></ruby> の<ruby> 意向 <rt> いこう </rt></ruby> を<ruby> 表 <rt> あらわ </rt></ruby> す<ruby> 文 <rt> ぶん </rt></ruby> や<ruby> 相手 <rt> あいて </rt></ruby> への<ruby> 働 <rt> はたら </rt></ruby> きかけの<ruby> 文 <rt> ぶん </rt></ruby> は<ruby> 来 <rt> き </rt></ruby> ない。",
+            "explanation": "Expresses that when ~ occurs, ... always results. Sentences expressing the speaker's intention or appeals to the listener do not appear in ...",
             "examples": [
               {
                 "text": "① お<ruby> 金 <rt> かね </rt></ruby> を <ruby> 入 <rt> い </rt></ruby> れて ボタンを おすと、きっぷが <ruby> 出 <rt> で </rt></ruby> ます。"
@@ -4145,7 +4145,7 @@
           {
             "point_id": "g15_1",
             "title": "1. ～たら…",
-            "explanation": "～が<ruby> 実現 <rt> じつげん </rt></ruby> した<ruby> 後 <rt> あと </rt></ruby> …をすることを<ruby> 表 <rt> あらわ </rt></ruby> す。～は<ruby> 仮定 <rt> かてい </rt></ruby> ではなく、これから<ruby> 実現 <rt> じつげん </rt></ruby> することがあらかじめわかっていること。",
+            "explanation": "Expresses that after ~ is realized, ... will be done. ~ is not a hypothetical — it is something known in advance that it will be realized.",
             "examples": [
               {
                 "text": "① 3<ruby> 時 <rt> じ </rt></ruby> に なったら、<ruby> 休 <rt> やす </rt></ruby> みましょう。"
@@ -4162,7 +4162,7 @@
           {
             "point_id": "g15_2",
             "title": "2. ～なら…",
-            "explanation": "～という<ruby> 情報 <rt> じょうほう </rt></ruby> を<ruby> 受 <rt> う </rt></ruby> けて、<ruby> 話者 <rt> わしゃ </rt></ruby> の<ruby> 判断 <rt> はんだん </rt></ruby> ・<ruby> 意志 <rt> いし </rt></ruby> ・<ruby> 相手 <rt> あいて </rt></ruby> への<ruby> 働 <rt> はたら </rt></ruby> きかけを<ruby> 言 <rt> い </rt></ruby> う<ruby> 言 <rt> い </rt></ruby> い<ruby> 方 <rt> かた </rt></ruby>。～はほかの<ruby> 人 <rt> ひと </rt></ruby> の<ruby> 話 <rt> はなし </rt></ruby> や<ruby> 様子 <rt> ようす </rt></ruby> から<ruby> 取 <rt> と </rt></ruby> り<ruby> 上 <rt> あ </rt></ruby> げた<ruby> 話題 <rt> わだい </rt></ruby>。",
+            "explanation": "A way of expressing the speaker's judgment, intention, or appeal to the listener based on the information ~. ~ is often based on what someone else said or the situation.",
             "examples": [
               {
                 "text": "① サラ「ケーキが おいしい <ruby> 店 <rt> みせ </rt></ruby> を <ruby> 知 <rt> し </rt></ruby> りませんか。」<br><ruby> 山田 <rt> やまだ </rt></ruby> 「ケーキなら、<ruby> 駅前 <rt> えきまえ </rt></ruby> の セブンが おいしいですよ。」"
@@ -4460,7 +4460,7 @@
           {
             "point_id": "g16_1",
             "title": "1. ～ても…",
-            "explanation": "～の<ruby> 場合 <rt> ばあい </rt></ruby> <ruby> 当然 <rt> とうぜん </rt></ruby> だと<ruby> 考 <rt> かんが </rt></ruby> えられることが、<ruby> 成 <rt> な </rt></ruby> り<ruby> 立 <rt> た </rt></ruby> たないことを<ruby> 表 <rt> あらわ </rt></ruby> す。～は<ruby> 仮定 <rt> かてい </rt></ruby> のこと(①②)でも<ruby> 事実 <rt> じじつ </rt></ruby> (④⑤)でもよい。「もし・どんなに・いくら」や<ruby> 疑問詞 <rt> ぎもんし </rt></ruby> をいっしょに<ruby> 使 <rt> つか </rt></ruby> うことがある(②④⑤)。",
+            "explanation": "Expresses that what would normally be expected in the case of ~ does not hold true. ~ can be hypothetical (①②) or factual (④⑤). 'もし・どんなに・いくら' and question words are sometimes used together (②④⑤).",
             "examples": [
               {
                 "text": "① こうは「あした ゆきが ふったら、れんしゅうは <ruby> 休 <rt> やす </rt></ruby> みですか。」<br>せんぱい「いいえ、ゆきが ふっても、<ruby> 休 <rt> やす </rt></ruby> みじゃないよ。」"
@@ -4483,7 +4483,7 @@
           {
             "point_id": "g16_2",
             "title": "2. ～のに…",
-            "explanation": "～という<ruby> 事実 <rt> じじつ </rt></ruby> から<ruby> 当然 <rt> とうぜん </rt></ruby> <ruby> 考 <rt> かんが </rt></ruby> えられることが<ruby> 成 <rt> な </rt></ruby> り<ruby> 立 <rt> た </rt></ruby> たないことを<ruby> 表 <rt> あらわ </rt></ruby> す。<ruby> 話者 <rt> わしゃ </rt></ruby> の<ruby> 意外 <rt> いがい </rt></ruby> な<ruby> 気持 <rt> きもち </rt></ruby> ち、<ruby> 残念 <rt> ざんねん </rt></ruby> な<ruby> 気持 <rt> きもち </rt></ruby> ち、<ruby> 不満 <rt> ふまん </rt></ruby>、<ruby> 非難 <rt> ひなん </rt></ruby> などを<ruby> 伝 <rt> つた </rt></ruby> えるときに<ruby> 使 <rt> つか </rt></ruby> う。…にはふつう<ruby> 話者 <rt> わしゃ </rt></ruby> の<ruby> 意向 <rt> いこう </rt></ruby>、<ruby> 相手 <rt> あいて </rt></ruby> への<ruby> 働 <rt> はたら </rt></ruby> きかけを<ruby> 表 <rt> あらわ </rt></ruby> す<ruby> 文 <rt> ぶん </rt></ruby> は<ruby> 来 <rt> き </rt></ruby> ない。⑤のように<ruby> 文末 <rt> ぶんまつ </rt></ruby> にも<ruby> 使 <rt> つか </rt></ruby> われる。",
+            "explanation": "Expresses that what would normally be expected from the fact ~ does not hold true. The speaker's feelings of surprise, regret, or dissatisfaction are conveyed.",
             "examples": [
               {
                 "text": "① きのう しゅくだいを やったのに、<ruby> 持 <rt> も </rt></ruby> って きませんでした。"
@@ -4612,7 +4612,7 @@
           {
             "point_id": "g17_1",
             "title": "1. ～と…",
-            "explanation": "<ruby> 名前 <rt> なまえ </rt></ruby> や<ruby> 発話 <rt> はつわ </rt></ruby> ・<ruby> 考 <rt> かんが </rt></ruby> えなどの<ruby> 内容 <rt> ないよう </rt></ruby> を<ruby> 表 <rt> あらわ </rt></ruby> す。<ruby> 三人称 <rt> さんにんしょう </rt></ruby> が<ruby> 主語 <rt> しゅご </rt></ruby> のときは「～と<ruby> 思 <rt> おも </rt></ruby> います」ではなく、「～と<ruby> 思 <rt> おも </rt></ruby> っています」を<ruby> 使 <rt> つか </rt></ruby> う。",
+            "explanation": "Expresses the content of names, utterances, thoughts, etc. When the subject is third person, '～と思っています' is used instead of '～と思います'.",
             "examples": [
               {
                 "text": "① はじめて <ruby> 会 <rt> あ </rt></ruby> った <ruby> 人 <rt> ひと </rt></ruby> には「はじめまして」と <ruby> 言 <rt> い </rt></ruby> います。"
@@ -4641,7 +4641,7 @@
           {
             "point_id": "g17_2",
             "title": "2. ～か…・～かどうか…",
-            "explanation": "<ruby> 質問 <rt> しつもん </rt></ruby> の<ruby> 文 <rt> ぶん </rt></ruby> をほかの<ruby> 文 <rt> ぶん </rt></ruby> の<ruby> 中 <rt> なか </rt></ruby> に<ruby> 埋 <rt> う </rt></ruby> め<ruby> 込 <rt> こ </rt></ruby> むのに<ruby> 使 <rt> つか </rt></ruby> う。<ruby> 質問 <rt> しつもん </rt></ruby> の<ruby> 文 <rt> ぶん </rt></ruby> に<ruby> 疑問詞 <rt> ぎもんし </rt></ruby> を<ruby> 含 <rt> ふく </rt></ruby> むときは「か」、<ruby> 含 <rt> ふく </rt></ruby> まないときは「かどうか」を<ruby> 使 <rt> つか </rt></ruby> う。",
+            "explanation": "Used to embed a question sentence within another sentence. When the question sentence contains a question word, use 'か'; when it doesn't contain a question word, use 'かどうか'.",
             "examples": [
               {
                 "text": "① パーティーに だれが <ruby> 来 <rt> く </rt></ruby> るか <ruby> 教 <rt> おし </rt></ruby> えて ください。"
@@ -4793,7 +4793,7 @@
           {
             "point_id": "g18_1",
             "title": "1. ～(よ)うと思います",
-            "explanation": "<ruby> 意志 <rt> いし </rt></ruby> を<ruby> 表 <rt> あらわ </rt></ruby> す。<ruby> 主語 <rt> しゅご </rt></ruby> は<ruby> 一人称 <rt> いちにんしょう </rt></ruby>。おもっていますは<ruby> 以前 <rt> いぜん </rt></ruby> から<ruby> 意志 <rt> いし </rt></ruby> が<ruby> 続 <rt> つづ </rt></ruby> いているときに<ruby> 使 <rt> つか </rt></ruby> う(②③④)。～は<ruby> 話者 <rt> わしゃ </rt></ruby> の<ruby> 意向 <rt> いこう </rt></ruby> ・<ruby> 相手 <rt> あいて </rt></ruby> への<ruby> 働 <rt> はたら </rt></ruby> きかけは<ruby> 来 <rt> き </rt></ruby> ない。",
+            "explanation": "Expresses intention/volition. The subject is first person. 'おもっています' is used when the intention has been continuing from before (②③④). ~ can include the speaker's intention or an appeal to the listener.",
             "examples": [
               {
                 "text": "① いい <ruby> 天気 <rt> てんき </rt></ruby> だから、<ruby> 出 <rt> で </rt></ruby> かけようと <ruby> 思 <rt> おも </rt></ruby> います。"
@@ -4816,7 +4816,7 @@
           {
             "point_id": "g18_2",
             "title": "2. ～つもりです",
-            "explanation": "<ruby> 発話 <rt> はつわ </rt></ruby><ruby> 時点 <rt> じてん </rt></ruby> で<ruby> 決 <rt> き </rt></ruby> めたことではなく、<ruby> 以前 <rt> いぜん </rt></ruby> から<ruby> 意志 <rt> いし </rt></ruby> が<ruby> 固 <rt> かた </rt></ruby> まっているときに<ruby> 使 <rt> つか </rt></ruby> う。<ruby> 主語 <rt> しゅご </rt></ruby> は<ruby> 一人称 <rt> いちにんしょう </rt></ruby>。<ruby> 三人称 <rt> さんにんしょう </rt></ruby> のときは「～そうです・～らしいです・～と<ruby> 言 <rt> い </rt></ruby> って いました」などをつける(③)。⑥の「～つもりはありません」は「～ないつもりです」よりも<ruby> 強 <rt> つよ </rt></ruby> い<ruby> 否定 <rt> ひてい </rt></ruby>。",
+            "explanation": "Used when the intention has been firmly decided from before, rather than decided at the moment of speaking. The subject is first person. For third person, forms like '～そうです・～らしいです・～と言っていました' are used.",
             "examples": [
               {
                 "text": "① <ruby> 先生 <rt> せんせい </rt></ruby> 「<ruby> 夏休 <rt> なつやす </rt></ruby> みに <ruby> 何 <rt> なに </rt></ruby> を しますか。」<br>トム「<ruby> 国 <rt> くに </rt></ruby> へ <ruby> 帰 <rt> かえ </rt></ruby> る つもりです。」"
@@ -4943,7 +4943,7 @@
           {
             "point_id": "g19_1",
             "title": "1. ～と言っていました",
-            "explanation": "<ruby> 以前 <rt> いぜん </rt></ruby> にほかの<ruby> 人 <rt> ひと </rt></ruby> が<ruby> 話 <rt> はな </rt></ruby> したことを<ruby> 伝 <rt> つた </rt></ruby> えるときの<ruby> 言 <rt> い </rt></ruby> い<ruby> 方 <rt> かた </rt></ruby>。<ruby> 質問 <rt> しつもん </rt></ruby> の<ruby> 文 <rt> ぶん </rt></ruby> では「<ruby> 何 <rt> なん </rt></ruby> と」という<ruby> 形 <rt> けい </rt></ruby> になる(③)。",
+            "explanation": "A way of conveying what another person said previously. In question sentences, the form '何と' is used (③).",
             "examples": [
               {
                 "text": "① トムさんは <ruby> 今日 <rt> きょう </rt></ruby> <ruby> 休 <rt> やす </rt></ruby> むと <ruby> 言 <rt> い </rt></ruby> って いました。"
@@ -4960,7 +4960,7 @@
           {
             "point_id": "g19_2",
             "title": "2. ～そうです",
-            "explanation": "<ruby> 聞 <rt> き </rt></ruby> いたり<ruby> 読 <rt> よ </rt></ruby> んだりした<ruby> 情報 <rt> じょうほう </rt></ruby> を<ruby> 伝 <rt> つた </rt></ruby> えるときの<ruby> 言 <rt> い </rt></ruby> い<ruby> 方 <rt> かた </rt></ruby>。<ruby> 情報源 <rt> じょうほうげん </rt></ruby> を<ruby> 示 <rt> しめ </rt></ruby> す「～によると・～では・～で<ruby> 読 <rt> よ </rt></ruby> みましたが」などといっしょに<ruby> 使 <rt> つか </rt></ruby> うことが<ruby> 多 <rt> おお </rt></ruby> い。",
+            "explanation": "A way of conveying information that was heard or read. Often used together with expressions indicating the information source, such as '～によると・～では・～で読みましたが'.",
             "examples": [
               {
                 "text": "① <ruby> 天気 <rt> てんき </rt></ruby> よほうに よると、あしたは <ruby> 寒 <rt> さむ </rt></ruby> いそうです。"
@@ -4977,7 +4977,7 @@
           {
             "point_id": "g19_3",
             "title": "3. ～らしいです",
-            "explanation": "ほかから<ruby> 得 <rt> え </rt></ruby> た<ruby> 情報 <rt> じょうほう </rt></ruby> を<ruby> 伝 <rt> つた </rt></ruby> えるとき(① ② ③)、<ruby> 状況 <rt> じょうきょう </rt></ruby> から<ruby> 判断 <rt> はんだん </rt></ruby> したことをほかの<ruby> 人 <rt> ひと </rt></ruby> に<ruby> 伝 <rt> つた </rt></ruby> えるとき(③ ④)の<ruby> 言 <rt> い </rt></ruby> い<ruby> 方 <rt> かた </rt></ruby>。「～そうです」よりも<ruby> 情報源 <rt> じょうほうげん </rt></ruby> や<ruby> 情報 <rt> じょうほう </rt></ruby> の<ruby> 内容 <rt> ないよう </rt></ruby> がはっきりしないときに<ruby> 使 <rt> つか </rt></ruby> う。",
+            "explanation": "A way of conveying information obtained from elsewhere (①②③), or conveying to others something judged from the situation (③④). Compared to '～そうです', the source and information are less clearly specified, making it a more indirect and objective expression.",
             "examples": [
               {
                 "text": "① <ruby> 聞 <rt> き </rt></ruby> いた <ruby> 話 <rt> はなし </rt></ruby> では、あの <ruby> 山 <rt> やま </rt></ruby> には さるが いるらしいです。"
@@ -5118,7 +5118,7 @@
           {
             "point_id": "g20_1",
             "title": "1. ～くします・～にします",
-            "explanation": "<ruby> 人 <rt> ひと </rt></ruby> が<ruby> 意志 <rt> いし </rt></ruby> 的に<ruby> 状態 <rt> じょうたい </rt></ruby> を<ruby> 変 <rt> か </rt></ruby> えることを<ruby> 表 <rt> あらわ </rt></ruby> す。",
+            "explanation": "Expresses that a person intentionally changes a state.",
             "examples": [
               {
                 "text": "① テレビの <ruby> 音 <rt> おと </rt></ruby> を <ruby> 大 <rt> おお </rt></ruby> きく しました。"
@@ -5141,7 +5141,7 @@
           {
             "point_id": "g20_2",
             "title": "2. ～くなります・～になります・～ようになります",
-            "explanation": "<ruby> 変化 <rt> へんか </rt></ruby> を<ruby> 表 <rt> あらわ </rt></ruby> す。もともと<ruby> 変化 <rt> へんか </rt></ruby> を<ruby> 表 <rt> あらわ </rt></ruby> す<ruby> 動詞 <rt> どうし </rt></ruby>（かわる・ふとる・ふえるなど）には<ruby> 使 <rt> つか </rt></ruby> わない。",
+            "explanation": "Expresses change. Not used with verbs that inherently express change (かわる = change, ふとる = gain weight, ふえる = increase, etc.).",
             "examples": [
               {
                 "text": "① こ<ruby> 犬 <rt> いぬ </rt></ruby> は すぐ <ruby> 大 <rt> おお </rt></ruby> きく なります。"
@@ -5462,7 +5462,7 @@
           {
             "point_id": "g21_1",
             "title": "1. ～にします・～ことにします",
-            "explanation": "<ruby> 話者 <rt> わしゃ </rt></ruby> の<ruby> 個人的 <rt> こじんてき </rt></ruby> な<ruby> 意志 <rt> いし </rt></ruby> で、あることを<ruby> 決 <rt> き </rt></ruby> めることを<ruby> 表 <rt> あらわ </rt></ruby> す。<ruby> 積極的 <rt> せっきょくてき </rt></ruby> な<ruby> 態度 <rt> たいど </rt></ruby> を<ruby> 表 <rt> あらわ </rt></ruby> す。",
+            "explanation": "Expresses deciding something by the speaker's personal choice/volition. Expresses a proactive attitude.",
             "examples": [
               {
                 "text": "① ばんご<ruby> 飯 <rt> はん </rt></ruby> は カレーに します。"
@@ -5485,7 +5485,7 @@
           {
             "point_id": "g21_2",
             "title": "2. ～になります・～ことになります",
-            "explanation": "<ruby> 話者 <rt> わしゃ </rt></ruby> の<ruby> 個人的 <rt> こじんてき </rt></ruby> な<ruby> 意志 <rt> いし </rt></ruby> に<ruby> 関係 <rt> かんけい </rt></ruby> なく、あることが<ruby> 決 <rt> き </rt></ruby> まることを<ruby> 表 <rt> あらわ </rt></ruby> す。<ruby> 自分 <rt> じぶん </rt></ruby> の<ruby> 意志 <rt> いし </rt></ruby> で<ruby> 決 <rt> き </rt></ruby> めたことでも、それを<ruby> 前面 <rt> ぜんめん </rt></ruby> に<ruby> 出 <rt> だ </rt></ruby> さずに<ruby> 言 <rt> い </rt></ruby> うときにも<ruby> 使 <rt> つか </rt></ruby> う(⑤)。",
+            "explanation": "Expresses that something is decided regardless of the speaker's personal will. Even if you decided it yourself, this form is used when you want to state it without putting your personal decision-making front and center — it sounds more objective and softer.",
             "examples": [
               {
                 "text": "① さようならパーティーは 3<ruby> 月 <rt> がつ </rt></ruby> 15<ruby> 日 <rt> にち </rt></ruby> に なりました。"
@@ -5617,7 +5617,7 @@
           {
             "point_id": "g22_1",
             "title": "1. ～てみます",
-            "explanation": "いかがか<ruby> 確 <rt> たし </rt></ruby> かめるときや、どんなものか<ruby> 知 <rt> し </rt></ruby> りたいという<ruby> 気持 <rt> きもち </rt></ruby> ちを<ruby> 伝 <rt> つた </rt></ruby> えるときに<ruby> 使 <rt> つか </rt></ruby> う。<ruby> 相手 <rt> あいて </rt></ruby> に<ruby> 軽 <rt> かる </rt></ruby> い<ruby> 気持 <rt> きもち </rt></ruby> ちで<ruby> 勧 <rt> すす </rt></ruby> めるときにも<ruby> 使 <rt> つか </rt></ruby> う(③④)。<ruby> 意志 <rt> いし </rt></ruby> 的行為を<ruby> 表 <rt> あらわ </rt></ruby> す<ruby> 動詞 <rt> どうし </rt></ruby> につく。",
+            "explanation": "Used when you want to check how something is or find out what something is like. Also used when lightly recommending something to someone (③④). Attaches to verbs expressing volitional actions.",
             "examples": [
               {
                 "text": "① くつを <ruby> 買 <rt> か </rt></ruby> う <ruby> 前 <rt> まえ </rt></ruby> に、はいて みます。"
@@ -5637,7 +5637,7 @@
           {
             "point_id": "g22_2",
             "title": "2. ～ておきます",
-            "explanation": "<ruby> 後 <rt> あと </rt></ruby> で<ruby> 困 <rt> こま </rt></ruby> らないように、またはあることに<ruby> 備 <rt> そな </rt></ruby> えて<ruby> 何 <rt> なに </rt></ruby> かをすることを<ruby> 表 <rt> あらわ </rt></ruby> す。④のようにそのままの<ruby> 状態 <rt> じょうたい </rt></ruby> を<ruby> 継続 <rt> けいぞく </rt></ruby> するという<ruby> 意味 <rt> いみ </rt></ruby> にも<ruby> 使 <rt> つか </rt></ruby> う。<ruby> 意志 <rt> いし </rt></ruby> 的行為を<ruby> 表 <rt> あらわ </rt></ruby> す<ruby> 動詞 <rt> どうし </rt></ruby> につく。",
+            "explanation": "Expresses doing something so that you won't have trouble later, or in preparation for something. Also used to mean maintaining the current state as is (④). Attaches to verbs expressing volitional actions.",
             "examples": [
               {
                 "text": "① にもつを かばんに <ruby> 入 <rt> い </rt></ruby> れて おきます。"
@@ -5657,7 +5657,7 @@
           {
             "point_id": "g22_3",
             "title": "3. ～てしまいます",
-            "explanation": "さい<ruby> 後 <rt> ご </rt></ruby> まで<ruby> 早 <rt> はや </rt></ruby> く<ruby> 終 <rt> お </rt></ruby> わること(①②)や、<ruby> 後 <rt> あと </rt></ruby> に<ruby> 戻 <rt> もど </rt></ruby> れず<ruby> 残念 <rt> ざんねん </rt></ruby> なこと(③④)を<ruby> 表 <rt> あらわ </rt></ruby> す。",
+            "explanation": "Expresses finishing something quickly to the very end (①②), or something regrettable that can't be undone (③④).",
             "examples": [
               {
                 "text": "① レポートは あした <ruby> 出 <rt> だ </rt></ruby> して しまいます。"
@@ -5782,7 +5782,7 @@
           {
             "point_id": "g23_1",
             "title": "1. あげます・～てあげます",
-            "explanation": "<ruby> 主語 <rt> しゅご </rt></ruby> は<ruby> 話者 <rt> わしゃ </rt></ruby>、または<ruby> 心理的 <rt> しんりてき </rt></ruby> に<ruby> 話者 <rt> わしゃ </rt></ruby> に<ruby> 近 <rt> ちか </rt></ruby> い<ruby> 人 <rt> ひと </rt></ruby>。<ruby> 物 <rt> もの </rt></ruby> や<ruby> 行為 <rt> こうい </rt></ruby> を<ruby> 受 <rt> う </rt></ruby> ける<ruby> 人 <rt> ひと </rt></ruby> は<ruby> 話者 <rt> わしゃ </rt></ruby> 以外の<ruby> 人 <rt> ひと </rt></ruby>。<ruby> 家族 <rt> かぞく </rt></ruby> 以外の<ruby> 目上 <rt> めうえ </rt></ruby> の<ruby> 人 <rt> ひと </rt></ruby>（<ruby> 先生 <rt> せんせい </rt></ruby>、<ruby> 社長 <rt> しゃちょう </rt></ruby>、<ruby> 客 <rt> きゃく </rt></ruby>など）に<ruby> 与 <rt> あた </rt></ruby> えるときは「さしあげます」を<ruby> 使 <rt> つか </rt></ruby> う。",
+            "explanation": "The subject is the speaker or someone psychologically close to the speaker. The person receiving the thing or action is someone other than the speaker. Can be used for the speaker's family members as well. Using this for a superior or someone of higher status can be rude.",
             "examples": [
               {
                 "text": "① <ruby> 妹 <rt> いもうと </rt></ruby> は サラさんに <ruby> 花 <rt> はな </rt></ruby> を あげました。"
@@ -5799,7 +5799,7 @@
           {
             "point_id": "g23_2",
             "title": "2. くれます・～てくれます",
-            "explanation": "<ruby> 主語 <rt> しゅご </rt></ruby> は<ruby> 話者 <rt> わしゃ </rt></ruby> 以外の<ruby> 人 <rt> ひと </rt></ruby>。<ruby> 物 <rt> もの </rt></ruby> や<ruby> 行為 <rt> こうい </rt></ruby> を<ruby> 受 <rt> う </rt></ruby> ける<ruby> 人 <rt> ひと </rt></ruby> は<ruby> 話者 <rt> わしゃ </rt></ruby>、または<ruby> 心理的 <rt> しんりてき </rt></ruby> に<ruby> 話者 <rt> わしゃ </rt></ruby> に<ruby> 近 <rt> ちか </rt></ruby> い<ruby> 人 <rt> ひと </rt></ruby>。<ruby> 家族 <rt> かぞく </rt></ruby> 以外の<ruby> 目上 <rt> めうえ </rt></ruby> の<ruby> 人 <rt> ひと </rt></ruby> から<ruby> 受 <rt> う </rt></ruby> けるときは「くださいます」を<ruby> 使 <rt> つか </rt></ruby> う。",
+            "explanation": "The subject is someone other than the speaker. The person receiving the thing or action is the speaker or someone psychologically close to the speaker. Can be used for the speaker's family members as well.",
             "examples": [
               {
                 "text": "① <ruby> 山田 <rt> やまだ </rt></ruby> さんは わたしに <ruby> 時計 <rt> とけい </rt></ruby> を くれました。"
@@ -5819,7 +5819,7 @@
           {
             "point_id": "g23_3",
             "title": "3. もらいます・～てもらいます",
-            "explanation": "<ruby> 主語 <rt> しゅご </rt></ruby>（または<ruby> 行為 <rt> こうい </rt></ruby> を<ruby> 受 <rt> う </rt></ruby> ける<ruby> 人 <rt> ひと </rt></ruby>）は<ruby> 話者 <rt> わしゃ </rt></ruby>、または<ruby> 心理的 <rt> しんりてき </rt></ruby> に<ruby> 話者 <rt> わしゃ </rt></ruby> に<ruby> 近 <rt> ちか </rt></ruby> い<ruby> 人 <rt> ひと </rt></ruby>。<ruby> 家族 <rt> かぞく </rt></ruby> 以外の<ruby> 目上 <rt> めうえ </rt></ruby> の<ruby> 人 <rt> ひと </rt></ruby> から<ruby> 受 <rt> う </rt></ruby> けるときは「いただきます」を<ruby> 使 <rt> つか </rt></ruby> う。",
+            "explanation": "The subject (or the person receiving the action) is the speaker or someone psychologically close to the speaker. When receiving from a superior who is not a family member, it expresses a sense of gratitude.",
             "examples": [
               {
                 "text": "① <ruby> 山田 <rt> やまだ </rt></ruby> さんに／から <ruby> 時計 <rt> とけい </rt></ruby> を もらいました。"
@@ -5939,7 +5939,7 @@
           {
             "point_id": "g24_1",
             "title": "1. ～(ら)れます － 受身1 Passive 1",
-            "explanation": "<ruby> 話者 <rt> わしゃ </rt></ruby> または<ruby> 心理的 <rt> しんりてき </rt></ruby> に<ruby> 話者 <rt> わしゃ </rt></ruby> に<ruby> 近 <rt> ちか </rt></ruby> い<ruby> 人 <rt> ひと </rt></ruby> を<ruby> 主語 <rt> しゅご </rt></ruby> にして、ほかの<ruby> 人 <rt> ひと </rt></ruby> の<ruby> 行為 <rt> こうい </rt></ruby> の<ruby> 影響 <rt> えいきょう </rt></ruby> を<ruby> 受 <rt> う </rt></ruby> けることを<ruby> 表 <rt> あらわ </rt></ruby> す。<ruby> 主語 <rt> しゅご </rt></ruby> が「わたし」のときは、ふつう<ruby> 省略 <rt> しょうりゃく </rt></ruby> する。",
+            "explanation": "Using the speaker or someone psychologically close to the speaker as the subject, this expresses being affected by another person's action. The subject is often omitted. Expresses that the speaker was troubled/annoyed by the action.",
             "examples": [
               {
                 "text": "① <ruby> 今日 <rt> きょう </rt></ruby> は <ruby> 先生 <rt> せんせい </rt></ruby> に ほめられました。"
@@ -5955,7 +5955,7 @@
           {
             "point_id": "g24_2",
             "title": "2. ～(ら)れます － 受身2 Passive 2",
-            "explanation": "<ruby> 体 <rt> からだ </rt></ruby> の<ruby> 一部 <rt> いちぶ </rt></ruby> や<ruby> 持 <rt> も </rt></ruby> ち<ruby> 物 <rt> もの </rt></ruby> がほかの<ruby> 人 <rt> ひと </rt></ruby> の<ruby> 行為 <rt> こうい </rt></ruby> の<ruby> 影響 <rt> えいきょう </rt></ruby> を<ruby> 受 <rt> う </rt></ruby> けることを<ruby> 表 <rt> あらわ </rt></ruby> す(①②)。また、（<ruby> 行為 <rt> こうい </rt></ruby> を<ruby> 直接 <rt> ちょくせつ </rt></ruby> <ruby> 受 <rt> う </rt></ruby> けるわけではないが）<ruby> 人 <rt> ひと </rt></ruby> の<ruby> 行為 <rt> こうい </rt></ruby> や<ruby> 出来事 <rt> できごと </rt></ruby> の<ruby> 影響 <rt> えいきょう </rt></ruby> を<ruby> 受 <rt> う </rt></ruby> けることを<ruby> 表 <rt> あらわ </rt></ruby> す(③④)。どちらも<ruby> 主 <rt> おも </rt></ruby> に<ruby> 迷惑 <rt> めいわく </rt></ruby> だと<ruby> 感 <rt> かん </rt></ruby> じた<ruby> 場合 <rt> ばあい </rt></ruby> に<ruby> 使 <rt> つか </rt></ruby> う。<ruby> 迷惑 <rt> めいわく </rt></ruby> なことではなく、ありがたいことの<ruby> 場合 <rt> ばあい </rt></ruby> は「～てくれる・～てもらう」を<ruby> 使 <rt> つか </rt></ruby> う。",
+            "explanation": "Expresses that a part of one's body or a possession is affected by another person's action (①②). Also used when the speaker is the subject of the passive and an inanimate object is the subject of the action (③④, e.g. 'I was rained on').",
             "examples": [
               {
                 "text": "① (わたしは)<ruby> 電車 <rt> でんしゃ </rt></ruby> の <ruby> 中 <rt> なか </rt></ruby> で <ruby> 足 <rt> あし </rt></ruby> を ふまれました。"
@@ -5974,7 +5974,7 @@
           {
             "point_id": "g24_3",
             "title": "3. ～(ら)れます － 受身3 Passive 3",
-            "explanation": "<ruby> 物 <rt> もの </rt></ruby> が<ruby> 主語 <rt> しゅご </rt></ruby> になる<ruby> 受身 <rt> うけみ </rt></ruby><ruby> 文 <rt> ぶん </rt></ruby>。<ruby> 話者 <rt> わしゃ </rt></ruby> の<ruby> 感情 <rt> かんじょう </rt></ruby> ではなく、<ruby> 事実 <rt> じじつ </rt></ruby> だけを<ruby> 述 <rt> の </rt></ruby> べる<ruby> 言 <rt> い </rt></ruby> い<ruby> 方 <rt> かた </rt></ruby>。",
+            "explanation": "A passive sentence where a thing is the subject. It's a way of stating just the facts, not the speaker's emotions.",
             "examples": [
               {
                 "text": "① <ruby> 来年 <rt> らいねん </rt></ruby>、<ruby> 夏 <rt> なつ </rt></ruby> の オリンピックが <ruby> 開 <rt> ひら </rt></ruby> かれます。"
@@ -6115,7 +6115,7 @@
           {
             "point_id": "g25_1",
             "title": "1. ～(さ)せます",
-            "explanation": "ほかの<ruby> 人 <rt> ひと </rt></ruby> にある<ruby> 行為 <rt> こうい </rt></ruby> を<ruby> 強制 <rt> きょうせい </rt></ruby> する(①②)、ある<ruby> 行為 <rt> こうい </rt></ruby> を<ruby> 容認 <rt> ようにん </rt></ruby> する(③④)、ある<ruby> 感情 <rt> かんじょう </rt></ruby> を<ruby> 誘発 <rt> ゆうはつ </rt></ruby> する(⑤⑥)ことを<ruby> 表 <rt> あらわ </rt></ruby> す。<ruby> 行為 <rt> こうい </rt></ruby> をする<ruby> 人 <rt> ひと </rt></ruby> を<ruby> 表 <rt> あらわ </rt></ruby> す<ruby> 助詞 <rt> じょし </rt></ruby> は、<ruby> 原則的 <rt> げんそくてき </rt></ruby> に<ruby> 自動詞 <rt> じどうし </rt></ruby> の<ruby> 場合 <rt> ばあい </rt></ruby> は「を」(①③⑤⑥)、<ruby> 他動詞 <rt> たどうし </rt></ruby> の<ruby> 場合 <rt> ばあい </rt></ruby> は「に」(②)を<ruby> 使 <rt> つか </rt></ruby> う。",
+            "explanation": "Expresses forcing someone to do an action (①②), permitting an action (③④), or causing/inducing a feeling (⑤⑥). The particle for the person who does the action is 'に' or 'を'.",
             "examples": [
               {
                 "text": "① <ruby> 店長 <rt> てんちょう </rt></ruby> 「<ruby> 今日 <rt> きょう </rt></ruby>、<ruby> 店員 <rt> てんいん </rt></ruby> を <ruby> 一人 <rt> ひとり </rt></ruby> やめさせたよ。ちこくが <ruby> 多 <rt> おお </rt></ruby> いのでね。」"
@@ -6140,7 +6140,7 @@
           {
             "point_id": "g25_2",
             "title": "2. ～さ(せら)れます",
-            "explanation": "ある<ruby> 人 <rt> ひと </rt></ruby> に<ruby> 強制 <rt> きょうせい </rt></ruby> されてしたくなくある<ruby> 行為 <rt> こうい </rt></ruby> をする(①②)、ある<ruby> 人 <rt> ひと </rt></ruby> が<ruby> 原因 <rt> げんいん </rt></ruby> でそういう<ruby> 感情 <rt> かんじょう </rt></ruby> が<ruby> 起 <rt> お </rt></ruby> きる(③④)ことを<ruby> 表 <rt> あらわ </rt></ruby> す。<ruby> 主語 <rt> しゅご </rt></ruby> は<ruby> 話者 <rt> わしゃ </rt></ruby>、または<ruby> 心理的 <rt> しんりてき </rt></ruby> に<ruby> 話者 <rt> わしゃ </rt></ruby> に<ruby> 近 <rt> ちか </rt></ruby> い<ruby> 人 <rt> ひと </rt></ruby>。<ruby> 強制 <rt> きょうせい </rt></ruby> された<ruby> 行為 <rt> こうい </rt></ruby> ではなく、<ruby> 望 <rt> のぞ </rt></ruby> んだ<ruby> 行為 <rt> こうい </rt></ruby> の<ruby> 場合 <rt> ばあい </rt></ruby> は「～させてくれる・～させてもらう」を<ruby> 使 <rt> つか </rt></ruby> う。",
+            "explanation": "Expresses being forced by someone to do an action you don't want to do (①②), or that a certain feeling arises because of someone (③④). The subject is the speaker or someone psychologically close to the speaker. Expresses the nuance of being made to do something unwillingly.",
             "examples": [
               {
                 "text": "① <ruby> 店員 <rt> てんいん </rt></ruby> 「<ruby> 今日 <rt> きょう </rt></ruby>、アルバイトを やめさせられました。」"
@@ -6471,7 +6471,7 @@
           {
             "point_id": "g_s3_1_1",
             "title": "1. 「で」の使い方",
-            "explanation": "<ruby> 行為 <rt> こうい </rt></ruby>・<ruby> 行事 <rt> ぎょうじ </rt></ruby> が<ruby> 行 <rt> おこな </rt></ruby> われる<ruby> 場所 <rt> ばしょ </rt></ruby> (①)・<ruby> 出来事 <rt> できごと </rt></ruby> が<ruby> 起 <rt> お </rt></ruby> こる<ruby> 場所 <rt> ばしょ </rt></ruby> (②)を<ruby> 表 <rt> あらわ </rt></ruby> す。<br><ruby> 手段 <rt> しゅだん </rt></ruby> (①)・<ruby> 材料 <rt> ざいりょう </rt></ruby> (②)を<ruby> 表 <rt> あらわ </rt></ruby> す。<br><ruby> 範囲 <rt> はんい </rt></ruby> を<ruby> 表 <rt> あらわ </rt></ruby> す。<br><ruby> 原因 <rt> げんいん </rt></ruby>・<ruby> 理由 <rt> りゆう </rt></ruby> を<ruby> 表 <rt> あらわ </rt></ruby> す。",
+            "explanation": "Expresses the place where an action/event is carried out (①) or the place where an incident occurs (②).<br>Expresses means (①) or material (②).<br>Expresses scope/range.<br>Expresses a time limit.<br>Expresses a reason.",
             "examples": [
               {
                 "text": "A① ろうかで えを かきました。<br>A② <ruby> 近所 <rt> きんじょ </rt></ruby> で <ruby> 火事 <rt> かじ </rt></ruby> がありました。"
@@ -6490,7 +6490,7 @@
           {
             "point_id": "g_s3_1_2",
             "title": "2. 「に」の使い方",
-            "explanation": "<ruby> 物 <rt> もの </rt></ruby> や<ruby> 生物 <rt> せいぶつ </rt></ruby> が<ruby> 存在 <rt> そんざい </rt></ruby> する<ruby> 場所 <rt> ばしょ </rt></ruby> (①)・<ruby> 状態 <rt> じょうたい </rt></ruby> が<ruby> 現 <rt> あらわ </rt></ruby> れて いる<ruby> 場所 <rt> ばしょ </rt></ruby> (②)を<ruby> 表 <rt> あらわ </rt></ruby> す。<br><ruby> 動作 <rt> どうさ </rt></ruby> の<ruby> 対象 <rt> たいしょう </rt></ruby> の<ruby> 到着点 <rt> とうちゃくてん </rt></ruby> (①)・<ruby> 動作 <rt> どうさ </rt></ruby> の<ruby> 主体 <rt> しゅたい </rt></ruby> の<ruby> 到着点 <rt> とうちゃくてん </rt></ruby> (②)を<ruby> 表 <rt> あらわ </rt></ruby> す。<br><ruby> 動作 <rt> どうさ </rt></ruby> が<ruby> 及 <rt> およ </rt></ruby> ぶ<ruby> 対象 <rt> たいしょう </rt></ruby> を<ruby> 表 <rt> あらわ </rt></ruby> す。<br><ruby> 時点 <rt> じてん </rt></ruby> を<ruby> 表 <rt> あらわ </rt></ruby> す。",
+            "explanation": "Expresses the place where a thing or living being exists (①) or the place where a state is manifested (②).<br>Expresses the arrival point of an action's target (①) or the destination of movement (②).<br>Expresses the target of an action. The particle varies depending on the verb.<br>Expresses time.<br>Expresses purpose.",
             "examples": [
               {
                 "text": "A① あそこに <ruby> 池 <rt> いけ </rt></ruby> が あるでしょう？ あの <ruby> 池 <rt> いけ </rt></ruby> に <ruby> 魚 <rt> さかな </rt></ruby> が たくさん いますよ。<br>A② にわに いろいろな <ruby> 花 <rt> はな </rt></ruby> が さいて いますね。"
@@ -6630,7 +6630,7 @@
           {
             "point_id": "g_s3_2_1",
             "title": "1. 「を」の使い方",
-            "explanation": "<ruby> 動作 <rt> どうさ </rt></ruby> の<ruby> 対象 <rt> たいしょう </rt></ruby> を<ruby> 表 <rt> あらわ </rt></ruby> す。<br><ruby> 通過 <rt> つうか </rt></ruby>・<ruby> 移動 <rt> いどう </rt></ruby> する<ruby> 場所 <rt> ばしょ </rt></ruby> を<ruby> 表 <rt> あらわ </rt></ruby> す。<br><ruby> 離 <rt> はな </rt></ruby> れる<ruby> 場所 <rt> ばしょ </rt></ruby>・<ruby> 起点 <rt> きてん </rt></ruby> を<ruby> 表 <rt> あらわ </rt></ruby> す。<br>「～をしています」の<ruby> 形 <rt> けい </rt></ruby> で、<ruby> 物 <rt> もの </rt></ruby> や<ruby> 人 <rt> ひと </rt></ruby> の<ruby> 形状 <rt> けいじょう </rt></ruby> を<ruby> 表 <rt> あらわ </rt></ruby> す。",
+            "explanation": "Expresses the object of an action.<br>Expresses a place of passage/movement through.<br>Expresses a place one leaves or a starting point.<br>In the form '～をしています', expresses an occupation/appearance/form (①) or wearing accessories/clothing (②③).",
             "examples": [
               {
                 "text": "A① いい くつを <ruby> 買 <rt> か </rt></ruby> いました。"
@@ -6649,7 +6649,7 @@
           {
             "point_id": "g_s3_2_2",
             "title": "2. 「と」の使い方",
-            "explanation": "<ruby> 並 <rt> なら </rt></ruby> べるものを<ruby> 表 <rt> あらわ </rt></ruby> す。<br><ruby> 行為 <rt> こうい </rt></ruby> をいっしょにする<ruby> 相手 <rt> あいて </rt></ruby> を<ruby> 表 <rt> あらわ </rt></ruby> す。<br>あわせる<ruby> 相手 <rt> あいて </rt></ruby> (①)・<ruby> 比 <rt> くら </rt></ruby> べる<ruby> 基準 <rt> きじゅん </rt></ruby> (②③)を<ruby> 表 <rt> あらわ </rt></ruby> す。<br><ruby> 名前 <rt> なまえ </rt></ruby>・<ruby> 発言 <rt> はつげん </rt></ruby>・<ruby> 考 <rt> かんが </rt></ruby> えなどの<ruby> 内容 <rt> ないよう </rt></ruby> を<ruby> 表 <rt> あらわ </rt></ruby> す。",
+            "explanation": "Expresses things to list together.<br>Expresses the partner with whom one does an action.<br>Expresses the opponent to match (①) or the standard for comparison (②③).<br>Expresses content such as names, statements, and thoughts.<br>Expresses the result of change.",
             "examples": [
               {
                 "text": "A① うちには <ruby> 犬 <rt> いぬ </rt></ruby> と ねこと <ruby> 鳥 <rt> とり </rt></ruby> が います。"
@@ -6784,7 +6784,7 @@
           {
             "point_id": "g_s3_3_1",
             "title": "1. 「も」の使い方",
-            "explanation": " <ruby> 同様 <rt> どうよう </rt></ruby> のものを<ruby> 加 <rt> くわ </rt></ruby> える。<br><ruby> 数量 <rt> すうりょう </rt></ruby> や「<ruby> 何 <rt> なに </rt></ruby> ＋<ruby> 助数詞 <rt> じょすうし </rt></ruby>」といっしょに<ruby> 使 <rt> つか </rt></ruby> い、<ruby> 多 <rt> おお </rt></ruby> いことを<ruby> 強調 <rt> きょうちょう </rt></ruby> する。<br><ruby> 否定文 <rt> ひていぶん </rt></ruby> の<ruby> 中 <rt> なか </rt></ruby> で「1 ＋<ruby> 助数詞 <rt> じょすうし </rt></ruby>」といっしょに<ruby> 使 <rt> つか </rt></ruby> い、ゼロであることを<ruby> 強調 <rt> きょうちょう </rt></ruby> する。<br><ruby> 疑問詞 <rt> ぎもんし </rt></ruby>（＋<ruby> 助詞 <rt> じょし </rt></ruby>）といっしょに<ruby> 使 <rt> つか </rt></ruby> い、<ruby> 否定文 <rt> ひていぶん </rt></ruby> であることを<ruby> 強調 <rt> きょうちょう </rt></ruby> する。<br><ruby> 極端 <rt> きょくたん </rt></ruby> な<ruby> 例 <rt> れい </rt></ruby> を<ruby> 出 <rt> だ </rt></ruby> して、それ<ruby> 以下 <rt> いか </rt></ruby>（<ruby> 以上 <rt> いじょう </rt></ruby>）は<ruby> 当然 <rt> とうぜん </rt></ruby> であることを<ruby> 暗示 <rt> あんじ </rt></ruby> する。",
+            "explanation": "Adds a similar thing.<br>Used together with quantities or '何 + counter' to emphasize a large amount.<br>Used with '1 + counter' in negative sentences to express complete negation.",
             "examples": [
               {
                 "text": "A① あしたは わたしが <ruby> 料理 <rt> りょうり </rt></ruby> を 作ります。おかしも 作ります。<br>A② わたしは <ruby> 海 <rt> うみ </rt></ruby> も <ruby> 山 <rt> やま </rt></ruby> も すきです。"
@@ -6806,7 +6806,7 @@
           {
             "point_id": "g_s3_3_2",
             "title": "2. 「しか」の使い方",
-            "explanation": "<ruby> 否定文 <rt> ひていぶん </rt></ruby> の<ruby> 中 <rt> なか </rt></ruby> で<ruby> 数量 <rt> すうりょう </rt></ruby> といっしょに<ruby> 使 <rt> つか </rt></ruby> い、<ruby> 少 <rt> すく </rt></ruby> なさを<ruby> 強調 <rt> きょうちょう </rt></ruby> する。<br><ruby> 否定文 <rt> ひていぶん </rt></ruby> の<ruby> 中 <rt> なか </rt></ruby> であるものだけを<ruby> 限定 <rt> げんてい </rt></ruby> して<ruby> 肯定 <rt> こうてい </rt></ruby> し、<ruby> 他 <rt> た </rt></ruby> を<ruby> 否定 <rt> ひてい </rt></ruby> する。",
+            "explanation": "Used together with quantities in negative sentences to emphasize smallness/scarcity.<br>Used in negative sentences to limit something to only one thing and affirm it, while negating others. Similar in meaning to 'だけ'.",
             "examples": [
               {
                 "text": "A① うちから <ruby> 会社 <rt> かいしゃ </rt></ruby> まで 20<ruby> 分 <rt> ぷん </rt></ruby> しか かかりません。<br>A② 100てんの <ruby> 人 <rt> ひと </rt></ruby> は 2<ruby> 人 <rt> にん </rt></ruby> しか いませんでした。"
@@ -6925,7 +6925,7 @@
           {
             "point_id": "g_s3_4_1",
             "title": "1. 「だけ」の使い方",
-            "explanation": "<ruby> 限定 <rt> げんてい </rt></ruby> する。",
+            "explanation": "Limits / expresses 'only'. A casual nuance.",
             "examples": [
               {
                 "text": "A① わたしの ほんとうの <ruby> 友 <rt> とも </rt></ruby> だちは サラだけだ。<br>A② その みかんを <ruby> 一つ <rt> ひとつ </rt></ruby> だけ わたしに ください。<br>A③ どうぶつは <ruby> 日本 <rt> にほん </rt></ruby> にだけ ある <ruby> 食 <rt> た </rt></ruby> べ<ruby> 物 <rt> もの </rt></ruby> でしょうか。<br>A④ <ruby> 日本 <rt> にほん </rt></ruby> で <ruby> 雨 <rt> あめ </rt></ruby> が <ruby> 多 <rt> おお </rt></ruby> い <ruby> 月 <rt> つき </rt></ruby> は 6<ruby> 月 <rt> がつ </rt></ruby> だけでは ない。9<ruby> 月 <rt> がつ </rt></ruby> にも よく <ruby> 雨 <rt> あめ </rt></ruby> が ふる。"
@@ -6935,7 +6935,7 @@
           {
             "point_id": "g_s3_4_2",
             "title": "2. 「でも」の使い方",
-            "explanation": "<ruby> 極端 <rt> きょくたん </rt></ruby> な<ruby> 例 <rt> れい </rt></ruby> や<ruby> 当然 <rt> とうぜん </rt></ruby> ではない<ruby> 例 <rt> れい </rt></ruby> を<ruby> 出 <rt> だ </rt></ruby> して、その<ruby> 場合 <rt> ばあい </rt></ruby> であっても<ruby> 成 <rt> な </rt></ruby> り<ruby> 立 <rt> た </rt></ruby> つことを<ruby> 示 <rt> しめ </rt></ruby> す。<br><ruby> 主 <rt> おも </rt></ruby> に「1 ＋<ruby> 助数詞 <rt> じょすうし </rt></ruby>」といっしょに<ruby> 使 <rt> つか </rt></ruby> い、それでもいいという<ruby> 譲歩 <rt> じょうほ </rt></ruby> を<ruby> 表 <rt> あらわ </rt></ruby> す。<br><ruby> 提案 <rt> ていあん </rt></ruby>・<ruby> 依頼 <rt> いらい </rt></ruby>・<ruby> 意志 <rt> いし </rt></ruby> などの<ruby> 文 <rt> ぶん </rt></ruby> で、<ruby> 軽 <rt> かる </rt></ruby> く<ruby> 例 <rt> れい </rt></ruby> をあげる。<br><ruby> 疑問詞 <rt> ぎもんし </rt></ruby> といっしょに<ruby> 使 <rt> つか </rt></ruby> い、<ruby> 同類 <rt> どうるい </rt></ruby> のすべてを<ruby> 含 <rt> ふく </rt></ruby> むことを<ruby> 表 <rt> あらわ </rt></ruby> す。",
+            "explanation": "By giving an extreme example or an example that is not natural/expected, it shows that even in that case, something holds true.<br>Mainly used with '1 + counter' to express 'even a little'.<br>Used to give an example and suggest there are others as well.",
             "examples": [
               {
                 "text": "A① こんな かんたんな ことは <ruby> 小学生 <rt> しょうがくせい </rt></ruby> でも わかります。"
@@ -7065,7 +7065,7 @@
           {
             "point_id": "g_s3_5_1",
             "title": "1. 「は」の使い方",
-            "explanation": " <ruby> 不変 <rt> ふへん </rt></ruby> な<ruby> 事実 <rt> じじつ </rt></ruby> を<ruby> 言 <rt> い </rt></ruby> う<ruby> 文 <rt> ぶん </rt></ruby> の<ruby> 話題 <rt> わだい </rt></ruby> を<ruby> 示 <rt> しめ </rt></ruby> す。<br> 他 <rt> た </rt></ruby> と<ruby> 区別 <rt> くべつ </rt></ruby> するために<ruby> 取 <rt> と </rt></ruby> り<ruby> 立 <rt> た </rt></ruby> てた<ruby> 話題 <rt> わだい </rt></ruby> を<ruby> 示 <rt> しめ </rt></ruby> す。<br> <ruby> 対比 <rt> たいひ </rt></ruby> するために<ruby> 取 <rt> と </rt></ruby> り<ruby> 立 <rt> た </rt></ruby> てた<ruby> 話題 <rt> わだい </rt></ruby> を<ruby> 示 <rt> しめ </rt></ruby> す。<br> <ruby> 最低限 <rt> さいていげん </rt></ruby> を<ruby> 示 <rt> しめ </rt></ruby> す。",
+            "explanation": "Indicates the topic of a sentence stating an unchanging fact.<br>Indicates a topic singled out to distinguish it from others.<br>Indicates a topic presented for contrast.<br>In the form '～は…が、～は…', contrasts two things.",
             "examples": [
               {
                 "text": "A① ちきゅうは まるいです。<br>A② <ruby> 鳥 <rt> とり </rt></ruby> は <ruby> 空 <rt> そら </rt></ruby> を とびます。<ruby> 魚 <rt> さかな </rt></ruby> は <ruby> 水 <rt> みず </rt></ruby> の <ruby> 中 <rt> なか </rt></ruby> を およぎます。"
@@ -7084,7 +7084,7 @@
           {
             "point_id": "g_s3_5_2",
             "title": "2. 「が」の使い方",
-            "explanation": "<ruby> 動作 <rt> どうさ </rt></ruby>・<ruby> 出来事 <rt> できごと </rt></ruby> の<ruby> 主体 <rt> しゅたい </rt></ruby>（<ruby> 疑問詞 <rt> ぎもんし </rt></ruby> の<ruby> 場合 <rt> ばあい </rt></ruby> もある）を<ruby> 示 <rt> しめ </rt></ruby> す。<ruby> 目 <rt> め </rt></ruby> の<ruby> 前 <rt> まえ </rt></ruby> のことを<ruby> 言 <rt> い </rt></ruby> うとき (①) や、ほかのものでないと<ruby> 言 <rt> い </rt></ruby> いたいとき (②③) によく<ruby> 使 <rt> つか </rt></ruby> われる。<br>「～は～が…」の<ruby> 形 <rt> けい </rt></ruby> の<ruby> 文 <rt> ぶん </rt></ruby> で、<ruby> 話題 <rt> わだい </rt></ruby>（～）の<ruby> 一部 <rt> いちぶ </rt></ruby> (①) や、<ruby> 能力 <rt> のうりょく </rt></ruby>・<ruby> 感覚 <rt> かんかく </rt></ruby>・<ruby> 感情 <rt> かんじょう </rt></ruby> の<ruby> 対象 <rt> たいしょう </rt></ruby> (②③④) を<ruby> 示 <rt> しめ </rt></ruby> す。",
+            "explanation": "Indicates the subject/agent of an action or event (sometimes a question word). Often used when stating what is in front of one's eyes (①) or when wanting to say it's not something else (②③).<br>In the form '～は…が、～は…', can be used in the ... part (②).<br>Expresses the object of a state (potential, desire, skill, etc.).",
             "examples": [
               {
                 "text": "A① あ、めずらしい <ruby> 鳥 <rt> とり </rt></ruby> が とんで いますよ。<br>A② <ruby> 何曜日 <rt> なんようび </rt></ruby> が いちばん いそがしいですか。<br>A③ その <ruby> 仕事 <rt> しごと </rt></ruby> 、わたしが やります。"
@@ -7348,7 +7348,7 @@
           {
             "point_id": "g_s3_7_1",
             "title": "1. 「の」の使い方",
-            "explanation": "<ruby> 事態 <rt> じたい </rt></ruby> の<ruby> 説明 <rt> せつめい </rt></ruby> をすると(①、③B)、<ruby> 説明 <rt> せつめい </rt></ruby> を<ruby> 求 <rt> もと </rt></ruby> めるとき(②)、<ruby> 確認 <rt> かくにん </rt></ruby> をすると(③A)に<ruby> 使 <rt> つか </rt></ruby> う。「～のです」は<ruby> 正式 <rt> せいしき </rt></ruby> な<ruby> 硬 <rt> かた </rt></ruby> い<ruby> 言 <rt> い </rt></ruby> い<ruby> 方 <rt> かた </rt></ruby>。<br>～についての<ruby> 情報 <rt> じょうほう </rt></ruby> を…ではっきり<ruby> 示 <rt> しめ </rt></ruby> す。<br><ruby> 感覚 <rt> かんかく </rt></ruby> でとらえたことを<ruby> 表 <rt> あらわ </rt></ruby> す。",
+            "explanation": "Used when explaining a situation (①, ③B), when seeking an explanation (②), or when confirming (③A). '～のです' is a formal, stiff way of saying it.<br>Expresses that the following gives information about ~. In the form '～のは…だ', puts the emphasized information after ...",
             "examples": [
               {
                 "text": "A① <ruby> 国 <rt> くに </rt></ruby> へ <ruby> 帰 <rt> かえ </rt></ruby> る ことに しました。<ruby> 国 <rt> くに </rt></ruby> で いい <ruby> 仕事 <rt> しごと </rt></ruby> が <ruby> 見 <rt> み </rt></ruby> つかったのです。<br>A② きのう、どうして <ruby> 休 <rt> やす </rt></ruby> んだんですか。<br>A③ A「あ、かみを きったの？」<br>B「うん、<ruby> 暑 <rt> あつ </rt></ruby> いから <ruby> 短 <rt> みじか </rt></ruby> くしたんだ。」"
@@ -7364,7 +7364,7 @@
           {
             "point_id": "g_s3_7_2",
             "title": "2. 「こと」の使い方",
-            "explanation": "～についての<ruby> 内容 <rt> ないよう </rt></ruby> を<ruby> 表 <rt> あらわ </rt></ruby> す。<br>～の<ruby> 内容 <rt> ないよう </rt></ruby> を…で 具体的に<ruby> 示 <rt> しめ </rt></ruby> す。",
+            "explanation": "Expresses the content of ~.<br>Concretely shows the content of ~ with ... .",
             "examples": [
               {
                 "text": "A① あの <ruby> 学校 <rt> がっこう </rt></ruby> の ことを <ruby> 何 <rt> なに </rt></ruby> か <ruby> 知 <rt> し </rt></ruby> って いますか。<br>A② <ruby> 自分 <rt> じぶん </rt></ruby> の ことは あまり <ruby> 話 <rt> はな </rt></ruby> したくない。"
@@ -7508,7 +7508,7 @@
           {
             "point_id": "g_s3_8_1",
             "title": "～て…／～ないで… の使い方",
-            "explanation": "「～て」や「～ないで」を使って、<ruby> 順序 <rt> じゅんじょ </rt></ruby>、<ruby> 手段 <rt> しゅだん </rt></ruby>、<ruby> 状態 <rt> じょうたい </rt></ruby>、<ruby> 並列 <rt> へいれつ </rt></ruby>、<ruby> 原因 <rt> げんいん </rt></ruby> などを<ruby> 表 <rt> あらわ </rt></ruby> す。",
+            "explanation": "Using '～て' or '～ないで', expresses sequence, means, state, parallel listing, cause, etc.",
             "examples": [
               {
                 "text": "A. ～に<ruby> 引 <rt> ひ </rt></ruby> き<ruby> 続 <rt> つづ </rt></ruby> いて…を<ruby> 行 <rt> おこな </rt></ruby> う・…が<ruby> 起 <rt> お </rt></ruby> こる。 ～と…の<ruby> 主語 <rt> しゅご </rt></ruby> が<ruby> 違 <rt> ちが </rt></ruby> う<ruby> 場合 <rt> ばあい </rt></ruby>、…には<ruby> 話者 <rt> わしゃ </rt></ruby> の<ruby> 意向 <rt> いこう </rt></ruby> や<ruby> 相手 <rt> あいて </rt></ruby> への<ruby> 働 <rt> はたら </rt></ruby> きかけを<ruby> 表 <rt> あらわ </rt></ruby> す<ruby> 文 <rt> ぶん </rt></ruby> は<ruby> 来 <rt> き </rt></ruby> ない。<br>① わたしは <ruby> 朝 <rt> あさ </rt></ruby> 6<ruby> 時 <rt> じ </rt></ruby> に <ruby> 起 <rt> お </rt></ruby> きて、まず シャワーを あびます。<br>② タクシーが <ruby> 止 <rt> と </rt></ruby> まって、ドアが <ruby> 開 <rt> あ </rt></ruby> いた。<br>③ さあ、へやを かたづけて、<ruby> 食事 <rt> しょくじ </rt></ruby> を しよう。"
@@ -7651,7 +7651,7 @@
           {
             "point_id": "g_s3_9_1",
             "title": "他動詞・自動詞 (Transitive and intransitive verbs)",
-            "explanation": "<ruby> 他動詞 <rt> たどうし </rt></ruby>（<ruby> 動作主 <rt> どうさしゅ </rt></ruby> が / を ＋（<ruby> 目的語 <rt> もくてきご </rt></ruby>）を＋ <ruby> 他動詞 <rt> たどうし </rt></ruby>）は<ruby> 動作 <rt> どうさ </rt></ruby> の<ruby> 主体 <rt> しゅたい </rt></ruby> に<ruby> 注目 <rt> ちゅうもく </rt></ruby> する。<br><ruby> 自動詞 <rt> じどうし </rt></ruby>（～が / は ＋ <ruby> 自動詞 <rt> じどうし </rt></ruby>）は<ruby> 動作 <rt> どうさ </rt></ruby> の<ruby> 動 <rt> うご </rt></ruby> きに<ruby> 注目 <rt> ちゅうもく </rt></ruby> する。",
+            "explanation": "Transitive verbs (agent が/は + (object) を + transitive verb) focus on the agent of the action.<br>Intransitive verbs (~が/は + intransitive verb) focus on the movement/change of the action itself.",
             "conjugation_table": [
               {
                 "transitive": "<ruby> 電気 <rt> でんき </rt></ruby> をつける",
@@ -7827,7 +7827,7 @@
           {
             "point_id": "g_s3_10_1",
             "title": "1. 「～ています」の使い方",
-            "explanation": "<ruby> 動作 <rt> どうさ </rt></ruby> が<ruby> 継続 <rt> けいぞく </rt></ruby> して<ruby> 進行 <rt> しんこう </rt></ruby> していることを<ruby> 表 <rt> あらわ </rt></ruby> す。<ruby> 一時 <rt> いちじ </rt></ruby> 的なこと(①②)だけでなく、<ruby> 長 <rt> なが </rt></ruby> い<ruby> 期間 <rt> きかん </rt></ruby> <ruby> 繰 <rt> く </rt></ruby> り<ruby> 返 <rt> かえ </rt></ruby> していること(③)にも<ruby> 使 <rt> つか </rt></ruby> う。<br>ある<ruby> 出来事 <rt> できごと </rt></ruby>・<ruby> 動 <rt> うご </rt></ruby> き・<ruby> 変化 <rt> へんか </rt></ruby> の<ruby> 結果 <rt> けっか </rt></ruby> が<ruby> 残 <rt> のこ </rt></ruby> っている<ruby> 状態 <rt> じょうたい </rt></ruby> を<ruby> 表 <rt> あらわ </rt></ruby> す。<br><ruby> 否定 <rt> ひてい </rt></ruby> の<ruby> 文 <rt> ぶん </rt></ruby> で<ruby> 使 <rt> つか </rt></ruby> い、<ruby> 実現 <rt> じつげん </rt></ruby> するべきことが<ruby> 未完了 <rt> みかんりょう </rt></ruby> の<ruby> 状態 <rt> じょうたい </rt></ruby> であることを<ruby> 表 <rt> あらわ </rt></ruby> す。",
+            "explanation": "Expresses that an action is continuing/progressing. Used not only for temporary things (①②) but also for things repeated over a long period (③).<br>Expresses the resulting state after a certain event/action. Attaches to intransitive verbs.<br>Expresses a habitual action.",
             "examples": [
               {
                 "text": "A① <ruby> 今 <rt> いま </rt></ruby> 、<ruby> 雨 <rt> あめ </rt></ruby> が ふって います。<br>A② じしんの とき、おふろに <ruby> 入 <rt> はい </rt></ruby> って いました。<br>A③ <ruby> 毎年 <rt> まいとし </rt></ruby> <ruby> 外国 <rt> がいこく </rt></ruby> <ruby> 旅行 <rt> りょこう </rt></ruby> を して います。"
@@ -7843,7 +7843,7 @@
           {
             "point_id": "g_s3_10_2",
             "title": "2. 「～てあります」の使い方",
-            "explanation": "ある<ruby> 目的 <rt> もくてき </rt></ruby> を<ruby> 持 <rt> も </rt></ruby> って<ruby> 何 <rt> なに </rt></ruby> かをした<ruby> 結果 <rt> けっか </rt></ruby> の<ruby> 状態 <rt> じょうたい </rt></ruby> を<ruby> 表 <rt> あらわ </rt></ruby> す。<ruby> 他動詞 <rt> たどうし </rt></ruby> につく。",
+            "explanation": "Expresses the resulting state after doing something with a certain purpose. Attaches to transitive verbs.",
             "examples": [
               {
                 "text": "① あ、<ruby> 花 <rt> はな </rt></ruby> が きれいに かざって ありますね。<br>② もう ホテルを よやくして あります。<br>③ へやは そうじして ありますか。<br>④ テストに <ruby> 名前 <rt> なまえ </rt></ruby> が <ruby> 書 <rt> か </rt></ruby> いて ありませんでした。"
@@ -7984,7 +7984,7 @@
           {
             "point_id": "g_s3_11_1",
             "title": "～てきます・～ていきます",
-            "explanation": "「～てきます」は、<ruby> 物 <rt> もの </rt></ruby> や<ruby> 人 <rt> ひと </rt></ruby> が<ruby> 話者 <rt> わしゃ </rt></ruby> に<ruby> 近 <rt> ちか </rt></ruby> づく<ruby> 移動 <rt> いどう </rt></ruby> を<ruby> 表 <rt> あらわ </rt></ruby> す(①②)。「～ていきます」は、<ruby> 物 <rt> もの </rt></ruby> や<ruby> 人 <rt> ひと </rt></ruby> が<ruby> 話者 <rt> わしゃ </rt></ruby> から<ruby> 離 <rt> はな </rt></ruby> れる<ruby> 移動 <rt> いどう </rt></ruby> を<ruby> 表 <rt> あらわ </rt></ruby> す(③④)。<ruby> 移動 <rt> いどう </rt></ruby> を<ruby> 表 <rt> あらわ </rt></ruby> す<ruby> 動詞 <rt> どうし </rt></ruby> につく。<br>「～てきます」は、ほかの<ruby> 場所 <rt> ばしょ </rt></ruby> で<ruby> 行為 <rt> こうい </rt></ruby> をした<ruby> 後 <rt> あと </rt></ruby> 、<ruby> 来 <rt> き </rt></ruby> る<ruby> 場所 <rt> ばしょ </rt></ruby> に<ruby> 戻 <rt> もど </rt></ruby> ることを<ruby> 表 <rt> あらわ </rt></ruby> す(①②)。「～ていきます」は、ある<ruby> 行為 <rt> こうい </rt></ruby> の<ruby> 後 <rt> あと </rt></ruby> 、<ruby> 行 <rt> い </rt></ruby> く<ruby> 場所 <rt> ばしょ </rt></ruby> に<ruby> 向 <rt> む </rt></ruby> かうことを<ruby> 表 <rt> あらわ </rt></ruby> す(③④)。<br>「～てきます」は、<ruby> 今 <rt> いま </rt></ruby> まで<ruby> 変化 <rt> へんか </rt></ruby> が<ruby> 続 <rt> つづ </rt></ruby> いたこと(①)・<ruby> 同 <rt> おな </rt></ruby> じ<ruby> 状態 <rt> じょうたい </rt></ruby> が<ruby> 続 <rt> つづ </rt></ruby> いたこと(②)を<ruby> 表 <rt> あらわ </rt></ruby> す。「～ていきます」は、これから<ruby> 変化 <rt> へんか </rt></ruby> が<ruby> 続 <rt> つづ </rt></ruby> くこと(③)・<ruby> 同 <rt> おな </rt></ruby> じ<ruby> 状態 <rt> じょうたい </rt></ruby> が<ruby> 続 <rt> つづ </rt></ruby> くこと(④)を<ruby> 表 <rt> あらわ </rt></ruby> す。<br><ruby> 変化 <rt> へんか </rt></ruby> の<ruby> 始 <rt> はじ </rt></ruby> まりを<ruby> 表 <rt> あらわ </rt></ruby> す。この<ruby> 意味 <rt> いみ </rt></ruby> の<ruby> 場合 <rt> ばあい </rt></ruby> 、<ruby> 対応 <rt> たいおう </rt></ruby> する「～てい」の<ruby> 形 <rt> けい </rt></ruby> はない。",
+            "explanation": "'～てきます' expresses movement of a thing or person approaching the speaker (①②). '～ていきます' expresses movement of a thing or person going away from the speaker (①②).<br>'～てきます' also expresses that some change or action begins to appear (③④⑤⑥).<br>'～ていきます' also expresses that some change or action continues going forward (⑥⑦⑧).",
             "examples": [
               {
                 "text": "A① <ruby> 毎朝 <rt> まいあさ </rt></ruby>、うちの にわに <ruby> 鳥 <rt> とり </rt></ruby> が とんで きます。<br>A② <ruby> 兄 <rt> あに </rt></ruby> が へやに <ruby> 入 <rt> はい </rt></ruby> って きました。<br>A③ <ruby> 鳥 <rt> とり </rt></ruby> が <ruby> 南 <rt> みなみ </rt></ruby> の <ruby> 方 <rt> ほう </rt></ruby> へ とんで いきました。<br>A④ <ruby> 兄 <rt> あに </rt></ruby> が へやを <ruby> 出 <rt> で </rt></ruby> て いきました。"
@@ -8304,7 +8304,7 @@
           {
             "point_id": "g_s3_13_1",
             "title": "1. 「こ(これ・この・ここ・こう)」の使い方",
-            "explanation": "<ruby> 話者 <rt> わしゃ </rt></ruby> と<ruby> 聞 <rt> き </rt></ruby> き<ruby> 手 <rt> て </rt></ruby> の<ruby> 両方 <rt> りょうほう </rt></ruby> の<ruby> 近 <rt> ちか </rt></ruby> くにあって、<ruby> 共通 <rt> きょうつう </rt></ruby> に<ruby> 見 <rt> み </rt></ruby> ているもの(①②)、または<ruby> 話者 <rt> わしゃ </rt></ruby> の<ruby> 側 <rt> がわ </rt></ruby> のもの(③④)を<ruby> 指 <rt> さ </rt></ruby> すときに<ruby> 使 <rt> つか </rt></ruby> う。",
+            "explanation": "Used to refer to something that is near both the speaker and the listener and both can see it (①②), or something on the speaker's side (③④).",
             "examples": [
               {
                 "text": "① これは だれの かばんですか。<br>② A「この <ruby> 小 <rt> ちい </rt></ruby> さい カメラは <ruby> 日本 <rt> にほん </rt></ruby> のですね。」<br>B「ええ。でも、これは ちょっと <ruby> 高 <rt> たか </rt></ruby> いですね。」<br>③ ここが いたいんです。<br>④ すしは こう して 作ります。"
@@ -8314,7 +8314,7 @@
           {
             "point_id": "g_s3_13_2",
             "title": "2. 「そ(それ・その・そこ・そう)」の使い方",
-            "explanation": "<ruby> 話者 <rt> わしゃ </rt></ruby> よりも<ruby> 聞 <rt> き </rt></ruby> き<ruby> 手 <rt> て </rt></ruby> に<ruby> 近 <rt> ちか </rt></ruby> いもの(①)、<ruby> 話者 <rt> わしゃ </rt></ruby> と<ruby> 聞 <rt> き </rt></ruby> き<ruby> 手 <rt> て </rt></ruby> から少し<ruby> 離 <rt> はな </rt></ruby> れたところにあるもの(②)、<ruby> 話者 <rt> わしゃ </rt></ruby> と<ruby> 聞 <rt> き </rt></ruby> き<ruby> 手 <rt> て </rt></ruby> のどちらかしか<ruby> 知 <rt> し </rt></ruby> らないことを<ruby> 指 <rt> さ </rt></ruby> すときに<ruby> 使 <rt> つか </rt></ruby> う(③④)。",
+            "explanation": "Used to refer to something closer to the listener than the speaker (①), something a little distant from both speaker and listener (②), or something only one of the speaker or listener knows about (③④).",
             "examples": [
               {
                 "text": "① サラさん、その ゆびわ、きれいですね。<br>② トイレは そこです。<br>③ きのう <ruby> 高校 <rt> こうこう </rt></ruby> の <ruby> 友 <rt> とも </rt></ruby> だちと <ruby> 会 <rt> あ </rt></ruby> いました。その <ruby> 人 <rt> ひと </rt></ruby> も <ruby> 来週 <rt> らいしゅう </rt></ruby> の パーティーに <ruby> 来 <rt> き </rt></ruby> ます。<br>④「<ruby> 鳥 <rt> とり </rt></ruby> よし」ですか。その <ruby> 店 <rt> みせ </rt></ruby> は どこに ありますか。"
@@ -8324,7 +8324,7 @@
           {
             "point_id": "g_s3_13_3",
             "title": "3. 「あ(あれ・あの・あそこ・ああ)」の使い方",
-            "explanation": "<ruby> 話者 <rt> わしゃ </rt></ruby> と<ruby> 聞 <rt> き </rt></ruby> き<ruby> 手 <rt> て </rt></ruby> の<ruby> 両方 <rt> りょうほう </rt></ruby> から<ruby> 離 <rt> はな </rt></ruby> れていて、<ruby> 共通 <rt> きょうつう </rt></ruby> に<ruby> 見 <rt> み </rt></ruby> ているもの(①②)、<ruby> 話者 <rt> わしゃ </rt></ruby> と<ruby> 聞 <rt> き </rt></ruby> き<ruby> 手 <rt> て </rt></ruby> の<ruby> 両方 <rt> りょうほう </rt></ruby> が<ruby> 知 <rt> し </rt></ruby> っていることを<ruby> 指 <rt> さ </rt></ruby> すときに<ruby> 使 <rt> つか </rt></ruby> う(③④)。",
+            "explanation": "Used to refer to something distant from both the speaker and listener that both can see (①②), or something both the speaker and listener know about (③④⑤).",
             "examples": [
               {
                 "text": "① あれが <ruby> 有名 <rt> ゆうめい </rt></ruby> な <ruby> 東京 <rt> とうきょう </rt></ruby> スカイツリーです。<br>② ほら、あの <ruby> 木 <rt> き </rt></ruby> の 上に <ruby> 鳥 <rt> とり </rt></ruby> が いますよ。<br>③ きのう <ruby> 行 <rt> い </rt></ruby> った <ruby> 店 <rt> みせ </rt></ruby> は よかったですね。また あそこに <ruby> 行 <rt> い </rt></ruby> きましょう。<br>④ A「リンさん、<ruby> 今日 <rt> きょう </rt></ruby> から たばこを やめると <ruby> 言 <rt> い </rt></ruby> って いましたよ。」<br>B「あの <ruby> 人 <rt> ひと </rt></ruby> は いつも ああ <ruby> 言 <rt> い </rt></ruby> います。」"
@@ -8418,7 +8418,7 @@
           {
             "point_id": "g_s3_14_1",
             "title": "接続の言葉 (Conjunctive terms)",
-            "explanation": "ここでは、いろいろな<ruby> 接続詞 <rt> せつぞくし </rt></ruby> の<ruby> 使 <rt> つか </rt></ruby> い<ruby> 方 <rt> かた </rt></ruby> を<ruby> 学 <rt> まな </rt></ruby> びます。",
+            "explanation": "Here, we learn the usage of various conjunctive expressions / conjunctions.",
             "examples": [
               {
                 "text": "1 ですから・だから：<ruby> 前 <rt> まえ </rt></ruby> の<ruby> 文 <rt> ぶん </rt></ruby> の<ruby> 結論 <rt> けつろん </rt></ruby>（<ruby> 事実 <rt> じじつ </rt></ruby>・<ruby> 判断 <rt> はんだん </rt></ruby>・<ruby> 働 <rt> はたら </rt></ruby> きかけ）を<ruby> 言 <rt> い </rt></ruby> う。<br>① これは 一つ 100<ruby> 円 <rt> えん </rt></ruby> です。ですから、3つで 300<ruby> 円 <rt> えん </rt></ruby> です。<br>② もう <ruby> 夜 <rt> よる </rt></ruby> 8<ruby> 時 <rt> じ </rt></ruby> だ。だから、<ruby> 教室 <rt> きょうしつ </rt></ruby> には だれも いないと <ruby> 思 <rt> おも </rt></ruby> う。<br>③ ここは <ruby> 人 <rt> ひと </rt></ruby> が よく <ruby> 通 <rt> とお </rt></ruby> るんだ。だから、ここに <ruby> 物 <rt> もの </rt></ruby> を おかないで。"
@@ -8534,7 +8534,7 @@
           {
             "point_id": "g_s3_15_1",
             "title": "副詞 (Adverbs)",
-            "explanation": "「もう」はある<ruby> 状態 <rt> じょうたい </rt></ruby> に<ruby> 達 <rt> たっ </rt></ruby> したこと、「まだ」は<ruby> 達 <rt> たっ </rt></ruby> していないことを<ruby> 表 <rt> あらわ </rt></ruby> す。「もう」は「1＋<ruby> 助数詞 <rt> じょすうし </rt></ruby>」や「少し」などといっしょに<ruby> 使 <rt> つか </rt></ruby> い、その<ruby> 量 <rt> りょう </rt></ruby> をさらに<ruby> 加 <rt> くわ </rt></ruby> えることを<ruby> 表 <rt> あらわ </rt></ruby> すこともある(③④)。<br>「なかなか～ない」は、<ruby> 実現 <rt> じつげん </rt></ruby> が<ruby> 難 <rt> むずか </rt></ruby> しいことを<ruby> 表 <rt> あらわ </rt></ruby> す。「やっと～た」は、<ruby> 難 <rt> むずか </rt></ruby> しいことや<ruby> 時間 <rt> じかん </rt></ruby> がかかることが<ruby> 実現 <rt> じつげん </rt></ruby> したことを<ruby> 表 <rt> あらわ </rt></ruby> す。「とうとう～た／～なかった」は<ruby> 長 <rt> なが </rt></ruby> い<ruby> 時間 <rt> じかん </rt></ruby> の<ruby> 後 <rt> あと </rt></ruby>、<ruby> 最終的 <rt> さいしゅうてき </rt></ruby> に<ruby> 起 <rt> お </rt></ruby> こった／<ruby> 起 <rt> お </rt></ruby> こらなかったことを<ruby> 表 <rt> あらわ </rt></ruby> す。<br>「かならず」は<ruby> 例外 <rt> れいがい </rt></ruby> がないこと、<ruby> 確信 <rt> かくしん </rt></ruby> に<ruby> 近 <rt> ちか </rt></ruby> い<ruby> 推量 <rt> すいりょう </rt></ruby>、<ruby> 強 <rt> つよ </rt></ruby> い<ruby> 意志 <rt> いし </rt></ruby> や<ruby> 相手 <rt> あいて </rt></ruby> への<ruby> 働 <rt> はたら </rt></ruby> きかけを<ruby> 表 <rt> あらわ </rt></ruby> す。「きっと」は「かならず」より少し<ruby> 確実性 <rt> かくじつせい </rt></ruby> の<ruby> 低 <rt> ひく </rt></ruby> い<ruby> 推量 <rt> すいりょう </rt></ruby>、少し<ruby> 弱 <rt> よわ </rt></ruby> い<ruby> 意志 <rt> いし </rt></ruby> や<ruby> 相手 <rt> あいて </rt></ruby> への<ruby> 働 <rt> はたら </rt></ruby> きかけを<ruby> 表 <rt> あらわ </rt></ruby> す。「ぜひ」は<ruby> 強 <rt> つよ </rt></ruby> い<ruby> 希望 <rt> きぼう </rt></ruby> や<ruby> 要望 <rt> ようぼう </rt></ruby> を<ruby> 表 <rt> あらわ </rt></ruby> す。",
+            "explanation": "'もう' expresses that a certain state has been reached; 'まだ' expresses that it has not been reached. 'もう' can also be used with '1 + counter' or '少し' to express adding more of that quantity (③④).<br>'なかなか～ない' expresses that something doesn't happen easily despite effort/expectation.<br>'たぶん' expresses that the speaker thinks the probability is high. Used together with '～でしょう・～かもしれません'.<br>'きっと' expresses that the speaker has a strong conviction. Often used together with '～でしょう・～はずです'.<br>'必ず' expresses that something occurs without exception. Used together with '～でしょう・～はずです' to express strong conviction, and with '～ことにしています' etc.",
             "examples": [
               {
                 "text": "1 まだ もう<br>① トム「<ruby> 昼 <rt> ひる </rt></ruby> ご<ruby> 飯 <rt> はん </rt></ruby> は もう <ruby> 食 <rt> た </rt></ruby> べた？」<br>サラ「ううん、まだ <ruby> 食 <rt> た </rt></ruby> べて いない。」<br>② トム「<ruby> 銀行 <rt> ぎんこう </rt></ruby> は まだ <ruby> 開 <rt> あ </rt></ruby> いて いますか。」<br><ruby> 山田 <rt> やまだ </rt></ruby> 「4<ruby> 時 <rt> じ </rt></ruby> だから、もう しまって いますよ。」<br>③ これ、おいしい。もう 一つ <ruby> 食 <rt> た </rt></ruby> べても いい？<br>④ スープに もう 少し しおを <ruby> 入 <rt> い </rt></ruby> れて ください。"
@@ -8671,7 +8671,7 @@
           {
             "point_id": "g_s3_16_1",
             "title": "1. ～すぎます",
-            "explanation": "<ruby> 適切 <rt> てきせつ </rt></ruby> な<ruby> 程度 <rt> ていど </rt></ruby> を<ruby> 超 <rt> こ </rt></ruby> えてしまうこと・～することを<ruby> 表 <rt> あらわ </rt></ruby> す。ふつうマイナスの<ruby> 意味 <rt> いみ </rt></ruby> に<ruby> 使 <rt> つか </rt></ruby> う。",
+            "explanation": "Expresses exceeding an appropriate degree / doing ~ too much. Generally used in a negative sense.",
             "examples": [
               {
                 "text": "① おいしかったので、<ruby> 食 <rt> た </rt></ruby> べすぎました。<br>② パソコンを <ruby> 使 <rt> つか </rt></ruby> いすぎて、<ruby> 目 <rt> め </rt></ruby> が いたいです。<br>③ へやが <ruby> 寒 <rt> さむ </rt></ruby> すぎます。エアコンを つけても いいですか。<br>④ わたしは しずかすぎる <ruby> 所 <rt> ところ </rt></ruby> では <ruby> 勉強 <rt> べんきょう </rt></ruby> できません。"
@@ -8682,7 +8682,7 @@
           {
             "point_id": "g_s3_16_2",
             "title": "2. ～にくいです",
-            "explanation": "<ruby> 簡単 <rt> かんたん </rt></ruby> には～できないこと(①②)、なかなか～しないこと(③④)を<ruby> 表 <rt> あらわ </rt></ruby> す。マイナスの<ruby> 意味 <rt> いみ </rt></ruby> (①②③)にもプラスの<ruby> 意味 <rt> いみ </rt></ruby> (④)にも<ruby> 使 <rt> つか </rt></ruby> える。",
+            "explanation": "Expresses that something cannot be done easily (①②) or that something doesn't happen readily (③④). Can be used in both negative (①②③) and positive (④) senses.",
             "examples": [
               {
                 "text": "① <ruby> 説明 <rt> せつめい </rt></ruby> が ふくざつで、わかりにくいです。<br>② <ruby> 地図 <rt> ちず </rt></ruby> が <ruby> 見 <rt> み </rt></ruby> にくくて、こまりました。<br>③ くもりの <ruby> 日 <rt> ひ </rt></ruby> は せんたく<ruby> 物 <rt> もの </rt></ruby> が かわきにくい。<br>④ もっと <ruby> 切 <rt> き </rt></ruby> れにくい いとは ありませんか。"
@@ -8693,7 +8693,7 @@
           {
             "point_id": "g_s3_16_3",
             "title": "3. ～やすいです",
-            "explanation": "<ruby> 簡単 <rt> かんたん </rt></ruby> に～できること(①②)、すぐ～してしまうこと(③④)を<ruby> 表 <rt> あらわ </rt></ruby> す。プラスの<ruby> 意味 <rt> いみ </rt></ruby> (①②)にもマイナスの<ruby> 意味 <rt> いみ </rt></ruby> (③④)にも<ruby> 使 <rt> つか </rt></ruby> える。",
+            "explanation": "Expresses that something can be done easily (①②) or that something happens readily/too quickly (③④). Can be used in both positive (①②) and negative (③④) senses.",
             "examples": [
               {
                 "text": "① この じしょは <ruby> 字 <rt> じ </rt></ruby> が <ruby> 大 <rt> おお </rt></ruby> きくて、<ruby> 読 <rt> よ </rt></ruby> みやすいです。<br>② <ruby> 山 <rt> やま </rt></ruby> に のぼる ときは、<ruby> 歩 <rt> ある </rt></ruby> きやすい くつを はいて ください。<br>③ ガラスの コップは われやすい。<br>④ <ruby> 冬 <rt> ふゆ </rt></ruby> は かぜを ひきやすい きせつです。"
@@ -8820,7 +8820,7 @@
           {
             "point_id": "g_s3_17_1",
             "title": "品詞 (Parts of speech)",
-            "explanation": "「<ruby> 名詞 <rt> めいし </rt></ruby>」は<ruby> 名詞 <rt> めいし </rt></ruby> として<ruby> 扱 <rt> あつか </rt></ruby> う。<ruby> 動詞 <rt> どうし </rt></ruby> の<ruby> 辞書形 <rt> じしょけい </rt></ruby> も<ruby> 名詞 <rt> めいし </rt></ruby> として<ruby> 扱 <rt> あつか </rt></ruby> うが、<ruby> 習慣 <rt> しゅうかん </rt></ruby> 的に<ruby> 限 <rt> かぎ </rt></ruby> られた<ruby> 動詞 <rt> どうし </rt></ruby> だけで、<ruby> 助詞 <rt> じょし </rt></ruby>（を・で・になど）が<ruby> 入 <rt> い </rt></ruby> る<ruby> 場合 <rt> ばあい </rt></ruby> は、③のように<ruby> 助詞 <rt> じょし </rt></ruby> を<ruby> 取 <rt> と </rt></ruby> った<ruby> 形 <rt> けい </rt></ruby> になる（<ruby> 山 <rt> やま </rt></ruby> にのぼります→<ruby> 山 <rt> やま </rt></ruby> のぼり）。<br><ruby> 形容詞 <rt> けいようし </rt></ruby> に「さ」を<ruby> 付 <rt> つ </rt></ruby> ける（<ruby> 例外 <rt> れいがい </rt></ruby>：いい→よさ）(①)、<ruby> ナ形容詞 <rt> なけいようし </rt></ruby> に「さ」を<ruby> 付 <rt> つ </rt></ruby> ける(②)と<ruby> 名詞 <rt> めいし </rt></ruby> として<ruby> 扱 <rt> あつか </rt></ruby> う。<br><ruby> 形容詞 <rt> けいようし </rt></ruby> に「く」（<ruby> 例外 <rt> れいがい </rt></ruby>：いい→よく）(①)、<ruby> ナ形容詞 <rt> なけいようし </rt></ruby> に「に」(②)を<ruby> 付 <rt> つ </rt></ruby> けると<ruby> 副詞 <rt> ふくし </rt></ruby> として<ruby> 扱 <rt> あつか </rt></ruby> う。<br>「<ruby> 動詞 <rt> どうし </rt></ruby>」の「の」または「こと」を<ruby> 付 <rt> つ </rt></ruby> けて<ruby> 名詞 <rt> めいし </rt></ruby> として<ruby> 扱 <rt> あつか </rt></ruby> う。",
+            "explanation": "'Nouns' are treated as nouns. The dictionary form of verbs is also treated as a noun, but this is habitually limited to certain verbs, and a particle (を・で・に etc.) enters before them.",
             "examples": [
               {
                 "text": "1 <ruby> 名詞 <rt> めいし </rt></ruby> ⇔ <ruby> 動詞 <rt> どうし </rt></ruby><br>① <ruby> 料理 <rt> りょうり </rt></ruby> は すきですが、そうじは すきでは ありません。[⇔ <ruby> 料理 <rt> りょうり </rt></ruby> します、そうじします]<br>② <ruby> 帰 <rt> かえ </rt></ruby> りの きっぷは もう <ruby> 買 <rt> か </rt></ruby> いました。[⇔ <ruby> 帰 <rt> かえ </rt></ruby> ります]<br>③ <ruby> 山 <rt> やま </rt></ruby> のぼりは たのしいですよ。[⇔ <ruby> 山 <rt> やま </rt></ruby> に のぼります]"
