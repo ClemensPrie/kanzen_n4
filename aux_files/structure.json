@@ -1,0 +1,83 @@
+[
+  {
+    "chapter_title": "形の練習 (Practising grammatical forms)",
+    "chapter_id": "part_1",
+    "sections": [
+      {
+        "section_id": "p2_1",
+        "title": "1. 動詞のグループ (Verb groups)",
+        "conjugation_table": [
+          { "group": "I", "masu_form": "い-ます", "dictionary_form": "う", "examples": "<ruby>買<rt>か</rt></ruby>う、<ruby>使<rt>つか</rt></ruby>う" }
+        ],
+        "exercises": [
+          {
+            "exercise_type": "fill_in_the_blank",
+            "instruction": "つぎの 動詞の グループ I、II、III を ( ) に 書いて ください。",
+            "questions": [
+              { "id": "q1", "sentence": "<ruby>貸<rt>か</rt></ruby>す (   )", "correct_answer": "I" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter_title": "実力養成編 第1部 意味機能別の文法形式",
+    "chapter_id": "part_2",
+    "lessons": [
+      {
+        "lesson_id": "lesson_1",
+        "title": "1課 ～より…／～ほど…ません ～より～のほう ～と～とどちら",
+        "grammar_points": [
+          {
+            "point_id": "g1_1",
+            "title": "1. ～より…／～ほど…ません",
+            "explanation": "話題として取り上げたものの程度を、ほかのものと比べる言い方。",
+            "examples": [
+              { "text": "①この <ruby> アパート <rt> あぱーと </rt></ruby> は <ruby> 前 <rt> まえ </rt></ruby> の アパート より べんりです。" }
+            ],
+            "formula": "<ruby> 名 <rt> めい </rt></ruby> ＋ より"
+          }
+        ],
+        "exercises": [
+          {
+            "exercise_type": "multiple_choice",
+            "instruction": "れんしゅう2 aか bか いい ほうを えらんで ください。",
+            "questions": [
+              { "id": "q1", "sentence": "<ruby> 肉料理 <rt> にくりょうり </rt></ruby> と <ruby> 魚料理 <rt> さかなりょうり </rt></ruby> と どちらが (a すきですね b すきですか)。", "correct_answer": "b" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter_title": "実力養成編 第2部 文法形式の整理",
+    "chapter_id": "part_3",
+    "sections": [
+      {
+        "section_id": "s3_1",
+        "title": "1課 で・に",
+        "grammar_points": [
+          {
+            "point_id": "g_s3_1_1",
+            "title": "1. 「で」の使い方",
+            "explanation": "<ruby> 行為 <rt> こうい </rt></ruby>・<ruby> 行事 <rt> ぎょうじ </rt></ruby> が<ruby> 行 <rt> おこな </rt></ruby> われる<ruby> 場所 <rt> ばしょ </rt></ruby> を<ruby> 表 <rt> あらわ </rt></ruby> す。",
+            "examples": [
+              { "text": "A① ろうかで えを かきました。" }
+            ]
+          }
+        ],
+        "exercises": [
+          {
+            "exercise_type": "fill_in_the_blank",
+            "instruction": "れんしゅう1 （ ）の中に「で」か「に」を書いてください。",
+            "questions": [
+              { "id": "q1", "sentence": "こどもの へや( ) <ruby> 大 <rt> おお </rt></ruby> きい まどを 作りました。", "correct_answer": "に" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
