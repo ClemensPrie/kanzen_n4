@@ -1,4 +1,4 @@
-import json
+﻿import json
 import os
 import shutil
 import struct
@@ -85,7 +85,7 @@ def build_app():
         json.dump(manifest, f, ensure_ascii=False, indent=2)
 
     # 5. Generate the Service Worker
-    sw_code = """const CACHE_NAME = 'grammar-app-v2';
+    sw_code = """const CACHE_NAME = 'grammar-app-v3';
 const urlsToCache = [
     './',
     './index.html',
@@ -894,3 +894,4 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
 
 if __name__ == "__main__":
     build_app()
+

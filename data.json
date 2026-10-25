@@ -922,7 +922,7 @@
               },
               {
                 "sentence": "15 さめる →",
-                "correct_answer": "さめられる"
+                "correct_answer": "?????"
               }
             ]
           },
@@ -932,23 +932,23 @@
             "questions": [
               {
                 "sentence": "1 この <ruby> 図書館 <rt> としょかん </rt></ruby> では <ruby> 一人 <rt> ひとり </rt></ruby> 10さつまで <ruby> 本 <rt> ほん </rt></ruby> が <ruby> 借 <rt> か </rt></ruby> りられます。 (<ruby> 借 <rt> か </rt></ruby>りる)",
-                "correct_answer": "借りられます"
+                "correct_answer": "????"
               },
               {
                 "sentence": "2 おさけは ぜんぜん <ruby> 飲 <rt> の </rt></ruby> めません。 (<ruby> 飲 <rt> の </rt></ruby>む)",
-                "correct_answer": "飲めません"
+                "correct_answer": "??"
               },
               {
                 "sentence": "3 <ruby> 金曜日 <rt> きんようび </rt></ruby> は <ruby> 夜 <rt> よる </rt></ruby> 8<ruby> 時 <rt> じ </rt></ruby> まで <ruby> 働 <rt> はたら </rt></ruby> けますか。 (<ruby> 働 <rt> はたら </rt></ruby>く)",
-                "correct_answer": "働けます"
+                "correct_answer": "??"
               },
               {
                 "sentence": "4 <ruby> 車 <rt> くるま </rt></ruby> が <ruby> 運転 <rt> うんてん </rt></ruby> できますか。 (<ruby> 運転 <rt> うんてん </rt></ruby>する)",
-                "correct_answer": "運転できます"
+                "correct_answer": "????"
               },
               {
                 "sentence": "5 ここでは けいたい <ruby> 電話 <rt> でんわ </rt></ruby> は <ruby> 使 <rt> つか </rt></ruby> えません。 (<ruby> 使 <rt> つか </rt></ruby>う)",
-                "correct_answer": "使えません"
+                "correct_answer": "??"
               }
             ]
           }
@@ -1521,23 +1521,23 @@
             "questions": [
               {
                 "sentence": "1 わたしは リンさんの うちに <ruby> 招待 <rt> しょうたい </rt></ruby> されました。(しょうたいする)",
-                "correct_answer": "招待されました"
+                "correct_answer": "????"
               },
               {
                 "sentence": "2 どろぼうに さいふを <ruby> 盗 <rt> ぬす </rt></ruby> まれました。(<ruby> 盗 <rt> ぬす </rt></ruby>む)",
-                "correct_answer": "盗まれました"
+                "correct_answer": "???"
               },
               {
                 "sentence": "3 <ruby> 女 <rt> おんな </rt></ruby> の <ruby> 人 <rt> ひと </rt></ruby> に <ruby> 道 <rt> みち </rt></ruby> を <ruby> 聞 <rt> き </rt></ruby> かれました。(<ruby> 聞 <rt> き </rt></ruby>く)",
-                "correct_answer": "聞かれました"
+                "correct_answer": "???"
               },
               {
                 "sentence": "4 <ruby> 妹 <rt> いもうと </rt></ruby> に ぼくの おもちゃを <ruby> 壊 <rt> こわ </rt></ruby> されました。(<ruby> 壊 <rt> こわ </rt></ruby>す)",
-                "correct_answer": "壊されました"
+                "correct_answer": "???"
               },
               {
                 "sentence": "5 この <ruby> 建物 <rt> たてもの </rt></ruby> は 100<ruby> 年前 <rt> ねんまえ </rt></ruby> に <ruby> 建 <rt> た </rt></ruby> てられました。(<ruby> 建 <rt> た </rt></ruby>てる)",
-                "correct_answer": "建てられました"
+                "correct_answer": "????"
               }
             ]
           }
@@ -1697,23 +1697,23 @@
             "questions": [
               {
                 "sentence": "1 わたしは こどもに へやを <ruby> 片付 <rt> かたづ </rt></ruby> けさせます。(<ruby> 片付 <rt> かたづ </rt></ruby>ける)",
-                "correct_answer": "片付けさせます"
+                "correct_answer": "?????"
               },
               {
                 "sentence": "2 <ruby> 社長 <rt> しゃちょう </rt></ruby> は よく みんなを わらわせます。(わらう)",
-                "correct_answer": "わらわせます"
+                "correct_answer": "????"
               },
               {
                 "sentence": "3 こどもを おふろに <ruby> 入 <rt> はい </rt></ruby> らせます。(<ruby> 入 <rt> はい </rt></ruby>る)",
-                "correct_answer": "入らせます"
+                "correct_answer": "???"
               },
               {
                 "sentence": "4 こどもに <ruby> 長 <rt> なが </rt></ruby> い <ruby> 時間 <rt> じかん </rt></ruby> ゲームを させません。(あそぶ)",
-                "correct_answer": "させません"
+                "correct_answer": "????"
               },
               {
                 "sentence": "5 <ruby> 先生 <rt> せんせい </rt></ruby> は <ruby> 学生 <rt> がくせい </rt></ruby> を しん<ruby> 室 <rt> しつ </rt></ruby> へ <ruby> 来 <rt> こ </rt></ruby> させました。(<ruby> 来 <rt> く </rt></ruby>る)",
-                "correct_answer": "来させました"
+                "correct_answer": "???"
               }
             ]
           }
@@ -1878,23 +1878,23 @@
             "questions": [
               {
                 "sentence": "1 <ruby> 社長 <rt> しゃちょう </rt></ruby> に <ruby> 日曜日 <rt> にちようび </rt></ruby> も <ruby> 会社 <rt> かいしゃ </rt></ruby> に <ruby> 来 <rt> こ </rt></ruby> させられます。(<ruby> 来 <rt> く </rt></ruby>る)",
-                "correct_answer": "来させられます"
+                "correct_answer": "?????"
               },
               {
                 "sentence": "2 <ruby> 兄 <rt> あに </rt></ruby> に ご<ruby> 飯 <rt> はん </rt></ruby> を <ruby> 作 <rt> つく </rt></ruby> らされました。(<ruby> 作 <rt> つく </rt></ruby>る)",
-                "correct_answer": "作らされました"
+                "correct_answer": "???????????"
               },
               {
                 "sentence": "3 <ruby> 父 <rt> ちち </rt></ruby> に <ruby> 家 <rt> いえ </rt></ruby> の <ruby> 仕事 <rt> しごと </rt></ruby> を <ruby> 手伝 <rt> てつだ </rt></ruby> わせられました。(<ruby> 手伝 <rt> てつだ </rt></ruby>う)",
-                "correct_answer": "手伝わせられました"
+                "correct_answer": "?????????????"
               },
               {
                 "sentence": "4 こどもの ころ、きらいな やさいを <ruby> 食 <rt> た </rt></ruby> べさせられました。(<ruby> 食 <rt> た </rt></ruby>べる)",
-                "correct_answer": "食べさせられました"
+                "correct_answer": "??????"
               },
               {
                 "sentence": "5 テレビを <ruby> 見 <rt> み </rt></ruby> て いる とき、<ruby> 母 <rt> はは </rt></ruby> に <ruby> 買 <rt> か </rt></ruby> い<ruby> 物 <rt> もの </rt></ruby> に <ruby> 行 <rt> い </rt></ruby> かされました。(<ruby> 行 <rt> い </rt></ruby>く)",
-                "correct_answer": "行かされました"
+                "correct_answer": "???????????"
               }
             ]
           }
@@ -1992,7 +1992,7 @@
               },
               {
                 "sentence": "A「<ruby> 暑 <rt> あつ </rt></ruby> いですね。わたしは <ruby> 夏 <rt> なつ </rt></ruby> ( ① ) <ruby> 冬 <rt> ふゆ </rt></ruby> ( ② ) が すきです。」<br>B「そうですか。わたしは ( ③ ) すきですよ。」",
-                "correct_answer": "a, a, e"
+                "correct_answer": "a, c, e"
               },
               {
                 "sentence": "この へやは となりの へや( ) <ruby> 暑 <rt> あつ </rt></ruby> くない。",
@@ -2116,32 +2116,32 @@
               {
                 "id": "q1",
                 "sentence": "<ruby> 兄 <rt> あに </rt></ruby> は「うん、うん」と <ruby> 言 <rt> い </rt></ruby> いながら、わたしの <ruby> 話 <rt> はなし </rt></ruby> を <ruby> 聞 <rt> き </rt></ruby> きました。(<ruby> 言 <rt> い </rt></ruby>う)",
-                "correct_answer": "言い"
+                "correct_answer": "??"
               },
               {
                 "id": "q2",
                 "sentence": "A「あれ？ まだ <ruby> 仕事 <rt> しごと </rt></ruby> が あるの？」<br>B「いえ、<ruby> 今 <rt> いま </rt></ruby> <ruby> 帰 <rt> かえ </rt></ruby> るところです。」(<ruby> 帰 <rt> かえ </rt></ruby>る)",
-                "correct_answer": "帰る"
+                "correct_answer": "??"
               },
               {
                 "id": "q3",
                 "sentence": "もしもし、<ruby> 今 <rt> いま </rt></ruby> 、<ruby> 駅 <rt> えき </rt></ruby> に <ruby> 向 <rt> む </rt></ruby> かって <ruby> 歩 <rt> ある </rt></ruby> いている ところです。あと 5、6<ruby> 分 <rt> ぷん </rt></ruby> で <ruby> 着 <rt> つ </rt></ruby> きます。(<ruby> 歩 <rt> ある </rt></ruby>く)",
-                "correct_answer": "歩いている"
+                "correct_answer": "?????"
               },
               {
                 "id": "q4",
                 "sentence": "けん「お<ruby> 母 <rt> かあ </rt></ruby> さん、ばんご<ruby> 飯 <rt> はん </rt></ruby> 、まだ？」<br><ruby> 母 <rt> はは </rt></ruby> 「<ruby> 今 <rt> いま </rt></ruby> つくっている ところよ。もう 少しで <ruby> 食 <rt> た </rt></ruby> べられるよ。」(<ruby> 作 <rt> つく </rt></ruby>る)",
-                "correct_answer": "つくっている"
+                "correct_answer": "?????"
               },
               {
                 "id": "q5",
                 "sentence": "コンサートが <ruby> 終 <rt> お </rt></ruby> わった ところです。<ruby> 人 <rt> ひと </rt></ruby> が たくさん <ruby> 会場 <rt> かいじょう </rt></ruby> から <ruby> 出 <rt> で </rt></ruby> て きましたよ。(<ruby> 終 <rt> お </rt></ruby>わる)",
-                "correct_answer": "終わった"
+                "correct_answer": "????"
               },
               {
                 "id": "q6",
                 "sentence": "わたしは <ruby> 日本 <rt> にほん </rt></ruby> に <ruby> 来 <rt> く </rt></ruby> るまで ドイツに <ruby> 住 <rt> す </rt></ruby> んで いました。(<ruby> 来 <rt> く </rt></ruby>る)",
-                "correct_answer": "来る"
+                "correct_answer": "??"
               }
             ]
           },
@@ -2157,7 +2157,7 @@
                   "b <ruby> 立 <rt> た </rt></ruby> ちながら",
                   "c <ruby> 大 <rt> おお </rt></ruby> きい <ruby> 声 <rt> こえ </rt></ruby> を <ruby> 出 <rt> だ </rt></ruby> しながら"
                 ],
-                "correct_answer": "c"
+                "correct_answer": "a"
               },
               {
                 "id": "q2",
@@ -2264,22 +2264,22 @@
               {
                 "id": "q1",
                 "sentence": "A「どこかで お<ruby> 茶 <rt> ちゃ </rt></ruby> を ① ませんか。」(<ruby> 飲 <rt> の </rt></ruby>む)<br>B「そうですね。あの <ruby> 店 <rt> みせ </rt></ruby> に ② ましょう。」(<ruby> 入 <rt> はい </rt></ruby>る)",
-                "correct_answer": "①<ruby> 飲 <rt> の </rt></ruby>み ②<ruby> 入 <rt> はい </rt></ruby>り"
+                "correct_answer": "??? ???"
               },
               {
                 "id": "q2",
                 "sentence": "A「これから <ruby> 花見 <rt> はなみ </rt></ruby> に <ruby> 行 <rt> い </rt></ruby> くんですが、Bさんも ませんか。」(<ruby> 行 <rt> い </rt></ruby>く)<br>B「あ、<ruby> 今日 <rt> きょう </rt></ruby> は ちょっと……」",
-                "correct_answer": "<ruby> 行 <rt> い </rt></ruby>き"
+                "correct_answer": "??"
               },
               {
                 "id": "q3",
                 "sentence": "トム「サラ、いそがしい？ か。」(<ruby> 手伝 <rt> てつだ </rt></ruby>う)<br>サラ「うん、ありがとう。」",
-                "correct_answer": "<ruby> 手伝 <rt> てつだ </rt></ruby>おう"
+                "correct_answer": "????"
               },
               {
                 "id": "q4",
                 "sentence": "A「あそこに ① ましょうか。」(すわる)<br>B「そうですね。そう ② ましょう。」(する)",
-                "correct_answer": "①すわり ②し"
+                "correct_answer": "???? ??"
               }
             ]
           },
@@ -2300,7 +2300,7 @@
               {
                 "id": "q3",
                 "sentence": "サラ「かさが ないの？ この かさを (a <ruby> 貸 <rt> か </rt></ruby> さない？ b <ruby> 貸 <rt> か </rt></ruby> そうか)。」<br>トム「ありがとう。」",
-                "correct_answer": "a"
+                "correct_answer": "b"
               },
               {
                 "id": "q4",
@@ -2389,42 +2389,42 @@
               {
                 "id": "q1",
                 "sentence": "ばんご<ruby> 飯 <rt> はん </rt></ruby> は 1<ruby> 時間 <rt> じかん </rt></ruby> ぐらいで <ruby> 作 <rt> つく </rt></ruby> れます。 (作る)",
-                "correct_answer": "作れます"
+                "correct_answer": "????"
               },
               {
                 "id": "q2",
                 "sentence": "<ruby> 車 <rt> くるま </rt></ruby> の <ruby> 運転 <rt> うんてん </rt></ruby> が <ruby> でき </rt></ruby> る <ruby> 人 <rt> ひと </rt></ruby> を さがして います。 (する)",
-                "correct_answer": "できる"
+                "correct_answer": "???"
               },
               {
                 "id": "q3",
                 "sentence": "あの <ruby> 人 <rt> ひと </rt></ruby> の <ruby> 名前 <rt> なまえ </rt></ruby> を わすれた。ぜんぜん <ruby> 思 <rt> おも </rt></ruby> い<ruby> 出 <rt> だ </rt></ruby> せません。 (<ruby> 思 <rt> おも </rt></ruby> い<ruby> 出 <rt> だ </rt></ruby> す)",
-                "correct_answer": "思い出せません"
+                "correct_answer": "??????"
               },
               {
                 "id": "q4",
                 "sentence": "これ、<ruby> 一人 <rt> ひとり </rt></ruby> で <ruby> 持 <rt> も </rt></ruby> って<ruby> 行 <rt> い </rt></ruby> けますか。 (<ruby> 持 <rt> も </rt></ruby> って いく)",
-                "correct_answer": "持っていけます"
+                "correct_answer": "???????"
               },
               {
                 "id": "q5",
                 "sentence": "<ruby> 何 <rt> なん </rt></ruby> <ruby> 時 <rt> じ </rt></ruby> まで ここに <ruby> 入 <rt> はい </rt></ruby> れますか。 (いる)",
-                "correct_answer": "いられます"
+                "correct_answer": "?????"
               },
               {
                 "id": "q6",
                 "sentence": "A「あした、<ruby> 朝 <rt> あさ </rt></ruby> 6<ruby> 時 <rt> じ </rt></ruby> に ここに <ruby> 来 <rt> く </rt></ruby> られますか。」 (<ruby> 来 <rt> く </rt></ruby>る)<br>B「はい、だいじょうぶです。」",
-                "correct_answer": "来られます"
+                "correct_answer": "?????"
               },
               {
                 "id": "q7",
                 "sentence": "<ruby> 夜 <rt> よる </rt></ruby> 、<ruby> 一人 <rt> ひとり </rt></ruby> で こわい <ruby> 映画 <rt> えいが </rt></ruby> を <ruby> 見 <rt> み </rt></ruby> る ことが できますか。 (見る)",
-                "correct_answer": "見る"
+                "correct_answer": "??"
               },
               {
                 "id": "q8",
                 "sentence": "この クラブには、だれでも <ruby> 入 <rt> はい </rt></ruby> る ことが できます。 (<ruby> 入 <rt> はい </rt></ruby>る)",
-                "correct_answer": "入る"
+                "correct_answer": "??"
               }
             ]
           },
@@ -2560,32 +2560,32 @@
               {
                 "id": "q1",
                 "sentence": "わたしたちは <ruby> 前 <rt> まえ </rt></ruby> に どこかで <ruby> 会 <rt> あ </rt></ruby> った ことが ありますよね。(<ruby> 会 <rt> あ </rt></ruby>う)",
-                "correct_answer": "会った"
+                "correct_answer": "???"
               },
               {
                 "id": "q2",
                 "sentence": "こんなに むずかしい <ruby> 問題 <rt> もんだい </rt></ruby> は <ruby> 今 <rt> いま </rt></ruby> まで <ruby> 考 <rt> かんが </rt></ruby> えた ことが ありません。(<ruby> 考 <rt> かんが </rt></ruby>える)",
-                "correct_answer": "考えた"
+                "correct_answer": "???"
               },
               {
                 "id": "q3",
                 "sentence": "にもつが <ruby> 多 <rt> おお </rt></ruby> い ときは、タクシーに <ruby> 乗 <rt> の </rt></ruby> る ことも あります。(<ruby> 乗 <rt> の </rt></ruby>る)",
-                "correct_answer": "乗る"
+                "correct_answer": "??"
               },
               {
                 "id": "q4",
                 "sentence": "さいきん、なかなか <ruby> 眠 <rt> ねむ </rt></ruby> れない ことが あります。(<ruby> 眠 <rt> ねむ </rt></ruby>れる)",
-                "correct_answer": "眠れない"
+                "correct_answer": "????"
               },
               {
                 "id": "q5",
                 "sentence": "わたしは まだ スキーを <ruby> 行 <rt> い </rt></ruby> った ことが ありません。(する)",
-                "correct_answer": "した"
+                "correct_answer": "??"
               },
               {
                 "id": "q6",
                 "sentence": "<ruby> 雨 <rt> あめ </rt></ruby> の <ruby> 日 <rt> ひ </rt></ruby> に <ruby> 自転車 <rt> じてんしゃ </rt></ruby> は だめだよ。けがを する ことも あるよ。(する)",
-                "correct_answer": "する"
+                "correct_answer": "??"
               }
             ]
           },
@@ -2825,42 +2825,42 @@
               {
                 "id": "q1",
                 "sentence": "この へやで おべんとうを <ruby> 食 <rt> た </rt></ruby> べても いいですか。(<ruby> 食 <rt> た </rt></ruby>べる)",
-                "correct_answer": "食べても"
+                "correct_answer": "???"
               },
               {
                 "id": "q2",
                 "sentence": "もう おそいですから、<ruby> 仕事 <rt> しごと </rt></ruby> の つづきは <ruby> 明日 <rt> あした </rt></ruby> も いいですよ。(あした)",
-                "correct_answer": "あしたでも"
+                "correct_answer": "????"
               },
               {
                 "id": "q3",
                 "sentence": "あぶないですから、この <ruby> 川 <rt> かわ </rt></ruby> で およいでは いけません。(およぐ)",
-                "correct_answer": "およいでは"
+                "correct_answer": "????"
               },
               {
                 "id": "q4",
                 "sentence": "テストの とき、となりの <ruby> 人 <rt> ひと </rt></ruby> の <ruby> 答 <rt> こた </rt></ruby> えを <ruby> 見 <rt> み </rt></ruby> ては いけません。(<ruby> 見 <rt> み </rt></ruby>る)",
-                "correct_answer": "見ては"
+                "correct_answer": "??"
               },
               {
                 "id": "q5",
                 "sentence": "<ruby> 今日 <rt> きょう </rt></ruby> は <ruby> 休 <rt> やす </rt></ruby> みの <ruby> 日 <rt> ひ </rt></ruby> だから、<ruby> 何 <rt> なに </rt></ruby> も しなくても いい。(する)",
-                "correct_answer": "しなくても"
+                "correct_answer": "????"
               },
               {
                 "id": "q6",
                 "sentence": "<ruby> 小 <rt> ちい </rt></ruby> さい <ruby> 物 <rt> もの </rt></ruby> を <ruby> 入 <rt> い </rt></ruby> れますから、ふくろは あまり <ruby> 大 <rt> おお </rt></ruby> きくなくても いいです。(<ruby> 大 <rt> おお </rt></ruby>きい)",
-                "correct_answer": "大きくなくても"
+                "correct_answer": "??????"
               },
               {
                 "id": "q7",
                 "sentence": "<ruby> 朝 <rt> あさ </rt></ruby> の ひこうきに <ruby> 乗 <rt> の </rt></ruby> りますから、<ruby> 早 <rt> はや </rt></ruby> く <ruby> 起 <rt> お </rt></ruby> きなければ なりません。(<ruby> 起 <rt> お </rt></ruby>きる)",
-                "correct_answer": "起きなければ"
+                "correct_answer": "?????"
               },
               {
                 "id": "q8",
                 "sentence": "ひっこしの <ruby> 前 <rt> まえ </rt></ruby> に、にもつを はこに <ruby> 入 <rt> い </rt></ruby> れなければ ならない。(<ruby> 入 <rt> い </rt></ruby>れる)",
-                "correct_answer": "入れなければ"
+                "correct_answer": "?????"
               }
             ]
           },
@@ -2973,32 +2973,32 @@
               {
                 "id": "q1",
                 "sentence": "<ruby> 前 <rt> まえ </rt></ruby> は <ruby> 服 <rt> ふく </rt></ruby> が たくさん ① ほしかった が、<ruby> 今 <rt> いま </rt></ruby> は あまり ② ほしくない です。(ほしい)",
-                "correct_answer": "①ほしかった ②ほしくない"
+                "correct_answer": "???????? ??????"
               },
               {
                 "id": "q2",
                 "sentence": "<ruby> 今日 <rt> きょう </rt></ruby> は <ruby> 早 <rt> はや </rt></ruby> く <ruby> 帰 <rt> かえ </rt></ruby> りたいなあ。(<ruby> 帰 <rt> かえ </rt></ruby>る)",
-                "correct_answer": "帰りたい"
+                "correct_answer": "??"
               },
               {
                 "id": "q3",
                 "sentence": "<ruby> 弟 <rt> おとうと </rt></ruby> は からい <ruby> 物 <rt> もの </rt></ruby> を <ruby> 食 <rt> た </rt></ruby> べたがります。(<ruby> 食 <rt> た </rt></ruby>べる)",
-                "correct_answer": "食べたがります"
+                "correct_answer": "??"
               },
               {
                 "id": "q4",
                 "sentence": "あしたの パーティーに サラさんも <ruby> 来 <rt> く </rt></ruby> ると いいですね。(<ruby> 来 <rt> く </rt></ruby>る)",
-                "correct_answer": "来ると"
+                "correct_answer": "??"
               },
               {
                 "id": "q5",
                 "sentence": "<ruby> 食堂 <rt> しょくどう </rt></ruby> の <ruby> 昼 <rt> ひる </rt></ruby> ご<ruby> 飯 <rt> はん </rt></ruby> が <ruby> 安 <rt> やす </rt></ruby> いと いいけどなあ。(<ruby> 安 <rt> やす </rt></ruby>い)",
-                "correct_answer": "安いと"
+                "correct_answer": "????"
               },
               {
                 "id": "q6",
                 "sentence": "こんばんは ゆっくり テレビを <ruby> 見 <rt> み </rt></ruby> よう。おもしろい ばんぐみが <ruby> あっ </rt></ruby> て いいなあ。(ある)",
-                "correct_answer": "あると"
+                "correct_answer": "??"
               }
             ]
           },
@@ -3151,42 +3151,42 @@
               {
                 "id": "q1",
                 "sentence": "<ruby> 大 <rt> おお </rt></ruby> きい しんが ありました。<ruby> 本 <rt> ほん </rt></ruby> だなが <ruby> 倒 <rt> たお </rt></ruby> れそうです。(<ruby> 倒 <rt> たお </rt></ruby>れる)",
-                "correct_answer": "倒れ"
+                "correct_answer": "???"
               },
               {
                 "id": "q2",
                 "sentence": "少し つかれました。でも、こんばんは ゆっくり <ruby> 休 <rt> やす </rt></ruby> めそうです。(<ruby> 休 <rt> やす </rt></ruby>める)",
-                "correct_answer": "休め"
+                "correct_answer": "???"
               },
               {
                 "id": "q3",
                 "sentence": "ほしが たくさん <ruby> 出 <rt> で </rt></ruby> て いるね。あしたは <ruby> 天気 <rt> てんき </rt></ruby> が <ruby> 良 <rt> い </rt></ruby> さそうだね。(<ruby> 良 <rt> い </rt></ruby>い)",
-                "correct_answer": "よさ"
+                "correct_answer": "??"
               },
               {
                 "id": "q4",
                 "sentence": "ちょっと <ruby> 見 <rt> み </rt></ruby> ましたが、この <ruby> 店 <rt> みせ </rt></ruby> には いい <ruby> 品物 <rt> しなもの </rt></ruby> は <ruby> 無 <rt> な </rt></ruby> さそうですよ。(<ruby> 無 <rt> な </rt></ruby>い)",
-                "correct_answer": "なさ"
+                "correct_answer": "??"
               },
               {
                 "id": "q5",
                 "sentence": "<ruby> 妹 <rt> いもうと </rt></ruby> は <ruby> 恥 <rt> は </rt></ruby> ずかしがって、おきゃくさんに あいさつしません。(はずかしい)",
-                "correct_answer": "はずかしがって"
+                "correct_answer": "????"
               },
               {
                 "id": "q6",
                 "sentence": "<ruby> 試験 <rt> しけん </rt></ruby> に <ruby> 負 <rt> ま </rt></ruby> けました。みんなは <ruby> 残念 <rt> ざんねん </rt></ruby> がって います。(<ruby> 残念 <rt> ざんねん </rt></ruby>だ)",
-                "correct_answer": "残念"
+                "correct_answer": "????"
               },
               {
                 "id": "q7",
                 "sentence": "この <ruby> 村 <rt> むら </rt></ruby> は いつまでも むかしの <ruby> まま </rt></ruby> ですね。(むかし)",
-                "correct_answer": "まま"
+                "correct_answer": "????"
               },
               {
                 "id": "q8",
                 "sentence": "スリッパを <ruby> 履 <rt> は </rt></ruby> かない <ruby> まま </rt></ruby> 、たたみの へやに <ruby> 入 <rt> はい </rt></ruby> らないで ください。(<ruby> 履 <rt> は </rt></ruby>く)",
-                "correct_answer": "履かない"
+                "correct_answer": "???"
               }
             ]
           },
@@ -3207,7 +3207,7 @@
               {
                 "id": "q3",
                 "sentence": "あしたは あまり (a <ruby> 寒 <rt> さむ </rt></ruby> くなさそう b <ruby> 寒 <rt> さむ </rt></ruby> そうも ない) ですね。",
-                "correct_answer": "b"
+                "correct_answer": "a"
               },
               {
                 "id": "q4",
@@ -3227,7 +3227,7 @@
               {
                 "id": "q7",
                 "sentence": "わたしは <ruby> 来週 <rt> らいしゅう </rt></ruby> (a たいへんしそうです b たいへんできそうです)。",
-                "correct_answer": "a"
+                "correct_answer": "b"
               },
               {
                 "id": "q8",
@@ -3247,7 +3247,7 @@
               {
                 "id": "q11",
                 "sentence": "バスに (a <ruby> 乗 <rt> の </rt></ruby> って b <ruby> 乗 <rt> の </rt></ruby> った) <ruby> まま </rt></ruby> 、<ruby> 仕事 <rt> しごと </rt></ruby> へ <ruby> 行 <rt> い </rt></ruby> きます。",
-                "correct_answer": "b"
+                "correct_answer": "a"
               },
               {
                 "id": "q12",
@@ -3334,42 +3334,42 @@
               {
                 "id": "q1",
                 "sentence": "ぼくは <ruby> 学生 <rt> がくせい </rt></ruby> だから、あまり お<ruby> 金 <rt> かね </rt></ruby> が ない。(<ruby> 学生 <rt> がくせい </rt></ruby>だ)",
-                "correct_answer": "学生だ"
+                "correct_answer": "???"
               },
               {
                 "id": "q2",
                 "sentence": "あしたは <ruby> 休 <rt> やす </rt></ruby> みなので、<ruby> 一日中 <rt> いちにちじゅう </rt></ruby> <ruby> 家 <rt> いえ </rt></ruby> に います。(<ruby> 休 <rt> やす </rt></ruby>みだ)",
-                "correct_answer": "休みなので"
+                "correct_answer": "???"
               },
               {
                 "id": "q3",
                 "sentence": "10<ruby> 年前 <rt> ねんまえ </rt></ruby> 、まだ <ruby> 中学生 <rt> ちゅうがくせい </rt></ruby> だったので、<ruby> 一人 <rt> ひとり </rt></ruby> で <ruby> 生活 <rt> せいかつ </rt></ruby> できませんでした。(<ruby> 中学生 <rt> ちゅうがくせい </rt></ruby>だった)",
-                "correct_answer": "中学生だった"
+                "correct_answer": "??????"
               },
               {
                 "id": "q4",
                 "sentence": "きのうは <ruby> 天気 <rt> てんき </rt></ruby> が <ruby> 良 <rt> い </rt></ruby> かったので、サイクリングに <ruby> 行 <rt> い </rt></ruby> きました。(<ruby> 良 <rt> い </rt></ruby>い)",
-                "correct_answer": "良かった"
+                "correct_answer": "????"
               },
               {
                 "id": "q5",
                 "sentence": "ゆっくり お<ruby> 話 <rt> はなし </rt></ruby> が <ruby> でき </rt></ruby> て、<ruby> 楽 <rt> たの </rt></ruby> しかったです。(<ruby> でき </rt></ruby>る)",
-                "correct_answer": "できて"
+                "correct_answer": "???"
               },
               {
                 "id": "q6",
                 "sentence": "この どうぐは <ruby> 使 <rt> つか </rt></ruby> い<ruby> 方 <rt> かた </rt></ruby> が <ruby> 分 <rt> わ </rt></ruby> からなくて、よく わかりません。(<ruby> 分 <rt> わ </rt></ruby>からない)",
-                "correct_answer": "わからなくて"
+                "correct_answer": "?????"
               },
               {
                 "id": "q7",
                 "sentence": "お<ruby> 手伝 <rt> てつだ </rt></ruby> いが あまり <ruby> 出来 <rt> でき </rt></ruby> なくて、ごめんなさい。(<ruby> 出来 <rt> でき </rt></ruby>る)",
-                "correct_answer": "できなくて"
+                "correct_answer": "?????"
               },
               {
                 "id": "q8",
                 "sentence": "<ruby> 試験 <rt> しけん </rt></ruby> に <ruby> 落 <rt> お </rt></ruby> ちて、ざんねんでした。つぎは がんばりましょう。(<ruby> 落 <rt> お </rt></ruby>ちる)",
-                "correct_answer": "落ちて"
+                "correct_answer": "?????"
               }
             ]
           },
@@ -3425,7 +3425,7 @@
               {
                 "id": "q10",
                 "sentence": "<ruby> 道 <rt> みち </rt></ruby> が わからなくて、(a <ruby> 行 <rt> い </rt></ruby> けませんでした b <ruby> 人 <rt> ひと </rt></ruby> に <ruby> 聞 <rt> き </rt></ruby> きます)。",
-                "correct_answer": "b"
+                "correct_answer": "a"
               },
               {
                 "id": "q11",
@@ -3490,27 +3490,27 @@
               {
                 "id": "q1",
                 "sentence": "この アパートは <ruby> 綺 <rt> きれ </rt></ruby> いだし、べんりですよ。(きれいだ)",
-                "correct_answer": "きれいだ"
+                "correct_answer": "????"
               },
               {
                 "id": "q2",
                 "sentence": "きのうは ドライブに <ruby> 行 <rt> い </rt></ruby> った。<ruby> 天気 <rt> てんき </rt></ruby> も <ruby> 良 <rt> い </rt></ruby> かったし、<ruby> 楽 <rt> たの </rt></ruby> しかった。(<ruby> 良 <rt> い </rt></ruby>い)",
-                "correct_answer": "よかった"
+                "correct_answer": "????"
               },
               {
                 "id": "q3",
                 "sentence": "この アルバイトは いよいよ。かんたんな <ruby> 仕事 <rt> しごと </rt></ruby> だし、おもしろいし……。(<ruby> 仕事 <rt> しごと </rt></ruby>だ)",
-                "correct_answer": "仕事だ"
+                "correct_answer": "???"
               },
               {
                 "id": "q4",
                 "sentence": "ねつが <ruby> 上 <rt> あ </rt></ruby> がったり <ruby> 下 <rt> さ </rt></ruby> がったり して います。<ruby> 今 <rt> いま </rt></ruby> は 37<ruby> 度 <rt> ど </rt></ruby> です。(<ruby> 下 <rt> さ </rt></ruby>がる)",
-                "correct_answer": "下がったり"
+                "correct_answer": "?????"
               },
               {
                 "id": "q5",
                 "sentence": "サラ「<ruby> 夏休 <rt> なつやす </rt></ruby> みは どうだった？」<br>リサ「<ruby> 旅行 <rt> りょこう </rt></ruby> に <ruby> 行 <rt> い </rt></ruby> ったり アルバイトを したり して、いそがしかった。」(する)",
-                "correct_answer": "したり"
+                "correct_answer": "???"
               }
             ]
           },
@@ -3546,7 +3546,7 @@
                   "b <ruby> 歌 <rt> うた </rt></ruby> ったり",
                   "c <ruby> 歌 <rt> うた </rt></ruby> ったり して"
                 ],
-                "correct_answer": "b"
+                "correct_answer": "c"
               },
               {
                 "id": "q4",
@@ -3566,7 +3566,7 @@
                   "b のぼったり",
                   "c のぼるし"
                 ],
-                "correct_answer": "a"
+                "correct_answer": "b"
               },
               {
                 "id": "q6",
@@ -3676,37 +3676,37 @@
               {
                 "id": "q1",
                 "sentence": "おなかの 中の 赤ちゃんは <ruby> 男 <rt> おとこ </rt></ruby> の<ruby> 子 <rt> こ </rt></ruby> かも しれないね。(<ruby> 男 <rt> おとこ </rt></ruby> の<ruby> 子 <rt> こ </rt></ruby>)",
-                "correct_answer": "男の子"
+                "correct_answer": "???"
               },
               {
                 "id": "q2",
                 "sentence": "サラさんは おさけは あまり <ruby> 飲 <rt> の </rt></ruby> まない かも しれませんよ。(<ruby> 飲 <rt> の </rt></ruby>む)",
-                "correct_answer": "飲まない"
+                "correct_answer": "????"
               },
               {
                 "id": "q3",
                 "sentence": "この データは <ruby> 正 <rt> ただ </rt></ruby> しい はずですよ。(<ruby> 正 <rt> ただ </rt></ruby>しい)",
-                "correct_answer": "正しい"
+                "correct_answer": "???"
               },
               {
                 "id": "q4",
                 "sentence": "<ruby> 駅前 <rt> えきまえ </rt></ruby> の <ruby> 歯医者 <rt> はいしゃ </rt></ruby> さんは <ruby> 今日 <rt> きょう </rt></ruby> <ruby> 休 <rt> やす </rt></ruby> みの はずです。(<ruby> 休 <rt> やす </rt></ruby>み)",
-                "correct_answer": "休み"
+                "correct_answer": "???"
               },
               {
                 "id": "q5",
                 "sentence": "また しっぱいした。この やり<ruby> 方 <rt> かた </rt></ruby> は だめな ようだ。(だめ)",
-                "correct_answer": "だめな"
+                "correct_answer": "???"
               },
               {
                 "id": "q6",
                 "sentence": "マリさんの けっこんの <ruby> 話 <rt> はなし </rt></ruby> は <ruby> 本当 <rt> ほんとう </rt></ruby> の ようだよ。(<ruby> 本当 <rt> ほんとう </rt></ruby>)",
-                "correct_answer": "本当"
+                "correct_answer": "?????"
               },
               {
                 "id": "q7",
                 "sentence": "この ねこ、トムが とても <ruby> 好 <rt> す </rt></ruby> きな みたいだね。(<ruby> 好 <rt> す </rt></ruby>き)",
-                "correct_answer": "好きな"
+                "correct_answer": "??"
               }
             ]
           },
@@ -3742,7 +3742,7 @@
                   "b みたいです",
                   "c です"
                 ],
-                "correct_answer": "a"
+                "correct_answer": "c"
               },
               {
                 "id": "q4",
@@ -3752,7 +3752,7 @@
                   "b ようです",
                   "c みたいです"
                 ],
-                "correct_answer": "b"
+                "correct_answer": "a"
               },
               {
                 "id": "q5",
@@ -3762,7 +3762,7 @@
                   "b かわいそうですよね",
                   "c かわいいみたいですね"
                 ],
-                "correct_answer": "c"
+                "correct_answer": "a"
               },
               {
                 "id": "q6",
@@ -3852,22 +3852,22 @@
               {
                 "id": "q1",
                 "sentence": "けん、ほんとうの ことを <ruby> 言 <rt> い </rt></ruby> いなさい。(<ruby> 言 <rt> い </rt></ruby>う)",
-                "correct_answer": "言い"
+                "correct_answer": "??"
               },
               {
                 "id": "q2",
                 "sentence": "<ruby> 空 <rt> そら </rt></ruby> が <ruby> 暗 <rt> くら </rt></ruby> いので、かさを <ruby> 持 <rt> も </rt></ruby> って<ruby> 行 <rt> い </rt></ruby> ったほうが いいです。(<ruby> 持 <rt> も </rt></ruby>って いく)",
-                "correct_answer": "持って行った"
+                "correct_answer": "??????"
               },
               {
                 "id": "q3",
                 "sentence": "あまり たばこを <ruby> 吸 <rt> す </rt></ruby> わないほうが いいですよ。(する)",
-                "correct_answer": "吸わない"
+                "correct_answer": "????"
               },
               {
                 "id": "q4",
                 "sentence": "けん、10<ruby> 時 <rt> じ </rt></ruby> よ。もう ゲームを <ruby> 止 <rt> や </rt></ruby> めなさいよ。(やめる)",
-                "correct_answer": "やめ"
+                "correct_answer": "????"
               }
             ]
           },
@@ -3923,7 +3923,7 @@
                   "b <ruby> 飲 <rt> の </rt></ruby> まないほうが いいよ",
                   "c <ruby> 飲 <rt> の </rt></ruby> まないと"
                 ],
-                "correct_answer": "a"
+                "correct_answer": "b"
               },
               {
                 "id": "q6",
@@ -4030,42 +4030,42 @@
               {
                 "id": "q1",
                 "sentence": "おさけを <ruby> 飲 <rt> の </rt></ruby> んだら、<ruby> 運転 <rt> うんてん </rt></ruby> しないで ください。(<ruby> 飲 <rt> の </rt></ruby>む)",
-                "correct_answer": "飲んだら"
+                "correct_answer": "???"
               },
               {
                 "id": "q2",
                 "sentence": "<ruby> 今日 <rt> きょう </rt></ruby> ぜんぶ <ruby> 仕事 <rt> しごと </rt></ruby> が <ruby> 終 <rt> お </rt></ruby> わったら、あしたも つづきを します。(<ruby> 終 <rt> お </rt></ruby>わる)",
-                "correct_answer": "終わったら"
+                "correct_answer": "???????"
               },
               {
                 "id": "q3",
                 "sentence": "<ruby> 家 <rt> いえ </rt></ruby> が <ruby> 広 <rt> ひろ </rt></ruby> ければ、そうじが たいへんです。(<ruby> 広 <rt> ひろ </rt></ruby>い)",
-                "correct_answer": "広ければ"
+                "correct_answer": "???"
               },
               {
                 "id": "q4",
                 "sentence": "めがねを ① かければ、<ruby> 新聞 <rt> しんぶん </rt></ruby> が <ruby> 読 <rt> よ </rt></ruby> めますが、② なければ、ぜんぜん <ruby> 読 <rt> よ </rt></ruby> めません。(かける)",
-                "correct_answer": "①かければ ②かけなければ"
+                "correct_answer": "???? ??????"
               },
               {
                 "id": "q5",
                 "sentence": "<ruby> 天気 <rt> てんき </rt></ruby> が <ruby> 良 <rt> い </rt></ruby> ければ、ここから <ruby> 富士山 <rt> ふじさん </rt></ruby> が <ruby> 見 <rt> み </rt></ruby> えます。(いい)",
-                "correct_answer": "よければ"
+                "correct_answer": "???"
               },
               {
                 "id": "q6",
                 "sentence": "<ruby> 日曜日 <rt> にちようび </rt></ruby> の <ruby> 午後 <rt> ごご </rt></ruby> なら、<ruby> 時間 <rt> じかん </rt></ruby> が あります。(<ruby> 午後 <rt> ごご </rt></ruby>)",
-                "correct_answer": "午後"
+                "correct_answer": "??"
               },
               {
                 "id": "q7",
                 "sentence": "この どうぐが <ruby> 無 <rt> な </rt></ruby> いと、べんりです。(ある)",
-                "correct_answer": "あると"
+                "correct_answer": "??"
               },
               {
                 "id": "q8",
                 "sentence": "<ruby> 休 <rt> やす </rt></ruby> み<ruby> 時間 <rt> じかん </rt></ruby> が <ruby> 短 <rt> みじか </rt></ruby> いと、ゆっくり <ruby> 休 <rt> やす </rt></ruby> めません。(<ruby> 短 <rt> みじか </rt></ruby>い)",
-                "correct_answer": "短いと"
+                "correct_answer": "??"
               }
             ]
           },
@@ -4131,7 +4131,7 @@
                   "b かくと",
                   "c かく とき"
                 ],
-                "correct_answer": "b"
+                "correct_answer": "c"
               }
             ]
           }
@@ -4185,42 +4185,42 @@
               {
                 "id": "q1",
                 "sentence": "<ruby> 作文 <rt> さくぶん </rt></ruby> を <ruby> 書 <rt> か </rt></ruby> いたら、<ruby> 見 <rt> み </rt></ruby> せて ください。(<ruby> 書 <rt> か </rt></ruby>く)",
-                "correct_answer": "書いたら"
+                "correct_answer": "???"
               },
               {
                 "id": "q2",
                 "sentence": "うちへ <ruby> 帰 <rt> かえ </rt></ruby> ったら、少し <ruby> 休 <rt> やす </rt></ruby> みます。(<ruby> 帰 <rt> かえ </rt></ruby>る)",
-                "correct_answer": "帰ったら"
+                "correct_answer": "???"
               },
               {
                 "id": "q3",
                 "sentence": "<ruby> 朝 <rt> あさ </rt></ruby> <ruby> 起 <rt> お </rt></ruby> きたら、まず <ruby> 水 <rt> みず </rt></ruby> を コップ 1<ruby> 杯 <rt> ぱい </rt></ruby> <ruby> 飲 <rt> の </rt></ruby> みます。(<ruby> 起 <rt> お </rt></ruby>きる)",
-                "correct_answer": "起きたら"
+                "correct_answer": "???"
               },
               {
                 "id": "q4",
                 "sentence": "<ruby> 夫 <rt> おっと </rt></ruby> 「<ruby> 新 <rt> あたら </rt></ruby> しい テレビ、<ruby> 買 <rt> か </rt></ruby> おうか。」<br><ruby> 妻 <rt> つま </rt></ruby> 「テレビを <ruby> 買 <rt> か </rt></ruby> うなら、<ruby> 大 <rt> おお </rt></ruby> きいのが ほしいな。」(<ruby> 買 <rt> か </rt></ruby>う)",
-                "correct_answer": "買う"
+                "correct_answer": "??"
               },
               {
                 "id": "q5",
                 "sentence": "サラ「ピザの <ruby> 作 <rt> つく </rt></ruby> り<ruby> 方 <rt> かた </rt></ruby> を <ruby> 知 <rt> し </rt></ruby> って いる？」<br>トム「ピザの <ruby> 作 <rt> つく </rt></ruby> り<ruby> 方 <rt> かた </rt></ruby> なら、この <ruby> 本 <rt> ほん </rt></ruby> に <ruby> 書 <rt> か </rt></ruby> いて あるよ。」(<ruby> 作 <rt> つく </rt></ruby>り<ruby> 方 <rt> かた </rt></ruby>)",
-                "correct_answer": "作り方"
+                "correct_answer": "???"
               },
               {
                 "id": "q6",
                 "sentence": "サラ「あしたは アルバイトが <ruby> 休 <rt> やす </rt></ruby> みなんだ。」<br>トム「<ruby> 休 <rt> やす </rt></ruby> みなら、どこかへ あそびに <ruby> 行 <rt> い </rt></ruby> こうか。」(<ruby> 休 <rt> やす </rt></ruby>みだ)",
-                "correct_answer": "休み"
+                "correct_answer": "??"
               },
               {
                 "id": "q7",
                 "sentence": "トム「うーん、ちょっと <ruby> 頭 <rt> あたま </rt></ruby> が……。」<br><ruby> 山田 <rt> やまだ </rt></ruby> 「<ruby> 頭 <rt> あたま </rt></ruby> が <ruby> 痛 <rt> いた </rt></ruby> いなら、<ruby> 今日 <rt> きょう </rt></ruby> は <ruby> 早 <rt> はや </rt></ruby> く <ruby> 寝 <rt> ね </rt></ruby> たほうが いいよ。」(<ruby> 痛 <rt> いた </rt></ruby>い)",
-                "correct_answer": "痛い"
+                "correct_answer": "???"
               },
               {
                 "id": "q8",
                 "sentence": "トム「この <ruby> 映画 <rt> えいが </rt></ruby> は <ruby> 見 <rt> み </rt></ruby> ましたよ。」<br><ruby> 先生 <rt> せんせい </rt></ruby> 「<ruby> 見 <rt> み </rt></ruby> たなら、ストーリーを <ruby> 知 <rt> し </rt></ruby> って いるでしょう？」(<ruby> 見 <rt> み </rt></ruby>る)",
-                "correct_answer": "見た"
+                "correct_answer": "??"
               }
             ]
           },
@@ -4236,7 +4236,7 @@
                   "b <ruby> 貸 <rt> か </rt></ruby> してね",
                   "c <ruby> 貸 <rt> か </rt></ruby> そうか"
                 ],
-                "correct_answer": "b"
+                "correct_answer": "c"
               },
               {
                 "id": "q2",
@@ -4246,7 +4246,7 @@
                   "b たまごと さとうが ひつようですよね",
                   "c わたしにも くださいね"
                 ],
-                "correct_answer": "b"
+                "correct_answer": "c"
               },
               {
                 "id": "q3",
@@ -4256,7 +4256,7 @@
                   "b サラさんを <ruby> 見 <rt> み </rt></ruby> たなら",
                   "c サラさんを <ruby> 見 <rt> み </rt></ruby> なかったなら"
                 ],
-                "correct_answer": "b"
+                "correct_answer": "a"
               },
               {
                 "id": "q4",
@@ -4512,42 +4512,42 @@
               {
                 "id": "q1",
                 "sentence": "お<ruby> 金 <rt> かね </rt></ruby> が <ruby> 無 <rt> な </rt></ruby> くても、しあわせです。(ない)",
-                "correct_answer": "なくても"
+                "correct_answer": "???"
               },
               {
                 "id": "q2",
                 "sentence": "<ruby> 山田 <rt> やまだ </rt></ruby> さんは、いくら おさけを <ruby> 飲 <rt> の </rt></ruby> んでも、<ruby> 顔 <rt> かお </rt></ruby> が <ruby> 赤 <rt> あか </rt></ruby> く なりません。(<ruby> 飲 <rt> の </rt></ruby>む)",
-                "correct_answer": "飲んでも"
+                "correct_answer": "???"
               },
               {
                 "id": "q3",
                 "sentence": "この <ruby> 店 <rt> みせ </rt></ruby> は どんなに <ruby> 食 <rt> た </rt></ruby> べても も 同じ ねだんですね。(<ruby> 食 <rt> た </rt></ruby>べる)",
-                "correct_answer": "食べても"
+                "correct_answer": "???"
               },
               {
                 "id": "q4",
                 "sentence": "<ruby> 森 <rt> もり </rt></ruby> の <ruby> 中 <rt> なか </rt></ruby> は <ruby> 昼 <rt> ひる </rt></ruby> でも <ruby> 暗 <rt> くら </rt></ruby> いです。(<ruby> 昼 <rt> ひる </rt></ruby>)",
-                "correct_answer": "昼"
+                "correct_answer": "??"
               },
               {
                 "id": "q5",
                 "sentence": "テストで <ruby> 正 <rt> ただ </rt></ruby> しい <ruby> 答 <rt> こた </rt></ruby> えを <ruby> 書 <rt> か </rt></ruby> いたのに、てんを もらえなかった。(<ruby> 書 <rt> か </rt></ruby>く)",
-                "correct_answer": "書いた"
+                "correct_answer": "???"
               },
               {
                 "id": "q6",
                 "sentence": "わたしは <ruby> 魚 <rt> さかな </rt></ruby> が <ruby> 好 <rt> す </rt></ruby> きなのに、<ruby> 母 <rt> はは </rt></ruby> は <ruby> 魚料理 <rt> さかなりょうり </rt></ruby> を あまり <ruby> 作 <rt> つく </rt></ruby> らない。(<ruby> 好 <rt> す </rt></ruby>きだ)",
-                "correct_answer": "好きな"
+                "correct_answer": "???"
               },
               {
                 "id": "q7",
                 "sentence": "きのうは <ruby> 天気 <rt> てんき </rt></ruby> が とても <ruby> 良 <rt> い </rt></ruby> かったのに、<ruby> 今日 <rt> きょう </rt></ruby> は <ruby> 大雨 <rt> おおあめ </rt></ruby> だ。(いい)",
-                "correct_answer": "よかった"
+                "correct_answer": "????"
               },
               {
                 "id": "q8",
                 "sentence": "お<ruby> 兄 <rt> にい </rt></ruby> ちゃんは <ruby> 大学生 <rt> だいがくせい </rt></ruby> なのに、<ruby> 学校 <rt> がっこう </rt></ruby> へ <ruby> 行 <rt> い </rt></ruby> かないの？(<ruby> 大学生 <rt> だいがくせい </rt></ruby>だ)",
-                "correct_answer": "大学生"
+                "correct_answer": "????"
               }
             ]
           },
@@ -4593,7 +4593,7 @@
               {
                 "id": "q8",
                 "sentence": "(a いつも b いつ) <ruby> 来 <rt> き </rt></ruby> ても、この <ruby> 店 <rt> みせ </rt></ruby> は こんで います。",
-                "correct_answer": "a"
+                "correct_answer": "b"
               },
               {
                 "id": "q9",
@@ -4848,37 +4848,37 @@
               {
                 "id": "q1",
                 "sentence": "トム「ええと、ぼくは Ａランチに <ruby> 食 <rt> た </rt></ruby> べると <ruby> 思 <rt> おも </rt></ruby> います。」(する)",
-                "correct_answer": "しよう"
+                "correct_answer": "???"
               },
               {
                 "id": "q2",
                 "sentence": "あしたは この <ruby> 映画 <rt> えいが </rt></ruby> を <ruby> 見 <rt> み </rt></ruby> ようと <ruby> 思 <rt> おも </rt></ruby> って います。(<ruby> 見 <rt> み </rt></ruby>る)",
-                "correct_answer": "見よう"
+                "correct_answer": "???"
               },
               {
                 "id": "q3",
                 "sentence": "<ruby> 電気屋 <rt> でんきや </rt></ruby> に <ruby> 行 <rt> い </rt></ruby> って、いい カメラを <ruby> 探 <rt> さが </rt></ruby> そうと <ruby> 思 <rt> おも </rt></ruby> って います。(さがす)",
-                "correct_answer": "探そう"
+                "correct_answer": "????"
               },
               {
                 "id": "q4",
                 "sentence": "<ruby> 日本 <rt> にほん </rt></ruby> で たくさん <ruby> 写真 <rt> しゃしん </rt></ruby> を <ruby> 撮 <rt> と </rt></ruby> ろうと <ruby> 思 <rt> おも </rt></ruby> って います。(とる)",
-                "correct_answer": "撮ろう"
+                "correct_answer": "???"
               },
               {
                 "id": "q5",
                 "sentence": "<ruby> 今週 <rt> こんしゅう </rt></ruby> は つかれたので、<ruby> 日曜日 <rt> にちようび </rt></ruby> は ゆっくり <ruby> 休 <rt> やす </rt></ruby> む つもりです。(<ruby> 休 <rt> やす </rt></ruby>む)",
-                "correct_answer": "休む"
+                "correct_answer": "??"
               },
               {
                 "id": "q6",
                 "sentence": "これからも すいえいを <ruby> 続 <rt> つづ </rt></ruby> ける つもりです。(つづける)",
-                "correct_answer": "続ける"
+                "correct_answer": "????"
               },
               {
                 "id": "q7",
                 "sentence": "お<ruby> 金 <rt> かね </rt></ruby> が ないので、<ruby> 今週 <rt> こんしゅう </rt></ruby> は もう おさけを <ruby> 飲 <rt> の </rt></ruby> みに <ruby> 行 <rt> い </rt></ruby> かない つもりです。(<ruby> 行 <rt> い </rt></ruby>く)",
-                "correct_answer": "行かない"
+                "correct_answer": "????"
               }
             ]
           },
@@ -4894,7 +4894,7 @@
               {
                 "id": "q2",
                 "sentence": "ああ、おいしかった。この レストランには また <ruby> 来 <rt> き </rt></ruby> ようと (a <ruby> 思 <rt> おも </rt></ruby> います b <ruby> 思 <rt> おも </rt></ruby> って います)。",
-                "correct_answer": "b"
+                "correct_answer": "a"
               },
               {
                 "id": "q3",
@@ -5003,32 +5003,32 @@
               {
                 "id": "q1",
                 "sentence": "サラさんは <ruby> 今日 <rt> きょう </rt></ruby> は やくそくが <ruby> 有 <rt> あ </rt></ruby> ると <ruby> 言 <rt> い </rt></ruby> って いました。(ある)",
-                "correct_answer": "ある"
+                "correct_answer": "??"
               },
               {
                 "id": "q2",
                 "sentence": "リンさんは お<ruby> 父 <rt> とう </rt></ruby> さんが <ruby> 病気 <rt> びょうき </rt></ruby> だと <ruby> 言 <rt> い </rt></ruby> って いました。(たいへんだ)",
-                "correct_answer": "たいへんだ"
+                "correct_answer": "?????"
               },
               {
                 "id": "q3",
                 "sentence": "<ruby> 天気 <rt> てんき </rt></ruby> は これから だんだん <ruby> 良 <rt> い </rt></ruby> くなるそうです。(なる)",
-                "correct_answer": "なる"
+                "correct_answer": "??"
               },
               {
                 "id": "q4",
                 "sentence": "<ruby> 試験 <rt> しけん </rt></ruby> は 1<ruby> 課 <rt> か </rt></ruby> から 10<ruby> 課 <rt> か </rt></ruby> まで だそうです。(10<ruby> 課 <rt> か </rt></ruby>まで)",
-                "correct_answer": "10課まで"
+                "correct_answer": "10????"
               },
               {
                 "id": "q5",
                 "sentence": "この お<ruby> 茶 <rt> ちゃ </rt></ruby> は <ruby> 体 <rt> からだ </rt></ruby> に <ruby> 良 <rt> い </rt></ruby> らしいです。(いい)",
-                "correct_answer": "いい"
+                "correct_answer": "??"
               },
               {
                 "id": "q6",
                 "sentence": "リナさんは <ruby> 歌 <rt> うた </rt></ruby> が とても <ruby> 上手 <rt> じょうず </rt></ruby> らしいです。(<ruby> 上手 <rt> じょうず </rt></ruby>だ)",
-                "correct_answer": "上手"
+                "correct_answer": "??"
               }
             ]
           },
@@ -5064,7 +5064,7 @@
                   "b <ruby> 休 <rt> やす </rt></ruby> みだ",
                   "c <ruby> 休 <rt> やす </rt></ruby> む"
                 ],
-                "correct_answer": "c"
+                "correct_answer": "b"
               },
               {
                 "id": "q4",
@@ -5173,42 +5173,42 @@
               {
                 "id": "q1",
                 "sentence": "<ruby> 漢字 <rt> かんじ </rt></ruby> の まちがいを もっと <ruby> 少 <rt> すく </rt></ruby> なく したいです。(<ruby> 少 <rt> すく </rt></ruby>ない)",
-                "correct_answer": "少なく"
+                "correct_answer": "???"
               },
               {
                 "id": "q2",
                 "sentence": "カーテンを もう 少し <ruby> 明 <rt> あか </rt></ruby> るく します。(<ruby> 色 <rt> いろ </rt></ruby>)",
-                "correct_answer": "明るく"
+                "correct_answer": "??"
               },
               {
                 "id": "q3",
                 "sentence": "さとうを <ruby> 入 <rt> い </rt></ruby> れて、コーヒーを <ruby> 甘 <rt> あま </rt></ruby> く しましょう。(あまい)",
-                "correct_answer": "甘く"
+                "correct_answer": "???"
               },
               {
                 "id": "q4",
                 "sentence": "さいきん、ちょっと <ruby> 忙 <rt> いそが </rt></ruby> しく なりました。(いそがしい)",
-                "correct_answer": "忙しく"
+                "correct_answer": "?????"
               },
               {
                 "id": "q5",
                 "sentence": "あの <ruby> 店 <rt> みせ </rt></ruby> は サービスが <ruby> 良 <rt> い </rt></ruby> く なりました。(いい)",
-                "correct_answer": "よく"
+                "correct_answer": "??"
               },
               {
                 "id": "q6",
                 "sentence": "もう 少し れんしゅうすれば、<ruby> 上手 <rt> じょうず </rt></ruby> に なりますよ。(<ruby> 上手 <rt> じょうず </rt></ruby>)",
-                "correct_answer": "上手"
+                "correct_answer": "???"
               },
               {
                 "id": "q7",
                 "sentence": "<ruby> 日本語 <rt> にほんご </rt></ruby> の <ruby> 新聞 <rt> しんぶん </rt></ruby> が <ruby> 読 <rt> よ </rt></ruby> めるように なりたいです。(<ruby> 読 <rt> よ </rt></ruby>める)",
-                "correct_answer": "読める"
+                "correct_answer": "??????"
               },
               {
                 "id": "q8",
                 "sentence": "メモを なくして、やくそくの <ruby> 時間 <rt> じかん </rt></ruby> が わからなく なりました。(わからない)",
-                "correct_answer": "わからなく"
+                "correct_answer": "?????"
               }
             ]
           },
@@ -5517,37 +5517,37 @@
               {
                 "id": "q1",
                 "sentence": "<ruby> 飲 <rt> の </rt></ruby> み<ruby> 物 <rt> もの </rt></ruby> は <ruby> 紅茶 <rt> こうちゃ </rt></ruby> に します。(<ruby> 紅茶 <rt> こうちゃ </rt></ruby>)",
-                "correct_answer": "紅茶"
+                "correct_answer": "???"
               },
               {
                 "id": "q2",
                 "sentence": "ねだんが <ruby> 安 <rt> やす </rt></ruby> いので、これを <ruby> 買 <rt> か </rt></ruby> う ことに します。(<ruby> 買 <rt> か </rt></ruby>う)",
-                "correct_answer": "買う"
+                "correct_answer": "?????"
               },
               {
                 "id": "q3",
                 "sentence": "<ruby> 雨 <rt> あめ </rt></ruby> なので、どこへも <ruby> 出 <rt> で </rt></ruby> かけない ことに しました。(<ruby> 出 <rt> で </rt></ruby>かける)",
-                "correct_answer": "出かけない"
+                "correct_answer": "????????"
               },
               {
                 "id": "q4",
                 "sentence": "<ruby> 体 <rt> からだ </rt></ruby> の ために、おさけは あまり <ruby> 飲 <rt> の </rt></ruby> まない ことに しました。(<ruby> 飲 <rt> の </rt></ruby>む)",
-                "correct_answer": "飲まない"
+                "correct_answer": "???????"
               },
               {
                 "id": "q5",
                 "sentence": "パーティーの <ruby> 会場 <rt> かいじょう </rt></ruby> は ABC<ruby> 会館 <rt> かいかん </rt></ruby> に なりました。(ABC<ruby> 会館 <rt> かいかん </rt></ruby>)",
-                "correct_answer": "ABC会館"
+                "correct_answer": "ABC???"
               },
               {
                 "id": "q6",
                 "sentence": "つぎの <ruby> 会議 <rt> かいぎ </rt></ruby> は <ruby> 来週 <rt> らいしゅう </rt></ruby> の <ruby> 火曜日 <rt> かようび </rt></ruby> に なりました。(<ruby> 来週 <rt> らいしゅう </rt></ruby>の<ruby> 火曜日 <rt> かようび </rt></ruby>)",
-                "correct_answer": "来週の火曜日"
+                "correct_answer": "???????"
               },
               {
                 "id": "q7",
                 "sentence": "4<ruby> 月 <rt> がつ </rt></ruby> から この <ruby> 会社 <rt> かいしゃ </rt></ruby> で <ruby> 働 <rt> はたら </rt></ruby> く ことに なりました。(<ruby> 働 <rt> はたら </rt></ruby>く)",
-                "correct_answer": "働く"
+                "correct_answer": "?????"
               }
             ]
           },
@@ -5683,27 +5683,27 @@
               {
                 "id": "q1",
                 "sentence": "おいしい ワインですよ。 <ruby> 飲 <rt> の </rt></ruby> んでみませんか。(<ruby> 飲 <rt> の </rt></ruby>む)",
-                "correct_answer": "飲んでみ"
+                "correct_answer": "???"
               },
               {
                 "id": "q2",
                 "sentence": "おきゃくさんが <ruby> 来 <rt> く </rt></ruby> るので、へやを そうじして おきます。(そうじする)",
-                "correct_answer": "そうじして"
+                "correct_answer": "?????"
               },
               {
                 "id": "q3",
                 "sentence": "A「かぎは どこですか。」<br>B「つくえの 上に おいて おきましたよ。」(おく)",
-                "correct_answer": "おいて"
+                "correct_answer": "???"
               },
               {
                 "id": "q4",
                 "sentence": "あ、ほかの <ruby> 人 <rt> ひと </rt></ruby> の かさを <ruby> 持 <rt> も </rt></ruby> ってきて しまった。(<ruby> 持 <rt> も </rt></ruby>って くる)",
-                "correct_answer": "持ってきて"
+                "correct_answer": "?????"
               },
               {
                 "id": "q5",
                 "sentence": "ビルが できて、ここから <ruby> 富士山 <rt> ふじさん </rt></ruby> が <ruby> 見 <rt> み </rt></ruby> えなくなって しまいました。(<ruby> 見 <rt> み </rt></ruby>えなく なる)",
-                "correct_answer": "見えなくなって"
+                "correct_answer": "???????"
               }
             ]
           },
@@ -5749,7 +5749,7 @@
                   "b <ruby> 読 <rt> よ </rt></ruby> んで おく",
                   "c <ruby> 読 <rt> よ </rt></ruby> んで しまう"
                 ],
-                "correct_answer": "b"
+                "correct_answer": "c"
               },
               {
                 "id": "q5",
@@ -5842,27 +5842,27 @@
               {
                 "id": "q1",
                 "sentence": "<ruby> 両親 <rt> りょうしん </rt></ruby> に <ruby> 東京 <rt> とうきょう </rt></ruby> スカイツリーを <ruby> 見 <rt> み </rt></ruby> せて あげたいです。(<ruby> 見 <rt> み </rt></ruby>せる)",
-                "correct_answer": "見せて"
+                "correct_answer": "???"
               },
               {
                 "id": "q2",
                 "sentence": "<ruby> 先週 <rt> せんしゅう </rt></ruby>、<ruby> 山田 <rt> やまだ </rt></ruby> さんが パーティーに しょうたいして くれました。(しょうたいする)",
-                "correct_answer": "しょうたいして"
+                "correct_answer": "???????"
               },
               {
                 "id": "q3",
                 "sentence": "<ruby> 先生 <rt> せんせい </rt></ruby> は いつも ていねいに <ruby> 教 <rt> おし </rt></ruby> えて くださいます。(<ruby> 教 <rt> おし </rt></ruby>える)",
-                "correct_answer": "教えて"
+                "correct_answer": "???"
               },
               {
                 "id": "q4",
                 "sentence": "<ruby> 友 <rt> とも </rt></ruby> だちに <ruby> 撮 <rt> と </rt></ruby> って もらった <ruby> 写真 <rt> しゃしん </rt></ruby> を <ruby> 母 <rt> はは </rt></ruby> に <ruby> 送 <rt> おく </rt></ruby> りました。(とる)",
-                "correct_answer": "撮って"
+                "correct_answer": "???"
               },
               {
                 "id": "q5",
                 "sentence": "すみませんが、<ruby> 作文 <rt> さくぶん </rt></ruby> を なおして いただけませんか。(なおす)",
-                "correct_answer": "なおして"
+                "correct_answer": "????"
               }
             ]
           },
@@ -5898,7 +5898,7 @@
                   "b くださいました",
                   "c いただきました"
                 ],
-                "correct_answer": "a"
+                "correct_answer": "c"
               },
               {
                 "id": "q4",
@@ -5996,37 +5996,37 @@
               {
                 "id": "q1",
                 "sentence": "<ruby> 今週 <rt> こんしゅう </rt></ruby> は <ruby> 部長 <rt> ぶちょう </rt></ruby> に <ruby> 仕事 <rt> しごと </rt></ruby> を たくさん たのまれました。(たのむ)",
-                "correct_answer": "たのまれ"
+                "correct_answer": "????"
               },
               {
                 "id": "q2",
                 "sentence": "わたしは よく <ruby> 父 <rt> ちち </rt></ruby> に しかられます。(しかる)",
-                "correct_answer": "しかられ"
+                "correct_answer": "????"
               },
               {
                 "id": "q3",
                 "sentence": "<ruby> 母 <rt> はは </rt></ruby> は まんがを ぜんぶ すてられました。(すてる)",
-                "correct_answer": "すてられ"
+                "correct_answer": "????"
               },
               {
                 "id": "q4",
                 "sentence": "<ruby> 友 <rt> とも </rt></ruby> だちに <ruby> 名前 <rt> なまえ </rt></ruby> を まちがえられて、かなしかった。(まちがえる)",
-                "correct_answer": "まちがえられて"
+                "correct_answer": "??????"
               },
               {
                 "id": "q5",
                 "sentence": "おふろに <ruby> 入 <rt> はい </rt></ruby> って いる とき、<ruby> 友 <rt> とも </rt></ruby> だちに <ruby> 来 <rt> き </rt></ruby> られて、こまりました。(<ruby> 来 <rt> き </rt></ruby>る)",
-                "correct_answer": "来られて"
+                "correct_answer": "???"
               },
               {
                 "id": "q6",
                 "sentence": "さいごに てんを とられて、まけて しまいました。(とる)",
-                "correct_answer": "とられて"
+                "correct_answer": "???"
               },
               {
                 "id": "q7",
                 "sentence": "この <ruby> 歌 <rt> うた </rt></ruby> は <ruby> 世界 <rt> せかい </rt></ruby> <ruby> 中 <rt> じゅう </rt></ruby> の <ruby> 人 <rt> ひと </rt></ruby> に <ruby> 知 <rt> し </rt></ruby> られて います。(<ruby> 知 <rt> し </rt></ruby>る)",
-                "correct_answer": "知られて"
+                "correct_answer": "???"
               }
             ]
           },
@@ -6165,37 +6165,37 @@
               {
                 "id": "q1",
                 "sentence": "<ruby> 店長 <rt> てんちょう </rt></ruby> は <ruby> 店員 <rt> てんいん </rt></ruby> たちに あいさつの <ruby> 言葉 <rt> ことば </rt></ruby> を おぼえさせます。(おぼえる)",
-                "correct_answer": "おぼえ"
+                "correct_answer": "?????"
               },
               {
                 "id": "q2",
                 "sentence": "ぼくは <ruby> 犬 <rt> いぬ </rt></ruby> に ボールを とりに <ruby> 行 <rt> い </rt></ruby> かせました。(<ruby> 行 <rt> い </rt></ruby>く)",
-                "correct_answer": "行かせ"
+                "correct_answer": "???"
               },
               {
                 "id": "q3",
                 "sentence": "トムさんは おもしろい ことを <ruby> 言 <rt> い </rt></ruby> って、サラさんを わらわせます。(わらう)",
-                "correct_answer": "言って わらわせ"
+                "correct_answer": "????"
               },
               {
                 "id": "q4",
                 "sentence": "おいしそうですね。少し <ruby> 食 <rt> た </rt></ruby> べさせて くれませんか。(<ruby> 食 <rt> た </rt></ruby>べる)",
-                "correct_answer": "食べさせて"
+                "correct_answer": "????"
               },
               {
                 "id": "q5",
                 "sentence": "いい <ruby> 仕事 <rt> しごと </rt></ruby> を <ruby> 見 <rt> み </rt></ruby> つけて、<ruby> 両親 <rt> りょうしん </rt></ruby> を よろこばせたいです。(よろこぶ)",
-                "correct_answer": "よろこばせ"
+                "correct_answer": "?????"
               },
               {
                 "id": "q6",
                 "sentence": "<ruby> 先週 <rt> せんしゅう </rt></ruby> は レポートを 3つも <ruby> 書 <rt> か </rt></ruby> かされて、たいへんでした。(<ruby> 書 <rt> か </rt></ruby>く)",
-                "correct_answer": "書かされ"
+                "correct_answer": "???????????"
               },
               {
                 "id": "q7",
                 "sentence": "わたしは <ruby> 社長 <rt> しゃちょう </rt></ruby> に <ruby> 日曜日 <rt> にちようび </rt></ruby> も <ruby> 会社 <rt> かいしゃ </rt></ruby> へ <ruby> 来 <rt> こ </rt></ruby> させられました。(<ruby> 来 <rt> く </rt></ruby>る)",
-                "correct_answer": "来させられ"
+                "correct_answer": "?????"
               }
             ]
           },
@@ -7474,7 +7474,7 @@
                   "b <ruby> 書 <rt> か </rt></ruby> く こと",
                   "c <ruby> 書 <rt> か </rt></ruby> く <ruby> 物 <rt> もの </rt></ruby>"
                 ],
-                "correct_answer": "b"
+                "correct_answer": "c"
               },
               {
                 "id": "q6",
@@ -7536,42 +7536,42 @@
               {
                 "id": "q1",
                 "sentence": "はじめて おせわいの <ruby> 人 <rt> ひと </rt></ruby> の <ruby> 前 <rt> まえ </rt></ruby> に <ruby> 立 <rt> た </rt></ruby> って スピーチを しました。(<ruby> 立 <rt> た </rt></ruby>つ)",
-                "correct_answer": "立って"
+                "correct_answer": "???"
               },
               {
                 "id": "q2",
                 "sentence": "あまり よく <ruby> 考 <rt> かんが </rt></ruby> えないで <ruby> 答 <rt> こた </rt></ruby> えて しまいました。(<ruby> 考 <rt> かんが </rt></ruby>える)",
-                "correct_answer": "考えないで"
+                "correct_answer": "?????"
               },
               {
                 "id": "q3",
                 "sentence": "お<ruby> 金 <rt> かね </rt></ruby> を <ruby> 入 <rt> い </rt></ruby> れて、ボタンを おして ください。(<ruby> 入 <rt> い </rt></ruby>れる)",
-                "correct_answer": "入れて"
+                "correct_answer": "???"
               },
               {
                 "id": "q4",
                 "sentence": "うちでは <ruby> 母 <rt> はは </rt></ruby> は あまり <ruby> 料理 <rt> りょうり </rt></ruby> を <ruby> 作 <rt> つく </rt></ruby> らず、<ruby> 父 <rt> ちち </rt></ruby> が よく します。(する)",
-                "correct_answer": "作らず"
+                "correct_answer": "????"
               },
               {
                 "id": "q5",
                 "sentence": "くつを <ruby> 履 <rt> は </rt></ruby> かないで <ruby> 家 <rt> いえ </rt></ruby> の <ruby> 外 <rt> そと </rt></ruby> へ <ruby> 出 <rt> で </rt></ruby> ては いけませんよ。(<ruby> 履 <rt> は </rt></ruby>く)",
-                "correct_answer": "履かないで"
+                "correct_answer": "?????"
               },
               {
                 "id": "q6",
                 "sentence": "まどを <ruby> 開 <rt> あ </rt></ruby> けて すずしい <ruby> 風 <rt> かぜ </rt></ruby> を <ruby> 入 <rt> い </rt></ruby> れましょう。(<ruby> 開 <rt> あ </rt></ruby>ける)",
-                "correct_answer": "開けて"
+                "correct_answer": "???"
               },
               {
                 "id": "q7",
                 "sentence": "やさいを こまかく <ruby> 切 <rt> き </rt></ruby> って、この さら に <ruby> 入 <rt> い </rt></ruby> れて ください。(<ruby> 切 <rt> き </rt></ruby>る)",
-                "correct_answer": "切って"
+                "correct_answer": "???"
               },
               {
                 "id": "q8",
                 "sentence": "サラさんが <ruby> 歌 <rt> うた </rt></ruby> って、トムさんが ギターを ひきました。(<ruby> 歌 <rt> うた </rt></ruby>う)",
-                "correct_answer": "歌って"
+                "correct_answer": "???"
               }
             ]
           },
@@ -7592,12 +7592,12 @@
               {
                 "id": "q3",
                 "sentence": "ピーと <ruby> 音 <rt> おと </rt></ruby> が (a して b した)、<ruby> 時計 <rt> とけい </rt></ruby> が <ruby> 止 <rt> と </rt></ruby> まりました。",
-                "correct_answer": "b"
+                "correct_answer": "a"
               },
               {
                 "id": "q4",
                 "sentence": "お<ruby> 金 <rt> かね </rt></ruby> が (a <ruby> 足 <rt> た </rt></ruby> りないので b <ruby> 足 <rt> た </rt></ruby> りなくて)、<ruby> 本 <rt> ほん </rt></ruby> が <ruby> 買 <rt> か </rt></ruby> えませんでした。",
-                "correct_answer": "a"
+                "correct_answer": "b"
               },
               {
                 "id": "q5",
@@ -7617,7 +7617,7 @@
               {
                 "id": "q8",
                 "sentence": "さっき<ruby> 店 <rt> みせ </rt></ruby> に (a <ruby> 入 <rt> はい </rt></ruby> って b <ruby> 入 <rt> はい </rt></ruby> った <ruby> 後 <rt> あと </rt></ruby> で)、まどの <ruby> 近 <rt> ちか </rt></ruby> くに すわりました。",
-                "correct_answer": "b"
+                "correct_answer": "a"
               },
               {
                 "id": "q9",
@@ -7637,7 +7637,7 @@
               {
                 "id": "q12",
                 "sentence": "<ruby> 今 <rt> いま </rt></ruby> こどもたちは <ruby> 起 <rt> お </rt></ruby> きて いて、<ruby> 両親 <rt> りょうしん </rt></ruby> は (a ねて いない b ねて いる)。",
-                "correct_answer": "a"
+                "correct_answer": "b"
               }
             ]
           }
@@ -7859,32 +7859,32 @@
               {
                 "id": "q1",
                 "sentence": "けんは <ruby> 今 <rt> いま </rt></ruby> 、<ruby> 本 <rt> ほん </rt></ruby> を <ruby> 読 <rt> よ </rt></ruby> んで います。(<ruby> 読 <rt> よ </rt></ruby>む)",
-                "correct_answer": "読んで"
+                "correct_answer": "???"
               },
               {
                 "id": "q2",
                 "sentence": "<ruby> 兄 <rt> あに </rt></ruby> は <ruby> 中国 <rt> ちゅうごく </rt></ruby> へ <ruby> 行 <rt> い </rt></ruby> って います。(<ruby> 行 <rt> い </rt></ruby>く)",
-                "correct_answer": "行って"
+                "correct_answer": "???"
               },
               {
                 "id": "q3",
                 "sentence": "<ruby> 父 <rt> ちち </rt></ruby> は <ruby> 高校 <rt> こうこう </rt></ruby> で <ruby> 英語 <rt> えいご </rt></ruby> を <ruby> 教 <rt> おし </rt></ruby> えて います。(<ruby> 教 <rt> おし </rt></ruby>える)",
-                "correct_answer": "教えて"
+                "correct_answer": "???"
               },
               {
                 "id": "q4",
                 "sentence": "まだ かぜの <ruby> 薬 <rt> くすり </rt></ruby> を <ruby> 飲 <rt> の </rt></ruby> んで いません。(<ruby> 飲 <rt> の </rt></ruby>む)",
-                "correct_answer": "飲んで"
+                "correct_answer": "???"
               },
               {
                 "id": "q5",
                 "sentence": "<ruby> 友 <rt> とも </rt></ruby> だちが <ruby> 来 <rt> き </rt></ruby> るので、ケーキが <ruby> 買 <rt> か </rt></ruby> って あります。(<ruby> 買 <rt> か </rt></ruby>う)",
-                "correct_answer": "買って"
+                "correct_answer": "???"
               },
               {
                 "id": "q6",
                 "sentence": "カメラは かばんの <ruby> 中 <rt> なか </rt></ruby> に <ruby> 入 <rt> い </rt></ruby> れて あります。(<ruby> 入 <rt> い </rt></ruby>れる)",
-                "correct_answer": "入れて"
+                "correct_answer": "???"
               }
             ]
           },
@@ -7900,7 +7900,7 @@
                   "b ついて いますよ",
                   "c ついて いますよ"
                 ],
-                "correct_answer": "b"
+                "correct_answer": "c"
               },
               {
                 "id": "q2",
@@ -7970,7 +7970,7 @@
                   "b <ruby> 知 <rt> し </rt></ruby> って いない",
                   "c <ruby> 知 <rt> し </rt></ruby> らなかった"
                 ],
-                "correct_answer": "b"
+                "correct_answer": "a"
               }
             ]
           }
@@ -8009,32 +8009,32 @@
               {
                 "id": "q1",
                 "sentence": "ねこが <ruby> 出 <rt> で </rt></ruby> て いきました。(にげる)",
-                "correct_answer": "にげて"
+                "correct_answer": "???"
               },
               {
                 "id": "q2",
                 "sentence": "ちょっと <ruby> 手 <rt> て </rt></ruby> を <ruby> 洗 <rt> あら </rt></ruby> って きます。(あらう)",
-                "correct_answer": "洗って"
+                "correct_answer": "????"
               },
               {
                 "id": "q3",
                 "sentence": "このごろ <ruby> 昼 <rt> ひる </rt></ruby> の <ruby> 時間 <rt> じかん </rt></ruby> が <ruby> 長 <rt> なが </rt></ruby> くなって きました。(なる)",
-                "correct_answer": "長くなって"
+                "correct_answer": "???"
               },
               {
                 "id": "q4",
                 "sentence": "<ruby> 母 <rt> はは </rt></ruby> に お<ruby> 金 <rt> かね </rt></ruby> を <ruby> 送 <rt> おく </rt></ruby> る ために、<ruby> 毎日 <rt> まいにち </rt></ruby> まじめに <ruby> 働 <rt> はたら </rt></ruby> いて きました。(<ruby> 働 <rt> はたら </rt></ruby>く)",
-                "correct_answer": "働いて"
+                "correct_answer": "???"
               },
               {
                 "id": "q5",
                 "sentence": "この <ruby> 手紙 <rt> てがみ </rt></ruby> を ポストに <ruby> 入 <rt> い </rt></ruby> れて いってね。(<ruby> 入 <rt> い </rt></ruby>れる)",
-                "correct_answer": "入れて"
+                "correct_answer": "???"
               },
               {
                 "id": "q6",
                 "sentence": "<ruby> 前 <rt> まえ </rt></ruby> の <ruby> 駅 <rt> えき </rt></ruby> で <ruby> 人 <rt> ひと </rt></ruby> が たくさん <ruby> 降 <rt> お </rt></ruby> りて いった。(おりる)",
-                "correct_answer": "降りて"
+                "correct_answer": "???"
               }
             ]
           },
@@ -8340,27 +8340,27 @@
               {
                 "id": "q1",
                 "sentence": "すみません。ここ で たばこを すっても いいですか。",
-                "correct_answer": "ここ"
+                "correct_answer": "??"
               },
               {
                 "id": "q2",
                 "sentence": "① その <ruby> 本 <rt> ほん </rt></ruby> は <ruby> 持 <rt> も </rt></ruby> って <ruby> 帰 <rt> かえ </rt></ruby> らないで、② ここ で <ruby> 読 <rt> よ </rt></ruby> んで ください。",
-                "correct_answer": "①その, ②ここ"
+                "correct_answer": "??? ???"
               },
               {
                 "id": "q3",
                 "sentence": "<ruby> 客 <rt> きゃく </rt></ruby> 「あの、① この シャツの Mサイズは ありますか。」<br><ruby> 店員 <rt> てんいん </rt></ruby> 「ああ、② そちら なら ありますよ。ちょっと <ruby> 待 <rt> ま </rt></ruby> って ください。」",
-                "correct_answer": "①この, ②そちら"
+                "correct_answer": "??? ???"
               },
               {
                 "id": "q4",
                 "sentence": "あそこ めがねを かけて いる <ruby> 人 <rt> ひと </rt></ruby> は だれですか。",
-                "correct_answer": "あそこ"
+                "correct_answer": "??"
               },
               {
                 "id": "q5",
                 "sentence": "バスの <ruby> 客 <rt> きゃく </rt></ruby> 「① あの に <ruby> 高 <rt> たか </rt></ruby> い ビルが ありますね。② ここ バスは ③ あそこ へんまで <ruby> 行 <rt> い </rt></ruby> きますか。」<br><ruby> 運転手 <rt> うんてんしゅ </rt></ruby> 「ええ、<ruby> 行 <rt> い </rt></ruby> きますよ。」",
-                "correct_answer": "①あの, ②この, ③あそこ"
+                "correct_answer": "???? ??? ???"
               }
             ]
           },
@@ -8375,7 +8375,7 @@
                   "①a これ b それ c その",
                   "②a これ b この c それ"
                 ],
-                "correct_answer": "c, c"
+                "correct_answer": "c, a"
               },
               {
                 "id": "q2",
@@ -8385,7 +8385,7 @@
                   "b その <ruby> 店 <rt> みせ </rt></ruby>",
                   "c あの <ruby> 店 <rt> みせ </rt></ruby>"
                 ],
-                "correct_answer": "c"
+                "correct_answer": "a"
               },
               {
                 "id": "q3",
@@ -8510,7 +8510,7 @@
               {
                 "id": "q3",
                 "sentence": "はじめて この <ruby> 料理 <rt> りょうり </rt></ruby> を 作りました。けれども、(a おいしく できたと <ruby> 思 <rt> おも </rt></ruby> います b おいしく できませんでした)。",
-                "correct_answer": "b"
+                "correct_answer": "a"
               },
               {
                 "id": "q4",
@@ -8627,7 +8627,7 @@
               {
                 "id": "q4",
                 "sentence": "<ruby> 今日 <rt> きょう </rt></ruby> は もう (a たくさん b <ruby> 一人 <rt> ひとり </rt></ruby>) <ruby> 友 <rt> とも </rt></ruby> だちが <ruby> 来 <rt> き </rt></ruby> ます。",
-                "correct_answer": "a"
+                "correct_answer": "b"
               },
               {
                 "id": "q5",
@@ -8710,52 +8710,52 @@
               {
                 "id": "q1",
                 "sentence": "カードで <ruby> 買 <rt> か </rt></ruby> い<ruby> 物 <rt> もの </rt></ruby> を <ruby> 使 <rt> つか </rt></ruby> いすぎると、<ruby> 後 <rt> あと </rt></ruby> で こまりますよ。(する)",
-                "correct_answer": "使いすぎ"
+                "correct_answer": "?"
               },
               {
                 "id": "q2",
                 "sentence": "コーヒーを <ruby> 飲 <rt> の </rt></ruby> みすぎて しまって、ねれません。(<ruby> 飲 <rt> の </rt></ruby>む)",
-                "correct_answer": "飲みすぎて"
+                "correct_answer": "??"
               },
               {
                 "id": "q3",
                 "sentence": "この ケーキは <ruby> 甘 <rt> あま </rt></ruby> すぎます。(あまい)",
-                "correct_answer": "甘すぎ"
+                "correct_answer": "??"
               },
               {
                 "id": "q4",
                 "sentence": "<ruby> 話 <rt> はな </rt></ruby> が むずかしすぎて、よく わかりませんでした。(むずかしい)",
-                "correct_answer": "難しすぎて"
+                "correct_answer": "????"
               },
               {
                 "id": "q5",
                 "sentence": "あの <ruby> 人 <rt> ひと </rt></ruby> は <ruby> 真面目 <rt> まじめ </rt></ruby> すぎるので、おもしろくない。(まじめだ)",
-                "correct_answer": "真面目すぎる"
+                "correct_answer": "???"
               },
               {
                 "id": "q6",
                 "sentence": "この はこは <ruby> 大 <rt> おお </rt></ruby> きくて、<ruby> 運 <rt> はこ </rt></ruby> びにくいです。(<ruby> 運 <rt> はこ </rt></ruby>ぶ)",
-                "correct_answer": "運びにくい"
+                "correct_answer": "??"
               },
               {
                 "id": "q7",
                 "sentence": "<ruby> 大 <rt> おお </rt></ruby> きい ハンバーガーは <ruby> 食 <rt> た </rt></ruby> べにくいです。(<ruby> 食 <rt> た </rt></ruby>べる)",
-                "correct_answer": "食べにくい"
+                "correct_answer": "??"
               },
               {
                 "id": "q8",
                 "sentence": "<ruby> 書 <rt> か </rt></ruby> きやすい ペンは どれですか。(<ruby> 書 <rt> か </rt></ruby>く)",
-                "correct_answer": "書きやすい"
+                "correct_answer": "??"
               },
               {
                 "id": "q9",
                 "sentence": "よく <ruby> 使 <rt> つか </rt></ruby> う <ruby> 本 <rt> ほん </rt></ruby> は <ruby> 取 <rt> と </rt></ruby> りやすい <ruby> 所 <rt> ところ </rt></ruby> に おこう。(とる)",
-                "correct_answer": "取りやすい"
+                "correct_answer": "??"
               },
               {
                 "id": "q10",
                 "sentence": "この <ruby> 漢字 <rt> かんじ </rt></ruby> は <ruby> 間違 <rt> まちが </rt></ruby> えやすいので、<ruby> 注意 <rt> ちゅうい </rt></ruby> して ください。(まちがえる)",
-                "correct_answer": "間違えやすい"
+                "correct_answer": "????"
               }
             ]
           },
@@ -8845,52 +8845,52 @@
               {
                 "id": "q1",
                 "sentence": "この <ruby> 店 <rt> みせ </rt></ruby> は <ruby> 日曜日 <rt> にちようび </rt></ruby> は <ruby> 休 <rt> やす </rt></ruby> みです。(<ruby> 休 <rt> やす </rt></ruby>む)",
-                "correct_answer": "休み"
+                "correct_answer": "??"
               },
               {
                 "id": "q2",
                 "sentence": "わたしの しゅみは <ruby> 釣 <rt> つ </rt></ruby> りです。(<ruby> 魚 <rt> さかな </rt></ruby> を つる)",
-                "correct_answer": "釣り"
+                "correct_answer": "???"
               },
               {
                 "id": "q3",
                 "sentence": "パーティーの <ruby> 後 <rt> あと </rt></ruby> の <ruby> 片付 <rt> かたづ </rt></ruby> けは ぼくたちが するよ。(かたづける)",
-                "correct_answer": "片付け"
+                "correct_answer": "????"
               },
               {
                 "id": "q4",
                 "sentence": "サービスの <ruby> 良 <rt> い </rt></ruby> さでは Kホテルが いちばんです。(いい)",
-                "correct_answer": "よさ"
+                "correct_answer": "??"
               },
               {
                 "id": "q5",
                 "sentence": "にもつの① <ruby> 大 <rt> おお </rt></ruby> きさと ② <ruby> 重 <rt> おも </rt></ruby> さを <ruby> 教 <rt> おし </rt></ruby> えて ください。(<ruby> 大 <rt> おお </rt></ruby>きい、<ruby> 重 <rt> おも </rt></ruby>い)",
-                "correct_answer": "大きさ, 重さ"
+                "correct_answer": "???? ???"
               },
               {
                 "id": "q6",
                 "sentence": "<ruby> 家族 <rt> かぞく </rt></ruby> の <ruby> 大切 <rt> たいせつ </rt></ruby> さが よく わかりました。(たいせつだ)",
-                "correct_answer": "大切さ"
+                "correct_answer": "???"
               },
               {
                 "id": "q7",
                 "sentence": "<ruby> 毎日 <rt> まいにち </rt></ruby> <ruby> 遠 <rt> とお </rt></ruby> くから <ruby> 通 <rt> かよ </rt></ruby> うのは たいへんだね。(<ruby> 通 <rt> かよ </rt></ruby>う)",
-                "correct_answer": "通う"
+                "correct_answer": "??"
               },
               {
                 "id": "q8",
                 "sentence": "<ruby> 母 <rt> はは </rt></ruby> が きのう <ruby> 日本 <rt> にほん </rt></ruby> に <ruby> 来 <rt> き </rt></ruby> たことを <ruby> 先生 <rt> せんせい </rt></ruby> に <ruby> 話 <rt> はな </rt></ruby> した。(<ruby> 来 <rt> き </rt></ruby>る)",
-                "correct_answer": "来た"
+                "correct_answer": "??"
               },
               {
                 "id": "q9",
                 "sentence": "みなさんの <ruby> 意見 <rt> いけん </rt></ruby> を <ruby> 自由 <rt> じゆう </rt></ruby> に <ruby> 言 <rt> い </rt></ruby> って ください。(じゆうだ)",
-                "correct_answer": "自由に"
+                "correct_answer": "????"
               },
               {
                 "id": "q10",
                 "sentence": "ピーターさんは <ruby> 日本 <rt> にほん </rt></ruby> に <ruby> 長 <rt> なが </rt></ruby> く <ruby> 住 <rt> す </rt></ruby> んで います。(<ruby> 長 <rt> なが </rt></ruby>い)",
-                "correct_answer": "長く"
+                "correct_answer": "??"
               }
             ]
           },
@@ -8916,7 +8916,7 @@
                   "b <ruby> 高 <rt> たか </rt></ruby> さ",
                   "c <ruby> 高 <rt> たか </rt></ruby> い こと"
                 ],
-                "correct_answer": "b"
+                "correct_answer": "c"
               },
               {
                 "id": "q3",
