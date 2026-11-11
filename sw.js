@@ -1,4 +1,4 @@
-﻿const CACHE_NAME = 'grammar-app-v3';
+const CACHE_NAME = 'grammar-app-v4';
 const urlsToCache = [
     './',
     './index.html',

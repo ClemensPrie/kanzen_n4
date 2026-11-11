@@ -85,7 +85,7 @@ def build_app():
         json.dump(manifest, f, ensure_ascii=False, indent=2)
 
     # 5. Generate the Service Worker
-    sw_code = """const CACHE_NAME = 'grammar-app-v3';
+    sw_code = """    const CACHE_NAME = 'grammar-app-v4';
 const urlsToCache = [
     './',
     './index.html',
@@ -144,7 +144,7 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>__APP_TITLE__</title>
     <link rel="manifest" href="./manifest.json">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -155,7 +155,7 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
     <style>
         :root { --primary: #2c3e50; --primary-light: #3498db; --bg: #f9f9f9; --text: #333; --border: #ddd; }
         * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif; }
-        body { display: flex; height: 100vh; background: var(--bg); color: var(--text); }
+        body { display: flex; height: 100vh; height: 100dvh; min-height: 100svh; overflow: hidden; background: var(--bg); color: var(--text); }
 
         /* Sidebar */
         nav { width: 260px; background: var(--primary); color: white; overflow-y: auto; padding: 16px; flex-shrink: 0; }
@@ -169,8 +169,17 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
         #menu-toggle { display: none; background: none; border: none; color: white; font-size: 1.5em; cursor: pointer; padding: 4px 8px; }
 
         /* Main */
-        main { flex: 1; padding: 24px; overflow-y: auto; }
+        main { flex: 1; min-width: 0; min-height: 0; padding: 24px; overflow-y: auto; }
         .content-box { background: white; padding: 24px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); max-width: 800px; margin: 0 auto; }
+        .chapter-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin-top: 20px; }
+        .chapter-card { display: block; padding: 16px; border: 1px solid var(--border); border-left: 4px solid var(--primary-light); border-radius: 8px; color: var(--text); text-decoration: none; background: var(--bg); }
+        .chapter-card:hover { border-color: var(--primary-light); }
+        .chapter-card strong { display: block; margin-bottom: 4px; color: var(--primary-light); }
+        .chapter-items { list-style: none; margin-top: 16px; }
+        .chapter-items li { border-bottom: 1px solid var(--border); }
+        .chapter-items a { display: block; min-height: 48px; padding: 12px 4px; color: var(--primary-light); text-decoration: none; }
+        .chapter-items a:hover { text-decoration: underline; }
+        .mobile-page-nav { display: none; }
 
         /* Breadcrumbs */
         .breadcrumbs { font-size: 0.85em; color: #888; margin-bottom: 12px; padding: 0 4px; max-width: 800px; margin-left: auto; margin-right: auto; }
@@ -189,6 +198,7 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
         .formula { background: #e8f8f5; padding: 8px 12px; border-radius: 4px; font-weight: bold; margin: 10px 0; font-size: 0.95em; }
 
         /* Conjugation table */
+        .table-scroll { max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
         .conj-table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 0.9em; }
         .conj-table th, .conj-table td { border: 1px solid var(--border); padding: 6px 10px; text-align: center; }
         .conj-table th { background: var(--primary); color: white; }
@@ -244,6 +254,7 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
         /* Back link */
         .back-link { display: inline-block; margin-top: 16px; color: var(--primary-light); text-decoration: none; font-size: 0.9em; }
         .back-link:hover { text-decoration: underline; }
+        :focus-visible { outline: 3px solid #f39c12; outline-offset: 2px; }
 
         /* Theme toggle */
         .theme-toggle { position: fixed; bottom: 16px; right: 16px; z-index: 100; background: var(--primary); color: white; border: none; border-radius: 50%; width: 40px; height: 40px; cursor: pointer; font-size: 1.1em; box-shadow: 0 2px 6px rgba(0,0,0,0.2); }
@@ -251,12 +262,22 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
         /* Responsive */
         @media (max-width: 768px) {
             body { flex-direction: column; }
-            nav { width: 100%; height: auto; max-height: 48px; overflow: hidden; padding: 8px 16px; transition: max-height 0.3s; }
-            nav.open { max-height: 80vh; overflow-y: auto; }
+            nav { position: sticky; top: 0; z-index: 20; width: 100%; height: auto; max-height: none; overflow: visible; padding: calc(8px + env(safe-area-inset-top)) 16px 8px; }
             nav h1 { display: inline; font-size: 1em; border-bottom: none; }
-            #menu-toggle { display: inline-block; float: right; }
-            main { padding: 12px; }
-            .content-box { padding: 16px; }
+            #menu-toggle { display: inline-block; min-width: 44px; min-height: 44px; }
+            #nav-links { display: none; position: absolute; top: 100%; left: 0; right: 0; max-height: calc(100dvh - 60px - env(safe-area-inset-top)); overflow-y: auto; overscroll-behavior: contain; padding: 8px 16px; background: var(--primary); box-shadow: 0 8px 16px rgba(0,0,0,0.2); }
+            nav.open #nav-links { display: block; }
+            nav a { min-height: 44px; display: flex; align-items: center; padding: 8px 10px; }
+            nav h2 { margin-top: 14px; }
+            main { width: 100%; padding: 12px 12px 20px; }
+            .content-box { width: 100%; padding: 16px; }
+            .chapter-grid { grid-template-columns: 1fr; gap: 8px; margin-top: 16px; }
+            .mobile-page-nav { display: grid; grid-auto-columns: minmax(0, 1fr); grid-auto-flow: column; gap: 6px; flex: 0 0 auto; padding: 8px 10px calc(8px + env(safe-area-inset-bottom)); background: var(--primary); box-shadow: 0 -2px 10px rgba(0,0,0,0.12); }
+            .mobile-page-nav[hidden] { display: none; }
+            .mobile-page-nav a { display: flex; min-width: 0; min-height: 44px; align-items: center; justify-content: center; padding: 8px 6px; border-radius: 6px; color: white; text-align: center; text-decoration: none; font-size: 0.9em; }
+            .mobile-page-nav a:hover, .mobile-page-nav a:focus-visible { background: rgba(255,255,255,0.14); }
+            .theme-toggle { bottom: calc(72px + env(safe-area-inset-bottom)); right: 12px; }
+            .btn-group button { min-height: 44px; }
         }
         @media (prefers-color-scheme: dark) {
             :root { --bg: #1a1a2e; --text: #e0e0e0; --primary: #16213e; --border: #333; }
@@ -271,14 +292,16 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
             .conj-table .blank-cell { background: #2a2a1e; }
             .quiz-score { background: #1a3a2e; }
             input[type="text"] { background: #333; color: #e0e0e0; border-color: #555; }
+            .chapter-card { background: #222; }
+            .chapter-items li { border-color: #444; }
         }
     </style>
 </head>
 <body>
     <nav id="nav-bar">
-        <div style="display:flex;align-items:center;justify-content:space-between;">
+        <div class="nav-header" style="display:flex;align-items:center;justify-content:space-between;">
             <h1>__APP_TITLE__</h1>
-            <button id="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+            <button id="menu-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">&#9776;</button>
         </div>
         <div id="nav-links"></div>
     </nav>
@@ -288,6 +311,7 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
             <p>Loading data...</p>
         </div>
     </main>
+    <nav id="mobile-page-nav" class="mobile-page-nav" aria-label="Quick navigation" hidden></nav>
     <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">&#9790;</button>
     <script>
     // ===== CONFIG =====
@@ -299,6 +323,7 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
     var root = document.getElementById('app-root');
     var navLinks = document.getElementById('nav-links');
     var bcEl = document.getElementById('breadcrumbs');
+    var pageNav = document.getElementById('mobile-page-nav');
 
     // ===== DATA HELPERS =====
     function getItems(chapter) { return chapter.lessons || chapter.sections || []; }
@@ -330,6 +355,7 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
     }
 
     window.addEventListener('hashchange', function() {
+        setMenuOpen(false);
         renderPage();
         updateActiveNav();
     });
@@ -356,9 +382,10 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
     }
 
     function updateActiveNav() {
-        var hash = window.location.hash;
+        var route = getRoute();
+        var itemHash = route.itemId ? '#' + route.chapterId + '/' + route.itemId : '';
         document.querySelectorAll('#nav-links a').forEach(function(a) {
-            if (a.getAttribute('href') === hash) {
+            if (itemHash && a.getAttribute('href') === itemHash) {
                 a.classList.add('active');
             } else {
                 a.classList.remove('active');
@@ -368,16 +395,94 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
 
     // Hamburger toggle
     document.getElementById('menu-toggle').addEventListener('click', function() {
-        document.getElementById('nav-bar').classList.toggle('open');
+        setMenuOpen(!document.getElementById('nav-bar').classList.contains('open'));
     });
 
-    // Close sidebar on nav click (mobile)
+    function setMenuOpen(isOpen) {
+        var nav = document.getElementById('nav-bar');
+        var toggle = document.getElementById('menu-toggle');
+        nav.classList.toggle('open', isOpen);
+        toggle.setAttribute('aria-expanded', String(isOpen));
+        toggle.setAttribute('aria-label', isOpen ? 'Close navigation menu' : 'Open navigation menu');
+    }
+
+    navLinks.addEventListener('click', function(e) {
+        if (e.target.closest('a')) setMenuOpen(false);
+    });
+
     document.addEventListener('click', function(e) {
         var nav = document.getElementById('nav-bar');
-        if (nav.classList.contains('open') && e.target.tagName === 'A' && e.target.href) {
-            nav.classList.remove('open');
+        if (nav.classList.contains('open') && !nav.contains(e.target)) {
+            setMenuOpen(false);
         }
     });
+
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && document.getElementById('nav-bar').classList.contains('open')) {
+            setMenuOpen(false);
+            document.getElementById('menu-toggle').focus();
+        }
+    });
+
+    function updatePageNavigation(route) {
+        pageNav.innerHTML = '';
+        var links = [];
+
+        if (route.type === 'home') {
+            pageNav.hidden = true;
+            return;
+        }
+
+        if (route.type === 'chapter') {
+            var chapterIndex = data.findIndex(function(chapter) { return chapter.chapter_id === route.id; });
+            if (chapterIndex < 0) {
+                pageNav.hidden = true;
+                return;
+            }
+            links.push({ label: 'Home', url: '#', title: 'Home' });
+            if (chapterIndex > 0) {
+                var previousChapter = data[chapterIndex - 1];
+                links.push({ label: 'Previous', url: '#' + previousChapter.chapter_id, title: previousChapter.chapter_title });
+            }
+            if (chapterIndex < data.length - 1) {
+                var nextChapter = data[chapterIndex + 1];
+                links.push({ label: 'Next', url: '#' + nextChapter.chapter_id, title: nextChapter.chapter_title });
+            }
+        } else if (route.itemId) {
+            var chapter = data.find(function(entry) { return entry.chapter_id === route.chapterId; });
+            var items = chapter ? getItems(chapter) : [];
+            var itemIndex = items.findIndex(function(item) { return getItemId(item) === route.itemId; });
+            if (!chapter || itemIndex < 0) {
+                pageNav.hidden = true;
+                return;
+            }
+
+            if (route.type === 'item') {
+                links.push({ label: 'Chapter', url: '#' + route.chapterId, title: chapter.chapter_title });
+            } else {
+                var currentItem = items[itemIndex];
+                links.push({ label: 'Lesson', url: '#' + route.chapterId + '/' + route.itemId, title: currentItem.title });
+            }
+            if (itemIndex > 0) {
+                var previousItem = items[itemIndex - 1];
+                links.push({ label: 'Previous', url: '#' + route.chapterId + '/' + getItemId(previousItem), title: previousItem.title });
+            }
+            if (itemIndex < items.length - 1) {
+                var nextItem = items[itemIndex + 1];
+                links.push({ label: 'Next', url: '#' + route.chapterId + '/' + getItemId(nextItem), title: nextItem.title });
+            }
+        }
+
+        pageNav.hidden = links.length === 0;
+        links.forEach(function(link) {
+            var anchor = document.createElement('a');
+            anchor.href = link.url;
+            anchor.textContent = link.label;
+            anchor.title = link.title;
+            anchor.setAttribute('aria-label', link.label + ': ' + link.title);
+            pageNav.appendChild(anchor);
+        });
+    }
 
     // ===== BREADCRUMBS =====
     function renderBreadcrumbs(crumbs) {
@@ -406,6 +511,7 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
     function renderPage() {
         var route = getRoute();
         updateActiveNav();
+        updatePageNavigation(route);
 
         if (route.type === 'home') { renderHome(); return; }
         if (route.type === 'chapter') { renderChapter(route); return; }
@@ -416,7 +522,12 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
     }
 
     function renderHome() {
-        root.innerHTML = '<h1>Welcome!</h1><p>Select a chapter or lesson from the sidebar to start studying.</p>';
+        var html = '<h1>Welcome!</h1><p>Select a chapter to start studying.</p><div class="chapter-grid">';
+        data.forEach(function(chapter) {
+            html += '<a class="chapter-card" href="#' + chapter.chapter_id + '"><strong>' + escapeHtml(chapter.chapter_title || chapter.title || 'Chapter') + '</strong><span>' + getItems(chapter).length + ' lessons</span></a>';
+        });
+        html += '</div>';
+        root.innerHTML = html;
         renderBreadcrumbs([]);
     }
 
@@ -426,7 +537,11 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
         var p2 = isPart2(chapter);
         var pType = p2 ? 'lesson' : 'section';
         var items = getItems(chapter);
-        var html = '<h1>' + escapeHtml(chapter.chapter_title) + '</h1><p>' + items.length + ' ' + pType + '(s). Select one from the sidebar.</p>';
+        var html = '<h1>' + escapeHtml(chapter.chapter_title) + '</h1><p>' + items.length + ' ' + pType + '(s).</p><ul class="chapter-items">';
+        items.forEach(function(item) {
+            html += '<li><a href="#' + route.id + '/' + getItemId(item) + '">' + escapeHtml(item.title || 'Lesson') + '</a></li>';
+        });
+        html += '</ul>';
         root.innerHTML = html;
         renderBreadcrumbs([{ label: chapter.chapter_title }]);
     }
@@ -524,6 +639,7 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
             html += '</tr>';
         });
         html += '</tbody></table>';
+        html = '<div class="table-scroll">' + html + '</div>';
         return html;
     }
 
@@ -894,4 +1010,3 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
 
 if __name__ == "__main__":
     build_app()
-
