@@ -10,7 +10,7 @@ DATA_FILE = 'data.json'
 OUTPUT_DIR = '.'
 APP_TITLE = 'Grammar App (N4)'
 APP_SHORT_NAME = 'N4 Grammar'
-APP_THEME_COLOR = '#2c3e50'
+APP_THEME_COLOR = '#0c5139'
 
 # --- UTILITY: Generate minimal PNG icons (no external deps) ---
 def _png_chunk(chunk_type, data):
@@ -18,13 +18,60 @@ def _png_chunk(chunk_type, data):
     return struct.pack('>I', len(data)) + c + struct.pack('>I', zlib.crc32(c) & 0xffffffff)
 
 def create_png(width, height, r, g, b):
-    """Create a minimal solid-color PNG."""
+    """Create a small book-cover mark on a solid background."""
     sig = b'\x89PNG\r\n\x1a\n'
     ihdr = _png_chunk(b'IHDR', struct.pack('>IIBBBBB', width, height, 8, 2, 0, 0, 0))
+    pixels = bytearray([r, g, b] * width * height)
+
+    def fill_polygon(points, color):
+        points = [(int(x * width), int(y * height)) for x, y in points]
+        for y in range(max(0, min(point[1] for point in points)), min(height, max(point[1] for point in points))):
+            intersections = []
+            for index, (x1, y1) in enumerate(points):
+                x2, y2 = points[(index + 1) % len(points)]
+                if y1 <= y < y2 or y2 <= y < y1:
+                    intersections.append(x1 + (y - y1) * (x2 - x1) / (y2 - y1))
+            intersections.sort()
+            for start, end in zip(intersections[::2], intersections[1::2]):
+                for x in range(max(0, int(start)), min(width, int(end))):
+                    offset = (y * width + x) * 3
+                    pixels[offset:offset + 3] = bytes(color)
+
+    def fill_rect(left, top, right, bottom, color):
+        for y in range(int(top * height), int(bottom * height)):
+            for x in range(int(left * width), int(right * width)):
+                offset = (y * width + x) * 3
+                pixels[offset:offset + 3] = bytes(color)
+
+    white = (255, 255, 255)
+    green = (r, g, b)
+    fill_polygon([(0.17, 0.25), (0.48, 0.30), (0.48, 0.72), (0.17, 0.67)], white)
+    fill_polygon([(0.52, 0.30), (0.83, 0.25), (0.83, 0.67), (0.52, 0.72)], white)
+    for y in (0.40, 0.48, 0.56):
+        fill_rect(0.25, y, 0.41, y + 0.018, green)
+        fill_rect(0.59, y, 0.75, y + 0.018, green)
+
+    glyphs = {
+        'N': ('1001', '1101', '1011', '1001', '1001'),
+        '4': ('1001', '1001', '1111', '0001', '0001')
+    }
+    scale = max(1, width // 36)
+    text_width = 9 * scale
+    start_x = (width - text_width) // 2
+    start_y = int(height * 0.80)
+    for char_index, char in enumerate('N4'):
+        for row, bits in enumerate(glyphs[char]):
+            for column, bit in enumerate(bits):
+                if bit == '1':
+                    fill_rect((start_x + (char_index * 5 + column) * scale) / width,
+                              (start_y + row * scale) / height,
+                              (start_x + (char_index * 5 + column + 1) * scale) / width,
+                              (start_y + (row + 1) * scale) / height, white)
+
     raw_data = b''
     for y in range(height):
         raw_data += b'\x00'  # filter byte
-        raw_data += bytes([r, g, b]) * width
+        raw_data += pixels[y * width * 3:(y + 1) * width * 3]
     idat = _png_chunk(b'IDAT', zlib.compress(raw_data))
     iend = _png_chunk(b'IEND', b'')
     return sig + ihdr + idat + iend
@@ -49,22 +96,14 @@ def build_app():
     # 2. Ensure the output directory exists
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-    # 3. Generate icons if they don't exist on disk
-    icon_192_path = os.path.join(OUTPUT_DIR, 'icon-192.png')
+    # 3. Generate the book-inspired app icons
     for src in ['icon-192.png', 'icon-512.png']:
         dst = os.path.join(OUTPUT_DIR, src)
-        if os.path.exists(src) and os.path.abspath(src) != os.path.abspath(dst):
-            shutil.copyfile(src, dst)
-            print(f"  Copied {src}")
-        elif os.path.exists(src):
-            print(f"  {src} already in place")
-        else:
-            # Generate minimal PNG icon
-            sz = 192 if '192' in src else 512
-            png_data = create_png(sz, sz, 44, 62, 80)
-            with open(dst, 'wb') as f:
-                f.write(png_data)
-            print(f"  Generated {src}")
+        sz = 192 if '192' in src else 512
+        png_data = create_png(sz, sz, 12, 81, 57)
+        with open(dst, 'wb') as f:
+            f.write(png_data)
+        print(f"  Generated {src}")
 
     # 4. Generate the manifest.json
     manifest = {
@@ -73,7 +112,7 @@ def build_app():
         "description": "JLPT N4 grammar study app based on the Kanzen Master textbook",
         "start_url": ".",
         "display": "standalone",
-        "background_color": "#ffffff",
+        "background_color": APP_THEME_COLOR,
         "theme_color": APP_THEME_COLOR,
         "lang": "ja",
         "icons": [
@@ -85,7 +124,7 @@ def build_app():
         json.dump(manifest, f, ensure_ascii=False, indent=2)
 
     # 5. Generate the Service Worker
-    sw_code = """    const CACHE_NAME = 'grammar-app-v4';
+    sw_code = """    const CACHE_NAME = 'grammar-app-v6';
 const urlsToCache = [
     './',
     './index.html',
@@ -153,7 +192,8 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
     <meta name="apple-mobile-web-app-title" content="__APP_TITLE__">
     <link rel="apple-touch-icon" href="icon-192.png">
     <style>
-        :root { --primary: #2c3e50; --primary-light: #3498db; --bg: #f9f9f9; --text: #333; --border: #ddd; }
+        :root { color-scheme: light; --primary: #174b39; --primary-light: #2e8062; --primary-hover: #24674f; --bg: #f4f6f3; --surface: #fff; --surface-muted: #edf2ef; --surface-alt: #fafcfb; --text: #26332d; --text-muted: #63736a; --heading: #344b3f; --border: #d7e0da; --formula-bg: #e5f3ec; --input-bg: #fff; --prefilled-bg: #eef0ef; --blank-bg: #fff6d8; --score-bg: #e7f6ed; --positive: #16794b; --negative: #bd3d37; --warning: #ad6800; --table-header: #174b39; --shadow: rgba(0,0,0,0.06); }
+        :root[data-theme="dark"] { color-scheme: dark; --primary: #102a21; --primary-light: #68b58f; --primary-hover: #519a76; --bg: #131b17; --surface: #1d2822; --surface-muted: #28342d; --surface-alt: #222e27; --text: #e6eee8; --text-muted: #a9b9ae; --heading: #d0e0d5; --border: #3a4a40; --formula-bg: #203b2e; --input-bg: #18231d; --prefilled-bg: #303b34; --blank-bg: #3e3822; --score-bg: #1e392b; --positive: #69d29a; --negative: #ff8178; --warning: #ffc466; --table-header: #102a21; --shadow: rgba(0,0,0,0.24); }
         * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif; }
         body { display: flex; height: 100vh; height: 100dvh; min-height: 100svh; overflow: hidden; background: var(--bg); color: var(--text); }
 
@@ -170,9 +210,9 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
 
         /* Main */
         main { flex: 1; min-width: 0; min-height: 0; padding: 24px; overflow-y: auto; }
-        .content-box { background: white; padding: 24px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); max-width: 800px; margin: 0 auto; }
+        .content-box { background: var(--surface); padding: 24px; border-radius: 8px; box-shadow: 0 2px 8px var(--shadow); max-width: 800px; margin: 0 auto; }
         .chapter-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin-top: 20px; }
-        .chapter-card { display: block; padding: 16px; border: 1px solid var(--border); border-left: 4px solid var(--primary-light); border-radius: 8px; color: var(--text); text-decoration: none; background: var(--bg); }
+        .chapter-card { display: block; padding: 16px; border: 1px solid var(--border); border-left: 4px solid var(--primary-light); border-radius: 8px; color: var(--text); text-decoration: none; background: var(--surface-alt); }
         .chapter-card:hover { border-color: var(--primary-light); }
         .chapter-card strong { display: block; margin-bottom: 4px; color: var(--primary-light); }
         .chapter-items { list-style: none; margin-top: 16px; }
@@ -182,74 +222,85 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
         .mobile-page-nav { display: none; }
 
         /* Breadcrumbs */
-        .breadcrumbs { font-size: 0.85em; color: #888; margin-bottom: 12px; padding: 0 4px; max-width: 800px; margin-left: auto; margin-right: auto; }
+        .breadcrumbs { font-size: 0.9em; color: var(--text-muted); margin-bottom: 12px; padding: 0 4px; max-width: 800px; margin-left: auto; margin-right: auto; }
         .breadcrumbs a { color: var(--primary-light); text-decoration: none; }
         .breadcrumbs a:hover { text-decoration: underline; }
-        .breadcrumbs span { color: #888; }
+        .breadcrumbs span { color: var(--text-muted); }
 
         /* Typography */
         ruby { ruby-align: center; }
         rt { font-size: 0.7em; }
-        h1 { font-size: 1.6em; margin-bottom: 16px; color: var(--primary); }
-        h2 { font-size: 1.3em; margin: 20px 0 10px; color: #34495e; }
-        h3 { font-size: 1.1em; margin: 16px 0 8px; color: #555; }
+        h1 { font-size: 1.6em; margin-bottom: 16px; color: var(--primary-light); }
+        h2 { font-size: 1.3em; margin: 20px 0 10px; color: var(--heading); }
+        h3 { font-size: 1.1em; margin: 16px 0 8px; color: var(--text-muted); }
         p, li { line-height: 1.7; }
-        .grammar-example { background: #f1f2f6; padding: 10px 14px; border-left: 4px solid var(--primary-light); margin: 8px 0; border-radius: 0 4px 4px 0; }
-        .formula { background: #e8f8f5; padding: 8px 12px; border-radius: 4px; font-weight: bold; margin: 10px 0; font-size: 0.95em; }
+        .grammar-explanation { background: var(--surface-muted); border-left: 4px solid var(--primary-light); padding: 16px 18px; margin: 14px 0 18px; border-radius: 0 6px 6px 0; font-size: 1.08rem; line-height: 1.9; }
+        .grammar-explanation h3 { margin: 0 0 6px; color: var(--primary-light); font-size: 1.05em; }
+        .grammar-explanation p { margin: 0; }
+        .study-tip { margin-top: 10px !important; color: var(--text-muted); font-size: 0.94em; }
+        .grammar-example { background: var(--surface-muted); padding: 12px 14px; border-left: 4px solid var(--primary-light); margin: 8px 0; border-radius: 0 4px 4px 0; }
+        .example-translation { margin-top: 7px; padding-top: 7px; border-top: 1px solid var(--border); color: var(--text-muted); font-size: 0.94em; line-height: 1.65; white-space: pre-line; }
+        .translation-label { color: var(--primary-light); font-weight: 700; margin-right: 5px; }
+        .translation-toggle { display: inline-flex; align-items: center; gap: 8px; margin: 2px 0 6px; padding: 8px 11px; border: 1px solid var(--border); border-radius: 6px; background: var(--surface-alt); cursor: pointer; color: var(--text); }
+        .translation-toggle input { accent-color: var(--primary-light); width: 18px; height: 18px; }
+        .formula { background: var(--formula-bg); padding: 10px 12px; border-radius: 4px; font-weight: bold; margin: 10px 0; font-size: 1em; }
 
         /* Conjugation table */
         .table-scroll { max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
         .conj-table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 0.9em; }
         .conj-table th, .conj-table td { border: 1px solid var(--border); padding: 6px 10px; text-align: center; }
-        .conj-table th { background: var(--primary); color: white; }
-        .conj-table td { background: #fff; }
-        .conj-table input { width: 100%; border: 1px solid var(--border); border-radius: 3px; padding: 4px 6px; text-align: center; font-size: 0.95em; }
-        .conj-table .prefilled { background: #f0f0f0; color: #666; }
-        .conj-table .blank-cell { background: #fffde7; }
+        .conj-table th { background: var(--table-header); color: white; }
+        .conj-table td { background: var(--surface); }
+        .conj-table input { width: 100%; border: 1px solid var(--border); border-radius: 3px; padding: 4px 6px; text-align: center; font-size: 0.95em; background: var(--input-bg); color: var(--text); }
+        .conj-table .prefilled { background: var(--prefilled-bg); color: var(--text-muted); }
+        .conj-table .blank-cell { background: var(--blank-bg); }
 
         /* Exercises */
-        .exercise-block { margin-bottom: 24px; border-bottom: 1px solid #eee; padding-bottom: 20px; }
+        .exercise-block { margin-bottom: 24px; border-bottom: 1px solid var(--border); padding-bottom: 20px; }
         .exercise-block:last-child { border-bottom: none; }
-        .exercise-instruction { font-weight: bold; margin-bottom: 10px; color: #555; }
-        .question-block { margin-bottom: 16px; padding: 10px 12px; border-radius: 6px; background: #fafafa; }
+        .exercise-instruction { font-weight: bold; margin-bottom: 10px; color: var(--text-muted); }
+        .question-block { margin-bottom: 16px; padding: 10px 12px; border-radius: 6px; background: var(--surface-alt); }
         .question-block p { margin-bottom: 4px; }
         .question-number { font-weight: bold; color: var(--primary-light); margin-right: 6px; }
         .options { margin: 6px 0 4px 16px; }
         .options label { display: flex; align-items: baseline; gap: 6px; cursor: pointer; padding: 3px 0; font-size: 0.95em; }
         .options label:hover { color: var(--primary-light); }
-        input[type="text"] { padding: 5px 8px; border: 1px solid var(--border); border-radius: 4px; font-size: 0.95em; width: 120px; }
+        input[type="text"] { padding: 5px 8px; border: 1px solid var(--border); border-radius: 4px; font-size: 0.95em; width: 120px; background: var(--input-bg); color: var(--text); }
         input[type="text"]:focus { border-color: var(--primary-light); outline: none; box-shadow: 0 0 0 2px rgba(52,152,219,0.2); }
         .blank-input { width: 80px; margin: 0 2px; }
         .feedback { margin-top: 4px; font-size: 0.85em; min-height: 1.2em; }
-        .correct { color: #27ae60; font-weight: bold; }
-        .incorrect { color: #e74c3c; font-weight: bold; }
+        .correct { color: var(--positive); font-weight: bold; }
+        .incorrect { color: var(--negative); font-weight: bold; }
 
         /* Reading comprehension */
-        .reading-passage { background: #f1f2f6; padding: 14px; border-radius: 6px; margin: 12px 0; line-height: 1.8; font-size: 0.95em; }
+        .reading-passage { background: var(--surface-muted); padding: 14px; border-radius: 6px; margin: 12px 0; line-height: 1.8; font-size: 0.95em; }
 
         /* Buttons */
         .btn-group { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 16px; }
         button { background: var(--primary-light); color: white; border: none; padding: 8px 18px; border-radius: 5px; cursor: pointer; font-size: 0.95em; transition: background 0.15s; }
-        button:hover { background: #2980b9; }
-        .btn-secondary { background: #7f8c8d; }
-        .btn-secondary:hover { background: #636e72; }
-        .btn-success { background: #27ae60; }
-        .btn-success:hover { background: #219a52; }
-        .btn-warning { background: #f39c12; }
-        .btn-warning:hover { background: #d68910; }
+        button:hover { background: var(--primary-hover); }
+        .btn-secondary { background: #66736d; }
+        .btn-secondary:hover { background: #53605a; }
+        .btn-success { background: #176d43; }
+        .btn-success:hover { background: #125536; }
+        .btn-warning { background: #8a5100; }
+        .btn-warning:hover { background: #6e4100; }
+        :root[data-theme="dark"] button:not(.theme-toggle):not(#menu-toggle):not(.btn-secondary):not(.btn-success):not(.btn-warning),
+        :root[data-theme="dark"] nav a.active { color: #102a21; }
 
         /* Quiz score */
-        .quiz-score { background: #eafaf1; border: 2px solid #27ae60; border-radius: 8px; padding: 16px; margin-top: 16px; text-align: center; }
-        .quiz-score h3 { font-size: 1.4em; margin: 0 0 8px; color: var(--primary); }
-        .quiz-score .pct { font-size: 2em; font-weight: bold; color: #27ae60; }
-        .quiz-score .pct.low { color: #e74c3c; }
-        .quiz-score .pct.mid { color: #f39c12; }
+        .quiz-score { background: var(--score-bg); border: 2px solid var(--positive); border-radius: 8px; padding: 16px; margin-top: 16px; text-align: center; }
+        .quiz-score h3 { font-size: 1.4em; margin: 0 0 8px; color: var(--heading); }
+        .quiz-score .pct { font-size: 2em; font-weight: bold; color: var(--positive); }
+        .quiz-score .pct.low { color: var(--negative); }
+        .quiz-score .pct.mid { color: var(--warning); }
+        .quiz-mode-badge { background: var(--blank-bg); color: var(--text); border: 1px solid var(--warning); padding: 6px 14px; border-radius: 4px; margin-bottom: 12px; font-weight: bold; text-align: center; }
 
         /* Grammar point links */
         .gp-list { list-style: none; padding: 0; }
         .gp-list li { margin: 4px 0; }
-        .gp-list a { display: block; padding: 8px 12px; background: #f1f2f6; border-radius: 5px; color: var(--text); text-decoration: none; border-left: 3px solid var(--primary-light); }
-        .gp-list a:hover { background: #e2e6ea; }
+        .gp-list a { display: block; padding: 8px 12px; background: var(--surface-muted); border-radius: 5px; color: var(--text); text-decoration: none; border-left: 3px solid var(--primary-light); }
+        .gp-list a:hover { background: var(--surface-alt); }
 
         /* Back link */
         .back-link { display: inline-block; margin-top: 16px; color: var(--primary-light); text-decoration: none; font-size: 0.9em; }
@@ -257,7 +308,14 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
         :focus-visible { outline: 3px solid #f39c12; outline-offset: 2px; }
 
         /* Theme toggle */
-        .theme-toggle { position: fixed; bottom: 16px; right: 16px; z-index: 100; background: var(--primary); color: white; border: none; border-radius: 50%; width: 40px; height: 40px; cursor: pointer; font-size: 1.1em; box-shadow: 0 2px 6px rgba(0,0,0,0.2); }
+        .theme-toggle { position: fixed; bottom: 16px; right: 16px; z-index: 100; background: var(--primary); color: white; border: none; border-radius: 50%; width: 44px; height: 44px; cursor: pointer; font-size: 1.2em; box-shadow: 0 2px 6px var(--shadow); }
+        .book-cover { position: relative; overflow: hidden; min-height: 235px; margin: -4px 0 22px; padding: 24px; border-radius: 6px; background: #0c5139; color: white; box-shadow: 0 3px 12px rgba(0,0,0,0.16); }
+        .book-cover::after { content: ""; position: absolute; inset: auto 5% 12% 5%; height: 70px; opacity: 0.3; background: repeating-linear-gradient(60deg, transparent 0 10px, #fff 10px 11px, transparent 11px 20px), repeating-linear-gradient(-60deg, transparent 0 10px, #fff 10px 11px, transparent 11px 20px); }
+        .book-cover-top { font-size: 1.15em; font-weight: 700; letter-spacing: 0.08em; }
+        .book-cover-level { margin-top: 14px; font-size: 1.2em; font-weight: 700; }
+        .book-cover-level strong { float: right; font-size: 2.8em; line-height: 0.9; }
+        .book-cover-bottom { position: absolute; z-index: 1; bottom: 18px; left: 24px; font-size: 1.1em; font-weight: 700; letter-spacing: 0.06em; }
+        .brand-icon { width: 34px; height: 34px; object-fit: cover; border-radius: 4px; margin-right: 8px; vertical-align: middle; }
 
         /* Responsive */
         @media (max-width: 768px) {
@@ -279,28 +337,13 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
             .theme-toggle { bottom: calc(72px + env(safe-area-inset-bottom)); right: 12px; }
             .btn-group button { min-height: 44px; }
         }
-        @media (prefers-color-scheme: dark) {
-            :root { --bg: #1a1a2e; --text: #e0e0e0; --primary: #16213e; --border: #333; }
-            .content-box { background: #222; }
-            .grammar-example { background: #2a2a3e; }
-            .formula { background: #1a3a2e; }
-            .question-block { background: #2a2a3e; }
-            .gp-list a { background: #2a2a3e; color: #e0e0e0; }
-            .reading-passage { background: #2a2a3e; }
-            .conj-table td { background: #222; }
-            .conj-table .prefilled { background: #333; color: #aaa; }
-            .conj-table .blank-cell { background: #2a2a1e; }
-            .quiz-score { background: #1a3a2e; }
-            input[type="text"] { background: #333; color: #e0e0e0; border-color: #555; }
-            .chapter-card { background: #222; }
-            .chapter-items li { border-color: #444; }
-        }
+        :root[data-theme="dark"] .chapter-items li { border-color: var(--border); }
     </style>
 </head>
 <body>
     <nav id="nav-bar">
         <div class="nav-header" style="display:flex;align-items:center;justify-content:space-between;">
-            <h1>__APP_TITLE__</h1>
+            <h1><img class="brand-icon" src="icon-192.png" alt="">__APP_TITLE__</h1>
             <button id="menu-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">&#9776;</button>
         </div>
         <div id="nav-links"></div>
@@ -312,7 +355,7 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
         </div>
     </main>
     <nav id="mobile-page-nav" class="mobile-page-nav" aria-label="Quick navigation" hidden></nav>
-    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">&#9790;</button>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode">&#9790;</button>
     <script>
     // ===== CONFIG =====
     var APP_TITLE = '__APP_TITLE__';
@@ -320,6 +363,8 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
     // ===== STATE =====
     var data = [];
     var quizMode = false;
+    var themePreference = null;
+    var showTranslations = false;
     var root = document.getElementById('app-root');
     var navLinks = document.getElementById('nav-links');
     var bcEl = document.getElementById('breadcrumbs');
@@ -335,6 +380,12 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
         return q.correct_answer !== undefined ? q.correct_answer : q.answer;
     }
     function isPart2(chapter) { return !!chapter.lessons; }
+    function readPreference(key) {
+        try { return localStorage.getItem(key); } catch(e) { return null; }
+    }
+    function writePreference(key, value) {
+        try { localStorage.setItem(key, value); } catch(e) { /* preference remains active for this page */ }
+    }
 
     // ===== ROUTER =====
     function getRoute() {
@@ -522,7 +573,11 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
     }
 
     function renderHome() {
-        var html = '<h1>Welcome!</h1><p>Select a chapter to start studying.</p><div class="chapter-grid">';
+        var html = '<section class="book-cover" aria-label="Shin Kanzen Master N4 grammar study cover">' +
+            '<div class="book-cover-top">新完全マスター　文法</div>' +
+            '<div class="book-cover-level">日本語能力試験 <strong>N4</strong></div>' +
+            '<div class="book-cover-bottom">JLPT GRAMMAR · STUDY EDITION</div>' +
+            '</section><h1>Welcome!</h1><p>Select a chapter to start studying.</p><div class="chapter-grid">';
         data.forEach(function(chapter) {
             html += '<a class="chapter-card" href="#' + chapter.chapter_id + '"><strong>' + escapeHtml(chapter.chapter_title || chapter.title || 'Chapter') + '</strong><span>' + getItems(chapter).length + ' lessons</span></a>';
         });
@@ -554,6 +609,9 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
         var p2 = isPart2(chapter);
 
         var html = '<h1>' + escapeHtml(item.title) + '</h1>';
+        if (item.explanation) {
+            html += '<section class="grammar-explanation"><h3>Explanation</h3><p>' + escapeHtml(item.explanation) + '</p></section>';
+        }
 
         // Conjugation table (on Part 1 sections, shown inline as reference)
         if (item.conjugation_table && item.conjugation_table.length > 0) {
@@ -599,12 +657,24 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
 
         var html = '<h1>' + escapeHtml(item.title) + '</h1>';
         html += '<h2>' + escapeHtml(gp.title) + '</h2>';
-        if (gp.explanation) html += '<p>' + gp.explanation + '</p>';
+        if (gp.explanation) {
+            html += '<section class="grammar-explanation"><h3>Meaning and use</h3><p>' + escapeHtml(gp.explanation) + '</p>' +
+                (gp.teaching_note ? '<p class="study-tip"><strong>Usage note:</strong> ' + escapeHtml(gp.teaching_note) + '</p>' : '') + '</section>';
+        }
         if (gp.formula) html += '<div class="formula">' + gp.formula + '</div>';
         if (gp.examples && gp.examples.length > 0) {
             html += '<h3>Examples</h3>';
+            if (gp.examples.some(function(ex) { return !!ex.translation; })) {
+                html += '<label class="translation-toggle" for="translation-toggle"><input type="checkbox" id="translation-toggle"' +
+                    (showTranslations ? ' checked' : '') + '>Show English translations</label>';
+            }
             gp.examples.forEach(function(ex) {
-                html += '<div class="grammar-example">' + (ex.text || '') + '</div>';
+                html += '<div class="grammar-example">' + (ex.text || '');
+                if (ex.translation) {
+                    html += '<p class="example-translation" lang="en"' + (showTranslations ? '' : ' hidden') + '>' +
+                        '<span class="translation-label">English:</span>' + escapeHtml(ex.translation) + '</p>';
+                }
+                html += '</div>';
             });
         }
         if (gp.conjugation_table && gp.conjugation_table.length > 0) {
@@ -614,6 +684,16 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
         html += '<a href="#' + route.chapterId + '/' + route.itemId + '" class="back-link">&larr; Back to ' + escapeHtml(item.title) + '</a>';
         html += '</div>';
         root.innerHTML = html;
+        var translationToggle = document.getElementById('translation-toggle');
+        if (translationToggle) {
+            translationToggle.addEventListener('change', function() {
+                showTranslations = translationToggle.checked;
+                writePreference('kanzen_n4_show_translations', String(showTranslations));
+                root.querySelectorAll('.example-translation').forEach(function(translation) {
+                    translation.hidden = !showTranslations;
+                });
+            });
+        }
 
         renderBreadcrumbs([
             { label: chapter.chapter_title, url: '#' + route.chapterId },
@@ -900,7 +980,7 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
             if (!existing) {
                 var badge = document.createElement('div');
                 badge.id = 'quiz-mode-badge';
-                badge.style.cssText = 'background:#f39c12;color:#fff;padding:6px 14px;border-radius:4px;margin-bottom:12px;font-weight:bold;text-align:center;';
+                badge.className = 'quiz-mode-badge';
                 badge.textContent = 'Quiz Mode — answers will be scored at the end';
                 var firstBlock = document.querySelector('.exercise-block');
                 if (firstBlock) {
@@ -969,18 +1049,31 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
         } catch(e) { return {}; }
     }
 
-    // ===== THEME TOGGLE =====
+    // ===== THEME PREFERENCE =====
+    function applyTheme(theme) {
+        document.documentElement.setAttribute('data-theme', theme);
+        var toggle = document.getElementById('theme-toggle');
+        toggle.innerHTML = theme === 'dark' ? '&#9728;' : '&#9790;';
+        toggle.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+        toggle.title = theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode';
+    }
+    themePreference = readPreference('kanzen_n4_theme');
+    if (themePreference !== 'light' && themePreference !== 'dark') themePreference = null;
+    showTranslations = readPreference('kanzen_n4_show_translations') === 'true';
+    var systemTheme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
+    applyTheme(themePreference || (systemTheme && systemTheme.matches ? 'dark' : 'light'));
     document.getElementById('theme-toggle').addEventListener('click', function() {
-        document.body.classList.toggle('dark');
-        var isDark = document.body.classList.contains('dark');
-        if (isDark) {
-            document.body.style.background = '#1a1a2e';
-            document.body.style.color = '#e0e0e0';
-        } else {
-            document.body.style.background = '';
-            document.body.style.color = '';
-        }
+        themePreference = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        writePreference('kanzen_n4_theme', themePreference);
+        applyTheme(themePreference);
     });
+    if (systemTheme) {
+        var updateSystemTheme = function(event) {
+            if (!themePreference) applyTheme(event.matches ? 'dark' : 'light');
+        };
+        if (systemTheme.addEventListener) systemTheme.addEventListener('change', updateSystemTheme);
+        else if (systemTheme.addListener) systemTheme.addListener(updateSystemTheme);
+    }
 
     // ===== 404 =====
     function notFound() {

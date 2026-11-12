@@ -1915,18 +1915,23 @@
             "point_id": "g1_1",
             "title": "1. ～より…／～ほど…ません",
             "explanation": "A way of comparing the degree of one thing to another. Using 'question word + より' expresses the superlative (③). In negative sentences, the form '～ほど…ません' is used (④).",
+            "teaching_note": "Put より after the comparison standard (the thing you mean ‘than’). For ‘not as … as’, put ほど before a negative predicate. In 何より, the question word means ‘more than anything else’ in this example.",
             "examples": [
               {
-                "text": "①この <ruby> アパート <rt> あぱーと </rt></ruby> は <ruby> 前 <rt> まえ </rt></ruby> の <ruby> アパート <rt> あぱーと </rt></ruby> より べんりです。"
+                "text": "①この <ruby> アパート <rt> あぱーと </rt></ruby> は <ruby> 前 <rt> まえ </rt></ruby> の <ruby> アパート <rt> あぱーと </rt></ruby> より べんりです。",
+                "translation": "This apartment is more convenient than the previous apartment."
               },
               {
-                "text": "②わたしは いつも <ruby> 両親 <rt> りょうしん </rt></ruby> より <ruby> 早 <rt> はや </rt></ruby> く 起きます。"
+                "text": "②わたしは いつも <ruby> 両親 <rt> りょうしん </rt></ruby> より <ruby> 早 <rt> はや </rt></ruby> く 起きます。",
+                "translation": "I always get up earlier than my parents."
               },
               {
-                "text": "③わたしは <ruby> 何 <rt> なに </rt></ruby> より <ruby> 音楽 <rt> おんがく </rt></ruby> が すきです。"
+                "text": "③わたしは <ruby> 何 <rt> なに </rt></ruby> より <ruby> 音楽 <rt> おんがく </rt></ruby> が すきです。",
+                "translation": "I like music more than anything else."
               },
               {
-                "text": "④A「この <ruby> 町 <rt> まち </rt></ruby> は <ruby> 今 <rt> いま </rt></ruby> は にぎやかですが、むかしは どうでしたか。」<br>B「むかしは <ruby> 今 <rt> いま </rt></ruby> ほど にぎやかでは ありませんでしたよ。」"
+                "text": "④A「この <ruby> 町 <rt> まち </rt></ruby> は <ruby> 今 <rt> いま </rt></ruby> は にぎやかですが、むかしは どうでしたか。」<br>B「むかしは <ruby> 今 <rt> いま </rt></ruby> ほど にぎやかでは ありませんでしたよ。」",
+                "translation": "A: This town is lively now, but what was it like in the past?\nB: It wasn't as lively in the past as it is now."
               }
             ],
             "formula": "<ruby> 名 <rt> めい </rt></ruby> ＋ より　<ruby> 名 <rt> めい </rt></ruby> ＋ ほど…ません"
@@ -1935,15 +1940,19 @@
             "point_id": "g1_2",
             "title": "2. ～より～のほう",
             "explanation": "Expresses that when comparing two things, one (noun 2) has a higher degree than the other (noun 1), i.e. noun 2 > noun 1. Generally not used in negative sentences.",
+            "teaching_note": "Use noun 1 + より to name the comparison standard, then noun 2 + のほうが before the quality or action being compared. のほうが marks which side is greater or preferred; it does not mean that noun 2 is always ‘better’ in every context.",
             "examples": [
               {
-                "text": "①わたしより <ruby> 弟 <rt> おとうと </rt></ruby> の <ruby> 方 <rt> ほう </rt></ruby> が <ruby> 背 <rt> せ </rt></ruby> が <ruby> 高 <rt> たか </rt></ruby> いです。"
+                "text": "①わたしより <ruby> 弟 <rt> おとうと </rt></ruby> の <ruby> 方 <rt> ほう </rt></ruby> が <ruby> 背 <rt> せ </rt></ruby> が <ruby> 高 <rt> たか </rt></ruby> いです。",
+                "translation": "My younger brother is taller than I am."
               },
               {
-                "text": "②<ruby> 前 <rt> まえ </rt></ruby> の テキストの <ruby> 方 <rt> ほう </rt></ruby> が この テキストより よかったです。"
+                "text": "②<ruby> 前 <rt> まえ </rt></ruby> の テキストの <ruby> 方 <rt> ほう </rt></ruby> が この テキストより よかったです。",
+                "translation": "The previous textbook was better than this one."
               },
               {
-                "text": "③わたしは <ruby> 御飯 <rt> ごはん </rt></ruby> より パンの <ruby> 方 <rt> ほう </rt></ruby> を よく <ruby> 食 <rt> た </rt></ruby> べます。"
+                "text": "③わたしは <ruby> 御飯 <rt> ごはん </rt></ruby> より パンの <ruby> 方 <rt> ほう </rt></ruby> を よく <ruby> 食 <rt> た </rt></ruby> べます。",
+                "translation": "I eat bread more often than rice."
               }
             ],
             "formula": "<ruby> 名 <rt> めい </rt></ruby> ₁ ＋ より ＋ <ruby> 名 <rt> めい </rt></ruby> ₂ ＋ のほう"
@@ -1952,15 +1961,19 @@
             "point_id": "g1_3",
             "title": "3. ～と～とどちら",
             "explanation": "A way of asking by comparing the degree of two things. Responses to this question typically use the forms '～のほう' or 'どちらも' (②③).",
+            "teaching_note": "For two choices, put と after each noun and finish with どちら. Use が when asking which has a quality (どちらが安いですか) and を when asking which action someone does (どちらを見ますか). Answers can name one side with のほうが or use どちらも.",
             "examples": [
               {
-                "text": "①コーヒーと <ruby> 紅茶 <rt> こうちゃ </rt></ruby> と どちらが いいですか。"
+                "text": "①コーヒーと <ruby> 紅茶 <rt> こうちゃ </rt></ruby> と どちらが いいですか。",
+                "translation": "Which do you prefer, coffee or black tea?"
               },
               {
-                "text": "②A「<ruby> 東駅 <rt> ひがしえき </rt></ruby> まで バスと <ruby> 電車 <rt> でんしゃ </rt></ruby> と どちらが <ruby> 安 <rt> やす </rt></ruby> いですか。」<br>B「バスの <ruby> 方 <rt> ほう </rt></ruby> が 10<ruby> 円 <rt> えん </rt></ruby> <ruby> 安 <rt> やす </rt></ruby> いです。」"
+                "text": "②A「<ruby> 東駅 <rt> ひがしえき </rt></ruby> まで バスと <ruby> 電車 <rt> でんしゃ </rt></ruby> と どちらが <ruby> 安 <rt> やす </rt></ruby> いですか。」<br>B「バスの <ruby> 方 <rt> ほう </rt></ruby> が 10<ruby> 円 <rt> えん </rt></ruby> <ruby> 安 <rt> やす </rt></ruby> いです。」",
+                "translation": "A: Which is cheaper to East Station, the bus or the train?\nB: The bus is 10 yen cheaper."
               },
               {
-                "text": "③A「テレビで アニメと ニュースと どちらを よく <ruby> 見 <rt> み </rt></ruby> ますか。」<br>B「どちらも あまり <ruby> 見 <rt> み </rt></ruby> ませんが……」"
+                "text": "③A「テレビで アニメと ニュースと どちらを よく <ruby> 見 <rt> み </rt></ruby> ますか。」<br>B「どちらも あまり <ruby> 見 <rt> み </rt></ruby> ませんが……」",
+                "translation": "A: Which do you watch more often on TV, anime or the news?\nB: I don't watch either very often, though…"
               }
             ],
             "formula": "<ruby> 名 <rt> めい </rt></ruby> ₁ ＋ と ＋ <ruby> 名 <rt> めい </rt></ruby> ₂ ＋ とどちら"
@@ -2057,15 +2070,19 @@
             "point_id": "g2_1",
             "title": "1. ～ながら…",
             "explanation": "Expresses that while performing a main action (～), another action (～) is done simultaneously as a secondary action. Attaches to verbs expressing continuous actions.",
+            "teaching_note": "Change the first verb to its ます-stem, add ながら, and finish with the main action. The same person normally performs both actions, and the action after ながら is the sentence's main focus.",
             "examples": [
               {
-                "text": "①きれいな <ruby> 海 <rt> うみ </rt></ruby> を <ruby> 見 <rt> み </rt></ruby> ながら さんぽしました。"
+                "text": "①きれいな <ruby> 海 <rt> うみ </rt></ruby> を <ruby> 見 <rt> み </rt></ruby> ながら さんぽしました。",
+                "translation": "I took a walk while looking at the beautiful sea."
               },
               {
-                "text": "②<ruby> 母 <rt> はは </rt></ruby> は <ruby> 音楽 <rt> おんがく </rt></ruby> を <ruby> 聞 <rt> き </rt></ruby> きながら <ruby> 料理 <rt> りょうり </rt></ruby> を します。"
+                "text": "②<ruby> 母 <rt> はは </rt></ruby> は <ruby> 音楽 <rt> おんがく </rt></ruby> を <ruby> 聞 <rt> き </rt></ruby> きながら <ruby> 料理 <rt> りょうり </rt></ruby> を します。",
+                "translation": "My mother cooks while listening to music."
               },
               {
-                "text": "③アルバイトを しながら <ruby> 大学 <rt> だいがく </rt></ruby> に <ruby> 通 <rt> かよ </rt></ruby> いました。"
+                "text": "③アルバイトを しながら <ruby> 大学 <rt> だいがく </rt></ruby> に <ruby> 通 <rt> かよ </rt></ruby> いました。",
+                "translation": "I attended university while working a part-time job."
               }
             ],
             "formula": "＜<ruby> 動 <rt> どう </rt></ruby><ruby> 去 <rt> きょ </rt></ruby> ます＞ ＋ ながら"
@@ -2074,15 +2091,19 @@
             "point_id": "g2_2",
             "title": "2. ～ところです",
             "explanation": "Expresses which stage of an action or change something is at: just before (dictionary form + ところ), in progress (ている + ところ), just after (た-form + ところ).",
+            "teaching_note": "The verb form before ところ marks the timing: dictionary form for an action about to happen, ている for one in progress, and た-form for one that has just happened. This describes the action's current stage, not simply its general tense.",
             "examples": [
               {
-                "text": "①あ、<ruby> 試合 <rt> しあい </rt></ruby> が <ruby> 始 <rt> はじ </rt></ruby> まる ところですよ。<ruby> 早 <rt> はや </rt></ruby> く、<ruby> 早 <rt> はや </rt></ruby> く。"
+                "text": "①あ、<ruby> 試合 <rt> しあい </rt></ruby> が <ruby> 始 <rt> はじ </rt></ruby> まる ところですよ。<ruby> 早 <rt> はや </rt></ruby> く、<ruby> 早 <rt> はや </rt></ruby> く。",
+                "translation": "Oh, the match is just about to start! Hurry, hurry."
               },
               {
-                "text": "②<ruby> 今 <rt> いま </rt></ruby> 、インターネットで <ruby> 店 <rt> みせ </rt></ruby> の <ruby> 場所 <rt> ばしょ </rt></ruby> を しらべて いる ところです。"
+                "text": "②<ruby> 今 <rt> いま </rt></ruby> 、インターネットで <ruby> 店 <rt> みせ </rt></ruby> の <ruby> 場所 <rt> ばしょ </rt></ruby> を しらべて いる ところです。",
+                "translation": "I'm looking up the store's location online right now."
               },
               {
-                "text": "③サラ「もしもし、<ruby> 今 <rt> いま </rt></ruby> どこ？ もう <ruby> 駅 <rt> えき </rt></ruby> に <ruby> 着 <rt> つ </rt></ruby> いたの？」<br>トム「うん、ちょうど <ruby> 今 <rt> いま </rt></ruby> <ruby> 駅 <rt> えき </rt></ruby> に <ruby> 着 <rt> つ </rt></ruby> いた ところだよ。」"
+                "text": "③サラ「もしもし、<ruby> 今 <rt> いま </rt></ruby> どこ？ もう <ruby> 駅 <rt> えき </rt></ruby> に <ruby> 着 <rt> つ </rt></ruby> いたの？」<br>トム「うん、ちょうど <ruby> 今 <rt> いま </rt></ruby> <ruby> 駅 <rt> えき </rt></ruby> に <ruby> 着 <rt> つ </rt></ruby> いた ところだよ。」",
+                "translation": "Sara: Hello, where are you now? Have you already arrived at the station?\nTom: Yes, I just got to the station."
               }
             ],
             "formula": "＜<ruby> 動 <rt> どう </rt></ruby><ruby> 辞書形 <rt> じしょけい </rt></ruby> ／ ている ／ た<ruby> 形 <rt> けい </rt></ruby>＞ ＋ ところです"
