@@ -376,6 +376,9 @@
         if (!s) return '';
         return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
     }
+    function formatExplanation(s) {
+        return escapeHtml(s).replace(/&lt;br\s*\/?&gt;/gi, '<br>');
+    }
 
     // ===== PAGE RENDERER =====
     function renderPage() {
@@ -429,7 +432,7 @@
 
         var html = '<h1>' + escapeHtml(item.title) + '</h1>';
         if (item.explanation) {
-            html += '<section class="grammar-explanation"><h3>Explanation</h3><p>' + escapeHtml(item.explanation) + '</p></section>';
+            html += '<section class="grammar-explanation"><h3>Explanation</h3><p>' + formatExplanation(item.explanation) + '</p></section>';
         }
 
         // Conjugation table (on Part 1 sections, shown inline as reference)
@@ -477,7 +480,7 @@
         var html = '<h1>' + escapeHtml(item.title) + '</h1>';
         html += '<h2>' + escapeHtml(gp.title) + '</h2>';
         if (gp.explanation) {
-            html += '<section class="grammar-explanation"><h3>Meaning and use</h3><p>' + escapeHtml(gp.explanation) + '</p>' +
+            html += '<section class="grammar-explanation"><h3>Meaning and use</h3><p>' + formatExplanation(gp.explanation) + '</p>' +
                 (gp.teaching_note ? '<p class="study-tip"><strong>Usage note:</strong> ' + escapeHtml(gp.teaching_note) + '</p>' : '') + '</section>';
         }
         if (gp.formula) html += '<div class="formula">' + gp.formula + '</div>';

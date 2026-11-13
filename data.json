@@ -6495,16 +6495,20 @@
             "explanation": "Expresses the place where an action/event is carried out (①) or the place where an incident occurs (②).<br>Expresses means (①) or material (②).<br>Expresses scope/range.<br>Expresses a time limit.<br>Expresses a reason.",
             "examples": [
               {
-                "text": "A① ろうかで えを かきました。<br>A② <ruby> 近所 <rt> きんじょ </rt></ruby> で <ruby> 火事 <rt> かじ </rt></ruby> がありました。"
+                "text": "A① ろうかで えを かきました。<br>A② <ruby> 近所 <rt> きんじょ </rt></ruby> で <ruby> 火事 <rt> かじ </rt></ruby> がありました。",
+                "translation": "A: I drew a picture in the hallway.\nA: There was a fire in the neighborhood."
               },
               {
-                "text": "B① <ruby> 毎日 <rt> まいにち </rt></ruby> <ruby> 自転車 <rt> じてんしゃ </rt></ruby> で <ruby> 会社 <rt> かいしゃ </rt></ruby> に <ruby> 行 <rt> い </rt></ruby> きます。<br>B② <ruby> 紙 <rt> かみ </rt></ruby> で にんぎょうを <ruby> 作 <rt> つく </rt></ruby> りました。"
+                "text": "B① <ruby> 毎日 <rt> まいにち </rt></ruby> <ruby> 自転車 <rt> じてんしゃ </rt></ruby> で <ruby> 会社 <rt> かいしゃ </rt></ruby> に <ruby> 行 <rt> い </rt></ruby> きます。<br>B② <ruby> 紙 <rt> かみ </rt></ruby> で にんぎょうを <ruby> 作 <rt> つく </rt></ruby> りました。",
+                "translation": "B: I go to work by bicycle every day.\nB: I made a doll out of paper."
               },
               {
-                "text": "C① <ruby> 日本 <rt> にほん </rt></ruby> で いちばん <ruby> 高 <rt> たか </rt></ruby> い <ruby> 山 <rt> やま </rt></ruby> は <ruby> 富士山 <rt> ふじさん </rt></ruby> です。"
+                "text": "C① <ruby> 日本 <rt> にほん </rt></ruby> で いちばん <ruby> 高 <rt> たか </rt></ruby> い <ruby> 山 <rt> やま </rt></ruby> は <ruby> 富士山 <rt> ふじさん </rt></ruby> です。",
+                "translation": "C: The highest mountain in Japan is Mount Fuji."
               },
               {
-                "text": "D① <ruby> 父 <rt> ちち </rt></ruby> は <ruby> 今 <rt> いま </rt></ruby> <ruby> 仕事 <rt> しごと </rt></ruby> で いそがしいです。<br>D② かぜで <ruby> 学校 <rt> がっこう </rt></ruby> へ <ruby> 行 <rt> い </rt></ruby> けませんでした。"
+                "text": "D① <ruby> 父 <rt> ちち </rt></ruby> は <ruby> 今 <rt> いま </rt></ruby> <ruby> 仕事 <rt> しごと </rt></ruby> で いそがしいです。<br>D② かぜで <ruby> 学校 <rt> がっこう </rt></ruby> へ <ruby> 行 <rt> い </rt></ruby> けませんでした。",
+                "translation": "D: My father is busy with work now.\nD: I could not go to school because I had a cold."
               }
             ]
           },
@@ -6514,16 +6518,20 @@
             "explanation": "Expresses the place where a thing or living being exists (①) or the place where a state is manifested (②).<br>Expresses the arrival point of an action's target (①) or the destination of movement (②).<br>Expresses the target of an action. The particle varies depending on the verb.<br>Expresses time.<br>Expresses purpose.",
             "examples": [
               {
-                "text": "A① あそこに <ruby> 池 <rt> いけ </rt></ruby> が あるでしょう？ あの <ruby> 池 <rt> いけ </rt></ruby> に <ruby> 魚 <rt> さかな </rt></ruby> が たくさん いますよ。<br>A② にわに いろいろな <ruby> 花 <rt> はな </rt></ruby> が さいて いますね。"
+                "text": "A① あそこに <ruby> 池 <rt> いけ </rt></ruby> が あるでしょう？ あの <ruby> 池 <rt> いけ </rt></ruby> に <ruby> 魚 <rt> さかな </rt></ruby> が たくさん いますよ。<br>A② にわに いろいろな <ruby> 花 <rt> はな </rt></ruby> が さいて いますね。",
+                "translation": "A: There is a pond over there, right? There are lots of fish in that pond.\nA: Various flowers are blooming in the garden."
               },
               {
-                "text": "B① ろうかに えを かきました。<br>B② <ruby> 毎朝 <rt> まいあさ </rt></ruby> バスに <ruby> 乗 <rt> の </rt></ruby> ります。"
+                "text": "B① ろうかに えを かきました。<br>B② <ruby> 毎朝 <rt> まいあさ </rt></ruby> バスに <ruby> 乗 <rt> の </rt></ruby> ります。",
+                "translation": "B: I drew a picture on the hallway wall.\nB: I get on the bus every morning."
               },
               {
-                "text": "C① あした、この <ruby> 本 <rt> ほん </rt></ruby> を <ruby> 山中 <rt> やまなか </rt></ruby> さんに <ruby> 返 <rt> かえ </rt></ruby> します。<br>C② その <ruby> 写真 <rt> しゃしん </rt></ruby> 、ちょっと わたしに <ruby> 見 <rt> み </rt></ruby> せてよ。"
+                "text": "C① あした、この <ruby> 本 <rt> ほん </rt></ruby> を <ruby> 山中 <rt> やまなか </rt></ruby> さんに <ruby> 返 <rt> かえ </rt></ruby> します。<br>C② その <ruby> 写真 <rt> しゃしん </rt></ruby> 、ちょっと わたしに <ruby> 見 <rt> み </rt></ruby> せてよ。",
+                "translation": "C: I will return this book to Mr. Yamanaka tomorrow.\nC: Show me that photo for a moment, will you?"
               },
               {
-                "text": "D① じゅぎょうは 9<ruby> 時 <rt> じ </rt></ruby> に <ruby> 始 <rt> はじ </rt></ruby> まります。"
+                "text": "D① じゅぎょうは 9<ruby> 時 <rt> じ </rt></ruby> に <ruby> 始 <rt> はじ </rt></ruby> まります。",
+                "translation": "D: Class starts at nine tomorrow."
               }
             ]
           }
@@ -6654,16 +6662,20 @@
             "explanation": "Expresses the object of an action.<br>Expresses a place of passage/movement through.<br>Expresses a place one leaves or a starting point.<br>In the form '～をしています', expresses an occupation/appearance/form (①) or wearing accessories/clothing (②③).",
             "examples": [
               {
-                "text": "A① いい くつを <ruby> 買 <rt> か </rt></ruby> いました。"
+                "text": "A① いい くつを <ruby> 買 <rt> か </rt></ruby> いました。",
+                "translation": "A: I bought some nice shoes."
               },
               {
-                "text": "B① あの はしを わたります。<br>B② <ruby> 父 <rt> ちち </rt></ruby> は <ruby> 毎日 <rt> まいにち </rt></ruby> こうえんを さんぽします。"
+                "text": "B① あの はしを わたります。<br>B② <ruby> 父 <rt> ちち </rt></ruby> は <ruby> 毎日 <rt> まいにち </rt></ruby> こうえんを さんぽします。",
+                "translation": "B: I cross that bridge.\nB: My father takes a walk in the park every day."
               },
               {
-                "text": "C① <ruby> 京都駅 <rt> きょうとえき </rt></ruby> で <ruby> 電車 <rt> でんしゃ </rt></ruby> を おりました。<br>C② わたしは 10<ruby> 年前 <rt> ねんまえ </rt></ruby> に <ruby> 国 <rt> くに </rt></ruby> を <ruby> 出 <rt> で </rt></ruby> て、<ruby> 日本 <rt> にほん </rt></ruby> に <ruby> 来 <rt> き </rt></ruby> ました。"
+                "text": "C① <ruby> 京都駅 <rt> きょうとえき </rt></ruby> で <ruby> 電車 <rt> でんしゃ </rt></ruby> を おりました。<br>C② わたしは 10<ruby> 年前 <rt> ねんまえ </rt></ruby> に <ruby> 国 <rt> くに </rt></ruby> を <ruby> 出 <rt> で </rt></ruby> て、<ruby> 日本 <rt> にほん </rt></ruby> に <ruby> 来 <rt> き </rt></ruby> ました。",
+                "translation": "C: I got off the train at Kyoto Station.\nC: I left my country ten years ago and came to Japan."
               },
               {
-                "text": "D① あの <ruby> 建物 <rt> たてもの </rt></ruby> は まるい <ruby> 形 <rt> かたち </rt></ruby> を して いますね。<br>D② はなちゃん、どうしたの？ <ruby> 赤 <rt> あか </rt></ruby> い <ruby> 顔 <rt> かお </rt></ruby> を して いるね。"
+                "text": "D① あの <ruby> 建物 <rt> たてもの </rt></ruby> は まるい <ruby> 形 <rt> かたち </rt></ruby> を して いますね。<br>D② はなちゃん、どうしたの？ <ruby> 赤 <rt> あか </rt></ruby> い <ruby> 顔 <rt> かお </rt></ruby> を して いるね。",
+                "translation": "D: That building has a round shape, doesn't it?\nD: What's wrong, Hana? Your face is red."
               }
             ]
           },
@@ -6673,16 +6685,20 @@
             "explanation": "Expresses things to list together.<br>Expresses the partner with whom one does an action.<br>Expresses the opponent to match (①) or the standard for comparison (②③).<br>Expresses content such as names, statements, and thoughts.<br>Expresses the result of change.",
             "examples": [
               {
-                "text": "A① うちには <ruby> 犬 <rt> いぬ </rt></ruby> と ねこと <ruby> 鳥 <rt> とり </rt></ruby> が います。"
+                "text": "A① うちには <ruby> 犬 <rt> いぬ </rt></ruby> と ねこと <ruby> 鳥 <rt> とり </rt></ruby> が います。",
+                "translation": "A: We have dogs, cats, and birds at our house."
               },
               {
-                "text": "B① <ruby> 夏休 <rt> なつやす </rt></ruby> みに <ruby> 母 <rt> はは </rt></ruby> と <ruby> 富士山 <rt> ふじさん </rt></ruby> に のぼります。<br>B② <ruby> 会社 <rt> かいしゃ </rt></ruby> の <ruby> 人 <rt> ひと </rt></ruby> たちと おさけを <ruby> 飲 <rt> の </rt></ruby> みに <ruby> 行 <rt> い </rt></ruby> きました。"
+                "text": "B① <ruby> 夏休 <rt> なつやす </rt></ruby> みに <ruby> 母 <rt> はは </rt></ruby> と <ruby> 富士山 <rt> ふじさん </rt></ruby> に のぼります。<br>B② <ruby> 会社 <rt> かいしゃ </rt></ruby> の <ruby> 人 <rt> ひと </rt></ruby> たちと おさけを <ruby> 飲 <rt> の </rt></ruby> みに <ruby> 行 <rt> い </rt></ruby> きました。",
+                "translation": "B: I will climb Mount Fuji with my mother during summer vacation.\nB: I went out for a drink with people from work."
               },
               {
-                "text": "C① <ruby> 弟 <rt> おとうと </rt></ruby> は よく <ruby> 友 <rt> とも </rt></ruby> だちと けんかします。<br>C② <ruby> 母 <rt> はは </rt></ruby> は <ruby> 父 <rt> ちち </rt></ruby> と くらべて <ruby> 明 <rt> あか </rt></ruby> るいです。<br>C③ わたしは サラさんと <ruby> 同 <rt> おな </rt></ruby> じ <ruby> 年 <rt> とし </rt></ruby> です。"
+                "text": "C① <ruby> 弟 <rt> おとうと </rt></ruby> は よく <ruby> 友 <rt> とも </rt></ruby> だちと けんかします。<br>C② <ruby> 母 <rt> はは </rt></ruby> は <ruby> 父 <rt> ちち </rt></ruby> と くらべて <ruby> 明 <rt> あか </rt></ruby> るいです。<br>C③ わたしは サラさんと <ruby> 同 <rt> おな </rt></ruby> じ <ruby> 年 <rt> とし </rt></ruby> です。",
+                "translation": "C: My younger brother often gets into fights with his friends.\nC: My mother is cheerful compared with my father.\nC: I am the same age as Sarah."
               },
               {
-                "text": "D① 彼女は「さようなら」と <ruby> 言 <rt> い </rt></ruby> いました。"
+                "text": "D① 彼女は「さようなら」と <ruby> 言 <rt> い </rt></ruby> いました。",
+                "translation": "She said, \"Goodbye.\""
               }
             ]
           }
@@ -6808,19 +6824,24 @@
             "explanation": "Adds a similar thing.<br>Used together with quantities or '何 + counter' to emphasize a large amount.<br>Used with '1 + counter' in negative sentences to express complete negation.",
             "examples": [
               {
-                "text": "A① あしたは わたしが <ruby> 料理 <rt> りょうり </rt></ruby> を 作ります。おかしも 作ります。<br>A② わたしは <ruby> 海 <rt> うみ </rt></ruby> も <ruby> 山 <rt> やま </rt></ruby> も すきです。"
+                "text": "A① あしたは わたしが <ruby> 料理 <rt> りょうり </rt></ruby> を 作ります。おかしも 作ります。<br>A② わたしは <ruby> 海 <rt> うみ </rt></ruby> も <ruby> 山 <rt> やま </rt></ruby> も すきです。",
+                "translation": "A: I will cook tomorrow. I will make sweets, too.\nA: I like both the sea and the mountains."
               },
               {
-                "text": "B① うちから <ruby> 会社 <rt> かいしゃ </rt></ruby> まで 2<ruby> 時間 <rt> じかん </rt></ruby> も かかります。<br>B② <ruby> 何度 <rt> なんど </rt></ruby> も <ruby> 電話 <rt> でんわ </rt></ruby> しましたよ。"
+                "text": "B① うちから <ruby> 会社 <rt> かいしゃ </rt></ruby> まで 2<ruby> 時間 <rt> じかん </rt></ruby> も かかります。<br>B② <ruby> 何度 <rt> なんど </rt></ruby> も <ruby> 電話 <rt> でんわ </rt></ruby> しましたよ。",
+                "translation": "B: It takes as long as two hours to get from home to work.\nB: I called many times!"
               },
               {
-                "text": "C① セーターを 1まいも <ruby> 持 <rt> も </rt></ruby> って いません。<br>C② <ruby> 日本人 <rt> にほんじん </rt></ruby> の <ruby> 友 <rt> とも </rt></ruby> だちは まだ <ruby> 一人 <rt> ひとり </rt></ruby> も いません。"
+                "text": "C① セーターを 1まいも <ruby> 持 <rt> も </rt></ruby> って いません。<br>C② <ruby> 日本人 <rt> にほんじん </rt></ruby> の <ruby> 友 <rt> とも </rt></ruby> だちは まだ <ruby> 一人 <rt> ひとり </rt></ruby> も いません。",
+                "translation": "C: I do not own even one sweater.\nC: I still do not have even one Japanese friend."
               },
               {
-                "text": "D① だれも <ruby> 来 <rt> き </rt></ruby> ませんでしたよ。<br>D② きのうは どこへも <ruby> 行 <rt> い </rt></ruby> きませんでした。"
+                "text": "D① だれも <ruby> 来 <rt> き </rt></ruby> ませんでしたよ。<br>D② きのうは どこへも <ruby> 行 <rt> い </rt></ruby> きませんでした。",
+                "translation": "D: Nobody came.\nD: I did not go anywhere yesterday."
               },
               {
-                "text": "E① この <ruby> 子 <rt> こ </rt></ruby> は もう <ruby> 漢字 <rt> かんじ </rt></ruby> も <ruby> 読 <rt> よ </rt></ruby> めます。<br>E② この <ruby> 言葉 <rt> ことば </rt></ruby> は いちばん <ruby> 新 <rt> あたら </rt></ruby> しい じしょにも ない。"
+                "text": "E① この <ruby> 子 <rt> こ </rt></ruby> は もう <ruby> 漢字 <rt> かんじ </rt></ruby> も <ruby> 読 <rt> よ </rt></ruby> めます。<br>E② この <ruby> 言葉 <rt> ことば </rt></ruby> は いちばん <ruby> 新 <rt> あたら </rt></ruby> しい じしょにも ない。",
+                "translation": "E: This child can already read kanji, too.\nE: This word is not even in the newest dictionary."
               }
             ]
           },
@@ -6830,10 +6851,12 @@
             "explanation": "Used together with quantities in negative sentences to emphasize smallness/scarcity.<br>Used in negative sentences to limit something to only one thing and affirm it, while negating others. Similar in meaning to 'だけ'.",
             "examples": [
               {
-                "text": "A① うちから <ruby> 会社 <rt> かいしゃ </rt></ruby> まで 20<ruby> 分 <rt> ぷん </rt></ruby> しか かかりません。<br>A② 100てんの <ruby> 人 <rt> ひと </rt></ruby> は 2<ruby> 人 <rt> にん </rt></ruby> しか いませんでした。"
+                "text": "A① うちから <ruby> 会社 <rt> かいしゃ </rt></ruby> まで 20<ruby> 分 <rt> ぷん </rt></ruby> しか かかりません。<br>A② 100てんの <ruby> 人 <rt> ひと </rt></ruby> は 2<ruby> 人 <rt> にん </rt></ruby> しか いませんでした。",
+                "translation": "A: It takes only 20 minutes to get from home to work.\nA: There were only two people who got 100 points."
               },
               {
-                "text": "B① この <ruby> 村 <rt> むら </rt></ruby> に <ruby> 外国人 <rt> がいこくじん </rt></ruby> は わたししか いません。<br>B② この <ruby> 話 <rt> はなし </rt></ruby> は まだ <ruby> 母 <rt> はは </rt></ruby> にしか <ruby> 話 <rt> はな </rt></ruby> して いません。"
+                "text": "B① この <ruby> 村 <rt> むら </rt></ruby> に <ruby> 外国人 <rt> がいこくじん </rt></ruby> は わたししか いません。<br>B② この <ruby> 話 <rt> はなし </rt></ruby> は まだ <ruby> 母 <rt> はは </rt></ruby> にしか <ruby> 話 <rt> はな </rt></ruby> して いません。",
+                "translation": "B: I am the only foreigner in this village.\nB: I have only told my mother about this so far."
               }
             ]
           }
@@ -6949,7 +6972,8 @@
             "explanation": "Limits / expresses 'only'. A casual nuance.",
             "examples": [
               {
-                "text": "A① わたしの ほんとうの <ruby> 友 <rt> とも </rt></ruby> だちは サラだけだ。<br>A② その みかんを <ruby> 一つ <rt> ひとつ </rt></ruby> だけ わたしに ください。<br>A③ どうぶつは <ruby> 日本 <rt> にほん </rt></ruby> にだけ ある <ruby> 食 <rt> た </rt></ruby> べ<ruby> 物 <rt> もの </rt></ruby> でしょうか。<br>A④ <ruby> 日本 <rt> にほん </rt></ruby> で <ruby> 雨 <rt> あめ </rt></ruby> が <ruby> 多 <rt> おお </rt></ruby> い <ruby> 月 <rt> つき </rt></ruby> は 6<ruby> 月 <rt> がつ </rt></ruby> だけでは ない。9<ruby> 月 <rt> がつ </rt></ruby> にも よく <ruby> 雨 <rt> あめ </rt></ruby> が ふる。"
+                "text": "A① わたしの ほんとうの <ruby> 友 <rt> とも </rt></ruby> だちは サラだけだ。<br>A② その みかんを <ruby> 一つ <rt> ひとつ </rt></ruby> だけ わたしに ください。<br>A③ どうぶつは <ruby> 日本 <rt> にほん </rt></ruby> にだけ ある <ruby> 食 <rt> た </rt></ruby> べ<ruby> 物 <rt> もの </rt></ruby> でしょうか。<br>A④ <ruby> 日本 <rt> にほん </rt></ruby> で <ruby> 雨 <rt> あめ </rt></ruby> が <ruby> 多 <rt> おお </rt></ruby> い <ruby> 月 <rt> つき </rt></ruby> は 6<ruby> 月 <rt> がつ </rt></ruby> だけでは ない。9<ruby> 月 <rt> がつ </rt></ruby> にも よく <ruby> 雨 <rt> あめ </rt></ruby> が ふる。",
+                "translation": "A: Sarah is my only true friend.\nA: Please give me just one mandarin.\nA: Are animals a food found only in Japan?\nA: June is not the only month when it rains a lot in Japan. It often rains in September, too."
               }
             ]
           },
@@ -6959,16 +6983,20 @@
             "explanation": "By giving an extreme example or an example that is not natural/expected, it shows that even in that case, something holds true.<br>Mainly used with '1 + counter' to express 'even a little'.<br>Used to give an example and suggest there are others as well.",
             "examples": [
               {
-                "text": "A① こんな かんたんな ことは <ruby> 小学生 <rt> しょうがくせい </rt></ruby> でも わかります。"
+                "text": "A① こんな かんたんな ことは <ruby> 小学生 <rt> しょうがくせい </rt></ruby> でも わかります。",
+                "translation": "A: Even an elementary school student can understand something this simple."
               },
               {
-                "text": "B① 1<ruby> 分 <rt> ぷん </rt></ruby> でも <ruby> 長 <rt> なが </rt></ruby> く ねて いたいです。<br>B② 1<ruby> 円 <rt> えん </rt></ruby> でも <ruby> 安 <rt> やす </rt></ruby> いほうが いい。<br>B③ わたしは 少しでも みんなの やくに <ruby> 立 <rt> た </rt></ruby> ちたい。"
+                "text": "B① 1<ruby> 分 <rt> ぷん </rt></ruby> でも <ruby> 長 <rt> なが </rt></ruby> く ねて いたいです。<br>B② 1<ruby> 円 <rt> えん </rt></ruby> でも <ruby> 安 <rt> やす </rt></ruby> いほうが いい。<br>B③ わたしは 少しでも みんなの やくに <ruby> 立 <rt> た </rt></ruby> ちたい。",
+                "translation": "B: I want to sleep even one minute longer.\nB: Even one yen cheaper is better.\nB: I want to be of even a little help to everyone."
               },
               {
-                "text": "C① さあ、<ruby> 甘 <rt> あま </rt></ruby> い <ruby> 物 <rt> もの </rt></ruby> でも <ruby> 食 <rt> た </rt></ruby> べませんか。<br>C② ここで ざっしでも <ruby> 読 <rt> よ </rt></ruby> んで <ruby> 待 <rt> ま </rt></ruby> って いて ください。<br>C③ <ruby> 日曜日 <rt> にちようび </rt></ruby> には <ruby> 花見 <rt> はなみ </rt></ruby> にでも <ruby> 行 <rt> い </rt></ruby> こうかな。"
+                "text": "C① さあ、<ruby> 甘 <rt> あま </rt></ruby> い <ruby> 物 <rt> もの </rt></ruby> でも <ruby> 食 <rt> た </rt></ruby> べませんか。<br>C② ここで ざっしでも <ruby> 読 <rt> よ </rt></ruby> んで <ruby> 待 <rt> ま </rt></ruby> って いて ください。<br>C③ <ruby> 日曜日 <rt> にちようび </rt></ruby> には <ruby> 花見 <rt> はなみ </rt></ruby> にでも <ruby> 行 <rt> い </rt></ruby> こうかな。",
+                "translation": "C: Shall we have something sweet?\nC: Please read a magazine or something while you wait here.\nC: Maybe I'll go to see the cherry blossoms on Sunday."
               },
               {
-                "text": "D① いつでも すきな ときに <ruby> 来 <rt> き </rt></ruby> て ください。<br>D② この クラブには だれでも <ruby> 入 <rt> はい </rt></ruby> れます。<br>D③ <ruby> 今 <rt> いま </rt></ruby> 、コーヒーは <ruby> 世界 <rt> せかい </rt></ruby> の どこにでも あります。"
+                "text": "D① いつでも すきな ときに <ruby> 来 <rt> き </rt></ruby> て ください。<br>D② この クラブには だれでも <ruby> 入 <rt> はい </rt></ruby> れます。<br>D③ <ruby> 今 <rt> いま </rt></ruby> 、コーヒーは <ruby> 世界 <rt> せかい </rt></ruby> の どこにでも あります。",
+                "translation": "D: Please come whenever you like.\nD: Anyone can join this club.\nD: Coffee is now available everywhere in the world."
               }
             ]
           }
@@ -7089,16 +7117,20 @@
             "explanation": "Indicates the topic of a sentence stating an unchanging fact.<br>Indicates a topic singled out to distinguish it from others.<br>Indicates a topic presented for contrast.<br>In the form '～は…が、～は…', contrasts two things.",
             "examples": [
               {
-                "text": "A① ちきゅうは まるいです。<br>A② <ruby> 鳥 <rt> とり </rt></ruby> は <ruby> 空 <rt> そら </rt></ruby> を とびます。<ruby> 魚 <rt> さかな </rt></ruby> は <ruby> 水 <rt> みず </rt></ruby> の <ruby> 中 <rt> なか </rt></ruby> を およぎます。"
+                "text": "A① ちきゅうは まるいです。<br>A② <ruby> 鳥 <rt> とり </rt></ruby> は <ruby> 空 <rt> そら </rt></ruby> を とびます。<ruby> 魚 <rt> さかな </rt></ruby> は <ruby> 水 <rt> みず </rt></ruby> の <ruby> 中 <rt> なか </rt></ruby> を およぎます。",
+                "translation": "A: The Earth is round.\nA: Birds fly in the sky. Fish swim in the water."
               },
               {
-                "text": "B① <ruby> 昼 <rt> ひる </rt></ruby> ご<ruby> 飯 <rt> はん </rt></ruby> は おべんとうを <ruby> 買 <rt> か </rt></ruby> って <ruby> 食 <rt> た </rt></ruby> べます。<br>B② <ruby> 中川 <rt> なかがわ </rt></ruby> さんとは <ruby> 来週 <rt> らいしゅう </rt></ruby> <ruby> 会 <rt> あ </rt></ruby> います。"
+                "text": "B① <ruby> 昼 <rt> ひる </rt></ruby> ご<ruby> 飯 <rt> はん </rt></ruby> は おべんとうを <ruby> 買 <rt> か </rt></ruby> って <ruby> 食 <rt> た </rt></ruby> べます。<br>B② <ruby> 中川 <rt> なかがわ </rt></ruby> さんとは <ruby> 来週 <rt> らいしゅう </rt></ruby> <ruby> 会 <rt> あ </rt></ruby> います。",
+                "translation": "B: I buy a boxed lunch for lunch and eat it.\nB: I will meet Mr. Nakagawa next week."
               },
               {
-                "text": "C① その DVD は もう <ruby> 見 <rt> み </rt></ruby> ましたが、こちらは まだです。<br>C② <ruby> 夏 <rt> なつ </rt></ruby> は <ruby> 大 <rt> だい </rt></ruby> すきですが、<ruby> 冬 <rt> ふゆ </rt></ruby> は すきでは ありません。"
+                "text": "C① その DVD は もう <ruby> 見 <rt> み </rt></ruby> ましたが、こちらは まだです。<br>C② <ruby> 夏 <rt> なつ </rt></ruby> は <ruby> 大 <rt> だい </rt></ruby> すきですが、<ruby> 冬 <rt> ふゆ </rt></ruby> は すきでは ありません。",
+                "translation": "C: I have already watched that DVD, but I have not watched this one yet.\nC: I love summer, but I do not like winter."
               },
               {
-                "text": "D① あしたの パーティーに 15<ruby> 人 <rt> にん </rt></ruby> は <ruby> 来 <rt> き </rt></ruby> るでしょう。<br>D② ここから <ruby> 山 <rt> やま </rt></ruby> の 上まで 5<ruby> 時間 <rt> じかん </rt></ruby> は かかりますよ。"
+                "text": "D① あしたの パーティーに 15<ruby> 人 <rt> にん </rt></ruby> は <ruby> 来 <rt> き </rt></ruby> るでしょう。<br>D② ここから <ruby> 山 <rt> やま </rt></ruby> の 上まで 5<ruby> 時間 <rt> じかん </rt></ruby> は かかりますよ。",
+                "translation": "D: At least 15 people will probably come to tomorrow's party.\nD: It takes at least five hours to get from here to the top of the mountain."
               }
             ]
           },
@@ -7108,10 +7140,12 @@
             "explanation": "Indicates the subject/agent of an action or event (sometimes a question word). Often used when stating what is in front of one's eyes (①) or when wanting to say it's not something else (②③).<br>In the form '～は…が、～は…', can be used in the ... part (②).<br>Expresses the object of a state (potential, desire, skill, etc.).",
             "examples": [
               {
-                "text": "A① あ、めずらしい <ruby> 鳥 <rt> とり </rt></ruby> が とんで いますよ。<br>A② <ruby> 何曜日 <rt> なんようび </rt></ruby> が いちばん いそがしいですか。<br>A③ その <ruby> 仕事 <rt> しごと </rt></ruby> 、わたしが やります。"
+                "text": "A① あ、めずらしい <ruby> 鳥 <rt> とり </rt></ruby> が とんで いますよ。<br>A② <ruby> 何曜日 <rt> なんようび </rt></ruby> が いちばん いそがしいですか。<br>A③ その <ruby> 仕事 <rt> しごと </rt></ruby> 、わたしが やります。",
+                "translation": "A: Oh, a rare bird is flying over there.\nA: Which day of the week is the busiest?\nA: I will do that job."
               },
               {
-                "text": "B① サラさんは かみが きれいですね。<br>B② ジョンさんは トラックの <ruby> 運転 <rt> うんてん </rt></ruby> が できます。<br>B③ ああ、<ruby> 足 <rt> あし </rt></ruby> が いたい！<br>B④ わたしは じしんが こわいです。"
+                "text": "B① サラさんは かみが きれいですね。<br>B② ジョンさんは トラックの <ruby> 運転 <rt> うんてん </rt></ruby> が できます。<br>B③ ああ、<ruby> 足 <rt> あし </rt></ruby> が いたい！<br>B④ わたしは じしんが こわいです。",
+                "translation": "B: Sarah has beautiful hair.\nB: John can drive trucks.\nB: Oh, my foot hurts!\nB: I am afraid of earthquakes."
               }
             ]
           }
@@ -7369,29 +7403,34 @@
           {
             "point_id": "g_s3_7_1",
             "title": "1. 「の」の使い方",
-            "explanation": "Used when explaining a situation (①, ③B), when seeking an explanation (②), or when confirming (③A). '～のです' is a formal, stiff way of saying it.<br>Expresses that the following gives information about ~. In the form '～のは…だ', puts the emphasized information after ...",
+            "explanation": "Attach the nominalizer no to a plain-form clause to present an explanation, ask for a reason, or confirm something the speaker has noticed. In conversation, no desu is often shortened to n desu; it adds an explanatory tone rather than changing the basic meaning.<br>In the pattern no wa ... da, the clause with no becomes the topic and the part after wa identifies or emphasizes the answer. A plain-form clause plus no can also turn an action or event into something that can be seen, heard, or otherwise perceived.",
             "examples": [
               {
-                "text": "A① <ruby> 国 <rt> くに </rt></ruby> へ <ruby> 帰 <rt> かえ </rt></ruby> る ことに しました。<ruby> 国 <rt> くに </rt></ruby> で いい <ruby> 仕事 <rt> しごと </rt></ruby> が <ruby> 見 <rt> み </rt></ruby> つかったのです。<br>A② きのう、どうして <ruby> 休 <rt> やす </rt></ruby> んだんですか。<br>A③ A「あ、かみを きったの？」<br>B「うん、<ruby> 暑 <rt> あつ </rt></ruby> いから <ruby> 短 <rt> みじか </rt></ruby> くしたんだ。」"
+                "text": "A① <ruby> 国 <rt> くに </rt></ruby> へ <ruby> 帰 <rt> かえ </rt></ruby> る ことに しました。<ruby> 国 <rt> くに </rt></ruby> で いい <ruby> 仕事 <rt> しごと </rt></ruby> が <ruby> 見 <rt> み </rt></ruby> つかったのです。<br>A② きのう、どうして <ruby> 休 <rt> やす </rt></ruby> んだんですか。<br>A③ A「あ、かみを きったの？」<br>B「うん、<ruby> 暑 <rt> あつ </rt></ruby> いから <ruby> 短 <rt> みじか </rt></ruby> くしたんだ。」",
+                "translation": "I decided to return to my country. I found a good job there.\nWhy did you take the day off yesterday?\nA: \"Oh, did you get your hair cut?\"\nB: \"Yes. It was hot, so I cut it short.\""
               },
               {
-                "text": "B① わたしが <ruby> 日本 <rt> にほん </rt></ruby> に <ruby> 来 <rt> き </rt></ruby> たのは <ruby> 去年 <rt> きょねん </rt></ruby> です。<br>B② さがして いるのは <ruby> 今日 <rt> きょう </rt></ruby> の <ruby> 新聞 <rt> しんぶん </rt></ruby> ではなくて、きのうの <ruby> 新聞 <rt> しんぶん </rt></ruby> です。<br>B③ テストの てんが <ruby> 悪 <rt> わる </rt></ruby> かったのは あまり <ruby> 勉強 <rt> べんきょう </rt></ruby> しなかったからだ。"
+                "text": "B① わたしが <ruby> 日本 <rt> にほん </rt></ruby> に <ruby> 来 <rt> き </rt></ruby> たのは <ruby> 去年 <rt> きょねん </rt></ruby> です。<br>B② さがして いるのは <ruby> 今日 <rt> きょう </rt></ruby> の <ruby> 新聞 <rt> しんぶん </rt></ruby> ではなくて、きのうの <ruby> 新聞 <rt> しんぶん </rt></ruby> です。<br>B③ テストの てんが <ruby> 悪 <rt> わる </rt></ruby> かったのは あまり <ruby> 勉強 <rt> べんきょう </rt></ruby> しなかったからだ。",
+                "translation": "B: It was last year that I came to Japan.\nB: What I am looking for is not today's newspaper, but yesterday's.\nB: The reason my test score was bad is that I did not study much."
               },
               {
-                "text": "C① <ruby> 町 <rt> まち </rt></ruby> で トムが <ruby> 歩 <rt> ある </rt></ruby> いて いるのを <ruby> 見 <rt> み </rt></ruby> ました。<br>C② となりの へやの ふうふが <ruby> 話 <rt> はな </rt></ruby> して いるのが <ruby> 聞 <rt> き </rt></ruby> こえます。"
+                "text": "C① <ruby> 町 <rt> まち </rt></ruby> で トムが <ruby> 歩 <rt> ある </rt></ruby> いて いるのを <ruby> 見 <rt> み </rt></ruby> ました。<br>C② となりの へやの ふうふが <ruby> 話 <rt> はな </rt></ruby> して いるのが <ruby> 聞 <rt> き </rt></ruby> こえます。",
+                "translation": "C: I saw Tom walking in town.\nC: I can hear the couple in the next room talking."
               }
             ]
           },
           {
             "point_id": "g_s3_7_2",
             "title": "2. 「こと」の使い方",
-            "explanation": "Expresses the content of ~.<br>Concretely shows the content of ~ with ... .",
+            "explanation": "Koto turns a clause or action into an abstract idea or subject, often for talking about experiences, plans, rules, and activities. It can also introduce the content of something that is known or discussed.<br>Use no for more immediate, concrete events or when referring to something directly perceived; koto often sounds more general or formal. In hobby and job descriptions, the dictionary form before koto names the activity.",
             "examples": [
               {
-                "text": "A① あの <ruby> 学校 <rt> がっこう </rt></ruby> の ことを <ruby> 何 <rt> なに </rt></ruby> か <ruby> 知 <rt> し </rt></ruby> って いますか。<br>A② <ruby> 自分 <rt> じぶん </rt></ruby> の ことは あまり <ruby> 話 <rt> はな </rt></ruby> したくない。"
+                "text": "A① あの <ruby> 学校 <rt> がっこう </rt></ruby> の ことを <ruby> 何 <rt> なに </rt></ruby> か <ruby> 知 <rt> し </rt></ruby> って いますか。<br>A② <ruby> 自分 <rt> じぶん </rt></ruby> の ことは あまり <ruby> 話 <rt> はな </rt></ruby> したくない。",
+                "translation": "A: Do you know anything about that school?\nA: I do not want to talk much about myself."
               },
               {
-                "text": "B① しゅみは <ruby> 映画 <rt> えいが </rt></ruby> を <ruby> 見 <rt> み </rt></ruby> ること、<ruby> 食 <rt> た </rt></ruby> べること です。<br>B② ぼくの <ruby> 仕事 <rt> しごと </rt></ruby> は <ruby> 犬 <rt> いぬ </rt></ruby> を さんぽに つれて いく ことです。"
+                "text": "B① しゅみは <ruby> 映画 <rt> えいが </rt></ruby> を <ruby> 見 <rt> み </rt></ruby> ること、<ruby> 食 <rt> た </rt></ruby> べること です。<br>B② ぼくの <ruby> 仕事 <rt> しごと </rt></ruby> は <ruby> 犬 <rt> いぬ </rt></ruby> を さんぽに つれて いく ことです。",
+                "translation": "B: My hobbies are watching movies and eating.\nB: My job is taking dogs for walks."
               }
             ]
           }
@@ -7529,22 +7568,27 @@
           {
             "point_id": "g_s3_8_1",
             "title": "～て…／～ないで… の使い方",
-            "explanation": "Using '～て' or '～ないで', expresses sequence, means, state, parallel listing, cause, etc.",
+            "explanation": "The te-form links clauses and lets context express sequence, method, accompanying state, parallel actions, or cause. The negative form nai de means \"without doing\"; it can also join contrasting actions.<br>When the clauses have different subjects, a second clause that gives a command, invitation, or the speaker's intention generally does not follow a simple te-link. For a negative cause or reason, nakute is normally used instead of nai de.",
             "examples": [
               {
-                "text": "A. ～に<ruby> 引 <rt> ひ </rt></ruby> き<ruby> 続 <rt> つづ </rt></ruby> いて…を<ruby> 行 <rt> おこな </rt></ruby> う・…が<ruby> 起 <rt> お </rt></ruby> こる。 ～と…の<ruby> 主語 <rt> しゅご </rt></ruby> が<ruby> 違 <rt> ちが </rt></ruby> う<ruby> 場合 <rt> ばあい </rt></ruby>、…には<ruby> 話者 <rt> わしゃ </rt></ruby> の<ruby> 意向 <rt> いこう </rt></ruby> や<ruby> 相手 <rt> あいて </rt></ruby> への<ruby> 働 <rt> はたら </rt></ruby> きかけを<ruby> 表 <rt> あらわ </rt></ruby> す<ruby> 文 <rt> ぶん </rt></ruby> は<ruby> 来 <rt> き </rt></ruby> ない。<br>① わたしは <ruby> 朝 <rt> あさ </rt></ruby> 6<ruby> 時 <rt> じ </rt></ruby> に <ruby> 起 <rt> お </rt></ruby> きて、まず シャワーを あびます。<br>② タクシーが <ruby> 止 <rt> と </rt></ruby> まって、ドアが <ruby> 開 <rt> あ </rt></ruby> いた。<br>③ さあ、へやを かたづけて、<ruby> 食事 <rt> しょくじ </rt></ruby> を しよう。"
+                "text": "A. ～に<ruby> 引 <rt> ひ </rt></ruby> き<ruby> 続 <rt> つづ </rt></ruby> いて…を<ruby> 行 <rt> おこな </rt></ruby> う・…が<ruby> 起 <rt> お </rt></ruby> こる。 ～と…の<ruby> 主語 <rt> しゅご </rt></ruby> が<ruby> 違 <rt> ちが </rt></ruby> う<ruby> 場合 <rt> ばあい </rt></ruby>、…には<ruby> 話者 <rt> わしゃ </rt></ruby> の<ruby> 意向 <rt> いこう </rt></ruby> や<ruby> 相手 <rt> あいて </rt></ruby> への<ruby> 働 <rt> はたら </rt></ruby> きかけを<ruby> 表 <rt> あらわ </rt></ruby> す<ruby> 文 <rt> ぶん </rt></ruby> は<ruby> 来 <rt> き </rt></ruby> ない。<br>① わたしは <ruby> 朝 <rt> あさ </rt></ruby> 6<ruby> 時 <rt> じ </rt></ruby> に <ruby> 起 <rt> お </rt></ruby> きて、まず シャワーを あびます。<br>② タクシーが <ruby> 止 <rt> と </rt></ruby> まって、ドアが <ruby> 開 <rt> あ </rt></ruby> いた。<br>③ さあ、へやを かたづけて、<ruby> 食事 <rt> しょくじ </rt></ruby> を しよう。",
+                "translation": "A. Do one thing and then another, or describe events that happen in sequence. When the clauses have different subjects, the second clause generally cannot express the speaker's intention or a request.\n- I get up at six in the morning and take a shower first.\n- The taxi stopped, and the door opened.\n- All right, let's tidy the room and have a meal."
               },
               {
-                "text": "B. ～の<ruby> 方法 <rt> ほうほう </rt></ruby> で…をする。<br>① <ruby> 漢字 <rt> かんじ </rt></ruby> を <ruby> 紙 <rt> かみ </rt></ruby> に <ruby> 何度 <rt> なんど </rt></ruby> も <ruby> 書 <rt> か </rt></ruby> いて おぼえます。<br>② ここまで <ruby> 歩 <rt> ある </rt></ruby> いて <ruby> 来 <rt> き </rt></ruby> ました。<br>③ ナイフを <ruby> 使 <rt> つか </rt></ruby> わないで パンを <ruby> 切 <rt> き </rt></ruby> ったのですか。"
+                "text": "B. ～の<ruby> 方法 <rt> ほうほう </rt></ruby> で…をする。<br>① <ruby> 漢字 <rt> かんじ </rt></ruby> を <ruby> 紙 <rt> かみ </rt></ruby> に <ruby> 何度 <rt> なんど </rt></ruby> も <ruby> 書 <rt> か </rt></ruby> いて おぼえます。<br>② ここまで <ruby> 歩 <rt> ある </rt></ruby> いて <ruby> 来 <rt> き </rt></ruby> ました。<br>③ ナイフを <ruby> 使 <rt> つか </rt></ruby> わないで パンを <ruby> 切 <rt> き </rt></ruby> ったのですか。",
+                "translation": "B. Do something by using a particular method.\n- I memorize kanji by writing them on paper again and again.\n- I came here on foot.\n- Did you cut the bread without using a knife?"
               },
               {
-                "text": "C. ～の<ruby> 状態 <rt> じょうたい </rt></ruby> で…をする。<br>① この <ruby> 旅館 <rt> りょかん </rt></ruby> の <ruby> 人 <rt> ひと </rt></ruby> たちは みんな <ruby> 着物 <rt> きもの </rt></ruby> を <ruby> 着 <rt> き </rt></ruby> て <ruby> 働 <rt> はたら </rt></ruby> いて いますね。<br>② わたしは コーヒーに さとうを <ruby> 入 <rt> い </rt></ruby> れて <ruby> 飲 <rt> の </rt></ruby> みますが、<ruby> 妹 <rt> いもうと </rt></ruby> は <ruby> 入 <rt> い </rt></ruby> れないで <ruby> 飲 <rt> の </rt></ruby> みます。<br>③ トム「これは <ruby> 何 <rt> なに </rt></ruby> か かけて <ruby> 食 <rt> た </rt></ruby> べるんですか。」<br><ruby> 山田 <rt> やまだ </rt></ruby> 「いえ、<ruby> 何 <rt> なに </rt></ruby> も かけないで <ruby> 食 <rt> た </rt></ruby> べて ください。」<br>④ <ruby> 今日 <rt> きょう </rt></ruby> は けいたい <ruby> 電話 <rt> でんわ </rt></ruby> を <ruby> 持 <rt> も </rt></ruby> たないで <ruby> 出 <rt> で </rt></ruby> かけました。"
+                "text": "C. ～の<ruby> 状態 <rt> じょうたい </rt></ruby> で…をする。<br>① この <ruby> 旅館 <rt> りょかん </rt></ruby> の <ruby> 人 <rt> ひと </rt></ruby> たちは みんな <ruby> 着物 <rt> きもの </rt></ruby> を <ruby> 着 <rt> き </rt></ruby> て <ruby> 働 <rt> はたら </rt></ruby> いて いますね。<br>② わたしは コーヒーに さとうを <ruby> 入 <rt> い </rt></ruby> れて <ruby> 飲 <rt> の </rt></ruby> みますが、<ruby> 妹 <rt> いもうと </rt></ruby> は <ruby> 入 <rt> い </rt></ruby> れないで <ruby> 飲 <rt> の </rt></ruby> みます。<br>③ トム「これは <ruby> 何 <rt> なに </rt></ruby> か かけて <ruby> 食 <rt> た </rt></ruby> べるんですか。」<br><ruby> 山田 <rt> やまだ </rt></ruby> 「いえ、<ruby> 何 <rt> なに </rt></ruby> も かけないで <ruby> 食 <rt> た </rt></ruby> べて ください。」<br>④ <ruby> 今日 <rt> きょう </rt></ruby> は けいたい <ruby> 電話 <rt> でんわ </rt></ruby> を <ruby> 持 <rt> も </rt></ruby> たないで <ruby> 出 <rt> で </rt></ruby> かけました。",
+                "translation": "C. Do something while in a particular state.\n- Everyone who works at this inn wears a kimono.\n- I drink coffee with sugar, but my younger sister drinks it without sugar.\n- Tom: \"Do you eat this with some kind of topping?\"\n- Yamada: \"No, please eat it without adding anything.\"\n- I went out today without taking my mobile phone."
               },
               {
-                "text": "D. ～と<ruby> 並列的 <rt> へいれつてき </rt></ruby>・<ruby> 対比的 <rt> たいひてき </rt></ruby> に…を<ruby> 行 <rt> おこな </rt></ruby> う・…が<ruby> 起 <rt> お </rt></ruby> こる。<br>① さあ、みなさん、<ruby> 今日 <rt> きょう </rt></ruby> は たくさん <ruby> 食 <rt> た </rt></ruby> べて、<ruby> 飲 <rt> の </rt></ruby> んで、<ruby> 話 <rt> はな </rt></ruby> して ください。<br>② じゅぎょうは 9<ruby> 時 <rt> じ </rt></ruby> に <ruby> 始 <rt> はじ </rt></ruby> まって、3<ruby> 時 <rt> じ </rt></ruby> に <ruby> 終 <rt> お </rt></ruby> わります。<br>③ <ruby> 兄 <rt> あに </rt></ruby> は そうじを して、ぼくは さらを あらった。<br>④ きのうの <ruby> 会 <rt> かい </rt></ruby> には <ruby> 男 <rt> おとこ </rt></ruby> の <ruby> 人 <rt> ひと </rt></ruby> たちは <ruby> 来 <rt> き </rt></ruby> ないで、<ruby> 女 <rt> おんな </rt></ruby> の <ruby> 人 <rt> ひと </rt></ruby> たちだけ <ruby> 来 <rt> き </rt></ruby> た。"
+                "text": "D. ～と<ruby> 並列的 <rt> へいれつてき </rt></ruby>・<ruby> 対比的 <rt> たいひてき </rt></ruby> に…を<ruby> 行 <rt> おこな </rt></ruby> う・…が<ruby> 起 <rt> お </rt></ruby> こる。<br>① さあ、みなさん、<ruby> 今日 <rt> きょう </rt></ruby> は たくさん <ruby> 食 <rt> た </rt></ruby> べて、<ruby> 飲 <rt> の </rt></ruby> んで、<ruby> 話 <rt> はな </rt></ruby> して ください。<br>② じゅぎょうは 9<ruby> 時 <rt> じ </rt></ruby> に <ruby> 始 <rt> はじ </rt></ruby> まって、3<ruby> 時 <rt> じ </rt></ruby> に <ruby> 終 <rt> お </rt></ruby> わります。<br>③ <ruby> 兄 <rt> あに </rt></ruby> は そうじを して、ぼくは さらを あらった。<br>④ きのうの <ruby> 会 <rt> かい </rt></ruby> には <ruby> 男 <rt> おとこ </rt></ruby> の <ruby> 人 <rt> ひと </rt></ruby> たちは <ruby> 来 <rt> き </rt></ruby> ないで、<ruby> 女 <rt> おんな </rt></ruby> の <ruby> 人 <rt> ひと </rt></ruby> たちだけ <ruby> 来 <rt> き </rt></ruby> た。",
+                "translation": "D. Describe actions or events in parallel or in contrast.\n- Everyone, please eat, drink, and talk a lot today.\n- Class starts at nine and ends at three.\n- My older brother cleaned, and I washed the dishes.\n- The men did not come to yesterday's gathering; only the women came."
               },
               {
-                "text": "E. ～が<ruby> 原因 <rt> げんいん </rt></ruby> で…になる。<ruby> 否定 <rt> ひてい </rt></ruby> の<ruby> 形 <rt> けい </rt></ruby> は「ないで」ではなく、ふつう「なくて」を<ruby> 使 <rt> つか </rt></ruby> う。<br>① <ruby> 電車 <rt> でんしゃ </rt></ruby> が <ruby> 止 <rt> と </rt></ruby> まって、<ruby> 仕事 <rt> しごと </rt></ruby> に おくれました。<br>② <ruby> 旅行 <rt> りょこう </rt></ruby> に <ruby> 行 <rt> い </rt></ruby> けなくて、ざんねんです。"
+                "text": "E. ～が<ruby> 原因 <rt> げんいん </rt></ruby> で…になる。<ruby> 否定 <rt> ひてい </rt></ruby> の<ruby> 形 <rt> けい </rt></ruby> は「ないで」ではなく、ふつう「なくて」を<ruby> 使 <rt> つか </rt></ruby> う。<br>① <ruby> 電車 <rt> でんしゃ </rt></ruby> が <ruby> 止 <rt> と </rt></ruby> まって、<ruby> 仕事 <rt> しごと </rt></ruby> に おくれました。<br>② <ruby> 旅行 <rt> りょこう </rt></ruby> に <ruby> 行 <rt> い </rt></ruby> けなくて、ざんねんです。",
+                "translation": "E. Something happens as a result of a cause. For a negative cause, ??? is generally used instead of ???.\n- The train stopped, so I was late for work.\n- I am disappointed that I could not go on the trip."
               }
             ]
           }
@@ -7672,7 +7716,7 @@
           {
             "point_id": "g_s3_9_1",
             "title": "他動詞・自動詞 (Transitive and intransitive verbs)",
-            "explanation": "Transitive verbs (agent が/は + (object) を + transitive verb) focus on the agent of the action.<br>Intransitive verbs (~が/は + intransitive verb) focus on the movement/change of the action itself.",
+            "explanation": "A transitive verb describes an agent acting on an object: the agent is marked with ga or wa and the object with o. An intransitive verb describes an event or change without stating who caused it; the thing that changes is usually marked with ga or wa.<br>Many verbs form meaning-related pairs, such as akeru (open something) and aku (something opens). Choose the form according to whether the sentence focuses on someone's action or on the resulting event or state.",
             "conjugation_table": [
               {
                 "transitive": "<ruby> 電気 <rt> でんき </rt></ruby> をつける",
@@ -7753,10 +7797,12 @@
             ],
             "examples": [
               {
-                "text": "① <ruby> 暑 <rt> あつ </rt></ruby> いので、まどを <ruby> 開 <rt> あ </rt></ruby> けます。<br>② へやに いた <ruby> 虫 <rt> むし </rt></ruby> を <ruby> 外 <rt> そと </rt></ruby> に <ruby> 出 <rt> だ </rt></ruby> しました。<br>③ トムは <ruby> 古 <rt> ふる </rt></ruby> い おもちゃを <ruby> 集 <rt> あつ </rt></ruby> めて います。"
+                "text": "① <ruby> 暑 <rt> あつ </rt></ruby> いので、まどを <ruby> 開 <rt> あ </rt></ruby> けます。<br>② へやに いた <ruby> 虫 <rt> むし </rt></ruby> を <ruby> 外 <rt> そと </rt></ruby> に <ruby> 出 <rt> だ </rt></ruby> しました。<br>③ トムは <ruby> 古 <rt> ふる </rt></ruby> い おもちゃを <ruby> 集 <rt> あつ </rt></ruby> めて います。",
+                "translation": "- It is hot, so I will open the window.\n- I took the bug that was in the room outside.\n- Tom collects old toys."
               },
               {
-                "text": "① <ruby> 車 <rt> くるま </rt></ruby> の ドアが <ruby> 急 <rt> きゅう </rt></ruby> に <ruby> 開 <rt> あ </rt></ruby> きました。<br>② <ruby> 学生 <rt> がくせい </rt></ruby> は <ruby> 後 <rt> うし </rt></ruby> ろの ドアから <ruby> 出 <rt> で </rt></ruby> ます。<br>③ みんなが <ruby> 集 <rt> あつ </rt></ruby> まって、<ruby> 旅行 <rt> りょこう </rt></ruby> の そうだんを します。"
+                "text": "① <ruby> 車 <rt> くるま </rt></ruby> の ドアが <ruby> 急 <rt> きゅう </rt></ruby> に <ruby> 開 <rt> あ </rt></ruby> きました。<br>② <ruby> 学生 <rt> がくせい </rt></ruby> は <ruby> 後 <rt> うし </rt></ruby> ろの ドアから <ruby> 出 <rt> で </rt></ruby> ます。<br>③ みんなが <ruby> 集 <rt> あつ </rt></ruby> まって、<ruby> 旅行 <rt> りょこう </rt></ruby> の そうだんを します。",
+                "translation": "- The car door suddenly opened.\n- The students leave through the back door.\n- Everyone will gather and discuss the trip."
               }
             ]
           }
@@ -7848,26 +7894,30 @@
           {
             "point_id": "g_s3_10_1",
             "title": "1. 「～ています」の使い方",
-            "explanation": "Expresses that an action is continuing/progressing. Used not only for temporary things (①②) but also for things repeated over a long period (③).<br>Expresses the resulting state after a certain event/action. Attaches to intransitive verbs.<br>Expresses a habitual action.",
+            "explanation": "The te-imasu form has several meanings that depend on the verb and context. With an action verb, it can describe an action happening now or a repeated, habitual activity. With many intransitive verbs, it describes a state that remains after a change, such as a window being closed.<br>The negative te-imasen can mean that an action has not happened yet, or that a resulting state has not been reached. Use the verb and surrounding time expressions to tell these uses apart.",
             "examples": [
               {
-                "text": "A① <ruby> 今 <rt> いま </rt></ruby> 、<ruby> 雨 <rt> あめ </rt></ruby> が ふって います。<br>A② じしんの とき、おふろに <ruby> 入 <rt> はい </rt></ruby> って いました。<br>A③ <ruby> 毎年 <rt> まいとし </rt></ruby> <ruby> 外国 <rt> がいこく </rt></ruby> <ruby> 旅行 <rt> りょこう </rt></ruby> を して います。"
+                "text": "A① <ruby> 今 <rt> いま </rt></ruby> 、<ruby> 雨 <rt> あめ </rt></ruby> が ふって います。<br>A② じしんの とき、おふろに <ruby> 入 <rt> はい </rt></ruby> って いました。<br>A③ <ruby> 毎年 <rt> まいとし </rt></ruby> <ruby> 外国 <rt> がいこく </rt></ruby> <ruby> 旅行 <rt> りょこう </rt></ruby> を して います。",
+                "translation": "A: It is raining now.\nA: I was taking a bath when the earthquake happened.\nA: I travel abroad every year."
               },
               {
-                "text": "B① まどが しまって います。<br>B② ジョンさんは めがねを かけて います。<br>B③ <ruby> 姉 <rt> あね </rt></ruby> は けっこんして いて、こどもが <ruby> 二人 <rt> ふたり </rt></ruby> います。<br>B④ <ruby> 父 <rt> ちち </rt></ruby> は <ruby> 今 <rt> いま </rt></ruby> <ruby> 出 <rt> で </rt></ruby> かけて います。<br>B⑤ わたしは けん<ruby> 君 <rt> くん </rt></ruby> は <ruby> 知 <rt> し </rt></ruby> って いますが、<ruby> 妹 <rt> いもうと </rt></ruby> さんは <ruby> 知 <rt> し </rt></ruby> りません。"
+                "text": "B① まどが しまって います。<br>B② ジョンさんは めがねを かけて います。<br>B③ <ruby> 姉 <rt> あね </rt></ruby> は けっこんして いて、こどもが <ruby> 二人 <rt> ふたり </rt></ruby> います。<br>B④ <ruby> 父 <rt> ちち </rt></ruby> は <ruby> 今 <rt> いま </rt></ruby> <ruby> 出 <rt> で </rt></ruby> かけて います。<br>B⑤ わたしは けん<ruby> 君 <rt> くん </rt></ruby> は <ruby> 知 <rt> し </rt></ruby> って いますが、<ruby> 妹 <rt> いもうと </rt></ruby> さんは <ruby> 知 <rt> し </rt></ruby> りません。",
+                "translation": "B: The window is closed.\nB: John is wearing glasses.\nB: My older sister is married and has two children.\nB: My father is out right now.\nB: I know Ken, but I do not know his younger sister."
               },
               {
-                "text": "C① まだ <ruby> 昼 <rt> ひる </rt></ruby> ご<ruby> 飯 <rt> はん </rt></ruby> を <ruby> 食 <rt> た </rt></ruby> べて いません。<br>C② <ruby> 仕事 <rt> しごと </rt></ruby> が <ruby> 終 <rt> お </rt></ruby> わって いないので、<ruby> 帰 <rt> かえ </rt></ruby> れません。<br>C③ はなちゃんは まだ <ruby> 小学校 <rt> しょうがっこう </rt></ruby> に <ruby> 入 <rt> はい </rt></ruby> って いません。"
+                "text": "C① まだ <ruby> 昼 <rt> ひる </rt></ruby> ご<ruby> 飯 <rt> はん </rt></ruby> を <ruby> 食 <rt> た </rt></ruby> べて いません。<br>C② <ruby> 仕事 <rt> しごと </rt></ruby> が <ruby> 終 <rt> お </rt></ruby> わって いないので、<ruby> 帰 <rt> かえ </rt></ruby> れません。<br>C③ はなちゃんは まだ <ruby> 小学校 <rt> しょうがっこう </rt></ruby> に <ruby> 入 <rt> はい </rt></ruby> って いません。",
+                "translation": "C: I have not eaten lunch yet.\nC: I cannot go home because I have not finished my work.\nC: Hana has not started elementary school yet."
               }
             ]
           },
           {
             "point_id": "g_s3_10_2",
             "title": "2. 「～てあります」の使い方",
-            "explanation": "Expresses the resulting state after doing something with a certain purpose. Attaches to transitive verbs.",
+            "explanation": "The te-arimasu form describes a state that someone deliberately created and left in place for a purpose. It is formed with the te-form of a transitive verb plus arimasu; the object is commonly marked with ga or o depending on the sentence.<br>Unlike te-imasu, which can simply describe an ongoing action or resulting state, te-arimasu highlights the preparation or intentional action behind the present state.",
             "examples": [
               {
-                "text": "① あ、<ruby> 花 <rt> はな </rt></ruby> が きれいに かざって ありますね。<br>② もう ホテルを よやくして あります。<br>③ へやは そうじして ありますか。<br>④ テストに <ruby> 名前 <rt> なまえ </rt></ruby> が <ruby> 書 <rt> か </rt></ruby> いて ありませんでした。"
+                "text": "① あ、<ruby> 花 <rt> はな </rt></ruby> が きれいに かざって ありますね。<br>② もう ホテルを よやくして あります。<br>③ へやは そうじして ありますか。<br>④ テストに <ruby> 名前 <rt> なまえ </rt></ruby> が <ruby> 書 <rt> か </rt></ruby> いて ありませんでした。",
+                "translation": "- Oh, the flowers have been beautifully arranged.\n- I have already made a hotel reservation.\n- Has the room been cleaned?\n- My name had not been written on the test."
               }
             ]
           }
@@ -8005,19 +8055,23 @@
           {
             "point_id": "g_s3_11_1",
             "title": "～てきます・～ていきます",
-            "explanation": "'～てきます' expresses movement of a thing or person approaching the speaker (①②). '～ていきます' expresses movement of a thing or person going away from the speaker (①②).<br>'～てきます' also expresses that some change or action begins to appear (③④⑤⑥).<br>'～ていきます' also expresses that some change or action continues going forward (⑥⑦⑧).",
+            "explanation": "With movement verbs, te-kimasu describes movement toward the speaker or a reference point, while te-ikimasu describes movement away from it. The first verb shows what action or movement is involved.<br>These forms also describe change over time: te-kimasu presents a change that has developed up to now or is beginning to appear, and te-ikimasu presents a change or action that will continue from now on. They can also mean doing something and then returning, or doing it before going somewhere.",
             "examples": [
               {
-                "text": "A① <ruby> 毎朝 <rt> まいあさ </rt></ruby>、うちの にわに <ruby> 鳥 <rt> とり </rt></ruby> が とんで きます。<br>A② <ruby> 兄 <rt> あに </rt></ruby> が へやに <ruby> 入 <rt> はい </rt></ruby> って きました。<br>A③ <ruby> 鳥 <rt> とり </rt></ruby> が <ruby> 南 <rt> みなみ </rt></ruby> の <ruby> 方 <rt> ほう </rt></ruby> へ とんで いきました。<br>A④ <ruby> 兄 <rt> あに </rt></ruby> が へやを <ruby> 出 <rt> で </rt></ruby> て いきました。"
+                "text": "A① <ruby> 毎朝 <rt> まいあさ </rt></ruby>、うちの にわに <ruby> 鳥 <rt> とり </rt></ruby> が とんで きます。<br>A② <ruby> 兄 <rt> あに </rt></ruby> が へやに <ruby> 入 <rt> はい </rt></ruby> って きました。<br>A③ <ruby> 鳥 <rt> とり </rt></ruby> が <ruby> 南 <rt> みなみ </rt></ruby> の <ruby> 方 <rt> ほう </rt></ruby> へ とんで いきました。<br>A④ <ruby> 兄 <rt> あに </rt></ruby> が へやを <ruby> 出 <rt> で </rt></ruby> て いきました。",
+                "translation": "A: Birds fly into our garden every morning.\nA: My older brother came into the room.\nA: A bird flew away toward the south.\nA: My older brother left the room."
               },
               {
-                "text": "B① この ごみを すてて きて ください。<br>B② <ruby> 銀行 <rt> ぎんこう </rt></ruby> で お<ruby> 金 <rt> かね </rt></ruby> を はらって きました。<br>B③ <ruby> 会社 <rt> かいしゃ </rt></ruby> に コーヒーを <ruby> 買 <rt> か </rt></ruby> って いきます。<br>B④ とちゅうで ゆうびんきょくに よって いきます。"
+                "text": "B① この ごみを すてて きて ください。<br>B② <ruby> 銀行 <rt> ぎんこう </rt></ruby> で お<ruby> 金 <rt> かね </rt></ruby> を はらって きました。<br>B③ <ruby> 会社 <rt> かいしゃ </rt></ruby> に コーヒーを <ruby> 買 <rt> か </rt></ruby> って いきます。<br>B④ とちゅうで ゆうびんきょくに よって いきます。",
+                "translation": "B: Please go throw this garbage away and come back.\nB: I went to the bank and paid the money.\nB: I will buy coffee at the office and take it along.\nB: I will stop by the post office on the way."
               },
               {
-                "text": "C① さいきん <ruby> 動物園 <rt> どうぶつえん </rt></ruby> が ふえて きました。<br>C② こどもの ころから ピアノを <ruby> 練習 <rt> れんしゅう </rt></ruby> して きました。<br>C③ この <ruby> 町 <rt> まち </rt></ruby> は だんだん かわって いでしょう。<br>C④ これからも <ruby> 日本語 <rt> にほんご </rt></ruby> を <ruby> 勉強 <rt> べんきょう </rt></ruby> して いきたいです。"
+                "text": "C① さいきん <ruby> 動物園 <rt> どうぶつえん </rt></ruby> が ふえて きました。<br>C② こどもの ころから ピアノを <ruby> 練習 <rt> れんしゅう </rt></ruby> して きました。<br>C③ この <ruby> 町 <rt> まち </rt></ruby> は だんだん かわって いでしょう。<br>C④ これからも <ruby> 日本語 <rt> にほんご </rt></ruby> を <ruby> 勉強 <rt> べんきょう </rt></ruby> して いきたいです。",
+                "translation": "C: Zoos have been increasing recently.\nC: I have been practicing piano since I was a child.\nC: This town will gradually change.\nC: I want to keep studying Japanese from now on, too."
               },
               {
-                "text": "D① おなかが いたく なって きました。<br>D② あ、<ruby> 雨 <rt> あめ </rt></ruby> が ふって きたよ。"
+                "text": "D① おなかが いたく なって きました。<br>D② あ、<ruby> 雨 <rt> あめ </rt></ruby> が ふって きたよ。",
+                "translation": "D: My stomach is starting to hurt.\nD: Oh, it has started to rain!"
               }
             ]
           }
@@ -8325,30 +8379,33 @@
           {
             "point_id": "g_s3_13_1",
             "title": "1. 「こ(これ・この・ここ・こう)」の使い方",
-            "explanation": "Used to refer to something that is near both the speaker and the listener and both can see it (①②), or something on the speaker's side (③④).",
+            "explanation": "Ko-series words (kore, kono, koko, kou) point to something near the speaker, including something both people can see, or to the speaker's own side of a situation. Use kore for \"this,\" kono plus a noun for \"this [noun],\" koko for \"here,\" and kou for \"in this way.\"",
             "examples": [
               {
-                "text": "① これは だれの かばんですか。<br>② A「この <ruby> 小 <rt> ちい </rt></ruby> さい カメラは <ruby> 日本 <rt> にほん </rt></ruby> のですね。」<br>B「ええ。でも、これは ちょっと <ruby> 高 <rt> たか </rt></ruby> いですね。」<br>③ ここが いたいんです。<br>④ すしは こう して 作ります。"
+                "text": "① これは だれの かばんですか。<br>② A「この <ruby> 小 <rt> ちい </rt></ruby> さい カメラは <ruby> 日本 <rt> にほん </rt></ruby> のですね。」<br>B「ええ。でも、これは ちょっと <ruby> 高 <rt> たか </rt></ruby> いですね。」<br>③ ここが いたいんです。<br>④ すしは こう して 作ります。",
+                "translation": "Whose bag is this?\nA: \"This small camera is Japanese, isn't it?\"\nB: \"Yes. But this one is a little expensive.\"\nIt hurts here.\nThis is how sushi is made."
               }
             ]
           },
           {
             "point_id": "g_s3_13_2",
             "title": "2. 「そ(それ・その・そこ・そう)」の使い方",
-            "explanation": "Used to refer to something closer to the listener than the speaker (①), something a little distant from both speaker and listener (②), or something only one of the speaker or listener knows about (③④).",
+            "explanation": "So-series words (sore, sono, soko, sou) commonly point to something near the listener. They can also refer to something already mentioned or known to one person in the conversation. Use sore for ?that,? sono plus a noun for ?that [noun],? soko for ?there,? and sou for ?in that way.?",
             "examples": [
               {
-                "text": "① サラさん、その ゆびわ、きれいですね。<br>② トイレは そこです。<br>③ きのう <ruby> 高校 <rt> こうこう </rt></ruby> の <ruby> 友 <rt> とも </rt></ruby> だちと <ruby> 会 <rt> あ </rt></ruby> いました。その <ruby> 人 <rt> ひと </rt></ruby> も <ruby> 来週 <rt> らいしゅう </rt></ruby> の パーティーに <ruby> 来 <rt> き </rt></ruby> ます。<br>④「<ruby> 鳥 <rt> とり </rt></ruby> よし」ですか。その <ruby> 店 <rt> みせ </rt></ruby> は どこに ありますか。"
+                "text": "① サラさん、その ゆびわ、きれいですね。<br>② トイレは そこです。<br>③ きのう <ruby> 高校 <rt> こうこう </rt></ruby> の <ruby> 友 <rt> とも </rt></ruby> だちと <ruby> 会 <rt> あ </rt></ruby> いました。その <ruby> 人 <rt> ひと </rt></ruby> も <ruby> 来週 <rt> らいしゅう </rt></ruby> の パーティーに <ruby> 来 <rt> き </rt></ruby> ます。<br>④「<ruby> 鳥 <rt> とり </rt></ruby> よし」ですか。その <ruby> 店 <rt> みせ </rt></ruby> は どこに ありますか。",
+                "translation": "Sarah, that ring is beautiful.\nThe restroom is over there.\nI met a friend from high school yesterday. That person is coming to next week's party, too.\n\"Toriyoshi\"? Where is that restaurant?"
               }
             ]
           },
           {
             "point_id": "g_s3_13_3",
             "title": "3. 「あ(あれ・あの・あそこ・ああ)」の使い方",
-            "explanation": "Used to refer to something distant from both the speaker and listener that both can see (①②), or something both the speaker and listener know about (③④⑤).",
+            "explanation": "A-series words (are, ano, asoko, aa) point to something distant from both speaker and listener, or to shared knowledge from the past. Use are for ?that (over there),? ano plus a noun for ?that [noun],? asoko for ?over there,? and aa for ?in that way.?",
             "examples": [
               {
-                "text": "① あれが <ruby> 有名 <rt> ゆうめい </rt></ruby> な <ruby> 東京 <rt> とうきょう </rt></ruby> スカイツリーです。<br>② ほら、あの <ruby> 木 <rt> き </rt></ruby> の 上に <ruby> 鳥 <rt> とり </rt></ruby> が いますよ。<br>③ きのう <ruby> 行 <rt> い </rt></ruby> った <ruby> 店 <rt> みせ </rt></ruby> は よかったですね。また あそこに <ruby> 行 <rt> い </rt></ruby> きましょう。<br>④ A「リンさん、<ruby> 今日 <rt> きょう </rt></ruby> から たばこを やめると <ruby> 言 <rt> い </rt></ruby> って いましたよ。」<br>B「あの <ruby> 人 <rt> ひと </rt></ruby> は いつも ああ <ruby> 言 <rt> い </rt></ruby> います。」"
+                "text": "① あれが <ruby> 有名 <rt> ゆうめい </rt></ruby> な <ruby> 東京 <rt> とうきょう </rt></ruby> スカイツリーです。<br>② ほら、あの <ruby> 木 <rt> き </rt></ruby> の 上に <ruby> 鳥 <rt> とり </rt></ruby> が いますよ。<br>③ きのう <ruby> 行 <rt> い </rt></ruby> った <ruby> 店 <rt> みせ </rt></ruby> は よかったですね。また あそこに <ruby> 行 <rt> い </rt></ruby> きましょう。<br>④ A「リンさん、<ruby> 今日 <rt> きょう </rt></ruby> から たばこを やめると <ruby> 言 <rt> い </rt></ruby> って いましたよ。」<br>B「あの <ruby> 人 <rt> ひと </rt></ruby> は いつも ああ <ruby> 言 <rt> い </rt></ruby> います。」",
+                "translation": "That is the famous Tokyo Skytree.\nLook, there is a bird on top of that tree over there.\nThe place we went yesterday was nice. Let's go there again.\nA: \"Lin said she was quitting smoking today.\"\nB: \"That person is always saying things like that.\""
               }
             ]
           }
@@ -8439,25 +8496,31 @@
           {
             "point_id": "g_s3_14_1",
             "title": "接続の言葉 (Conjunctive terms)",
-            "explanation": "Here, we learn the usage of various conjunctive expressions / conjunctions.",
+            "explanation": "Conjunctive expressions show how one statement relates to the next. Desukara and dakara introduce a result; sorede introduces a factual result; keredomo signals contrast; soreni adds supporting information; and tatoeba introduces an example.<br>Soredewa and ja take the previous information as a starting point for a conclusion, decision, or suggestion. The shorter forms dakara and ja are more conversational, while desukara and soredewa are generally more polite or formal.",
             "examples": [
               {
-                "text": "1 ですから・だから：<ruby> 前 <rt> まえ </rt></ruby> の<ruby> 文 <rt> ぶん </rt></ruby> の<ruby> 結論 <rt> けつろん </rt></ruby>（<ruby> 事実 <rt> じじつ </rt></ruby>・<ruby> 判断 <rt> はんだん </rt></ruby>・<ruby> 働 <rt> はたら </rt></ruby> きかけ）を<ruby> 言 <rt> い </rt></ruby> う。<br>① これは 一つ 100<ruby> 円 <rt> えん </rt></ruby> です。ですから、3つで 300<ruby> 円 <rt> えん </rt></ruby> です。<br>② もう <ruby> 夜 <rt> よる </rt></ruby> 8<ruby> 時 <rt> じ </rt></ruby> だ。だから、<ruby> 教室 <rt> きょうしつ </rt></ruby> には だれも いないと <ruby> 思 <rt> おも </rt></ruby> う。<br>③ ここは <ruby> 人 <rt> ひと </rt></ruby> が よく <ruby> 通 <rt> とお </rt></ruby> るんだ。だから、ここに <ruby> 物 <rt> もの </rt></ruby> を おかないで。"
+                "text": "1 ですから・だから：<ruby> 前 <rt> まえ </rt></ruby> の<ruby> 文 <rt> ぶん </rt></ruby> の<ruby> 結論 <rt> けつろん </rt></ruby>（<ruby> 事実 <rt> じじつ </rt></ruby>・<ruby> 判断 <rt> はんだん </rt></ruby>・<ruby> 働 <rt> はたら </rt></ruby> きかけ）を<ruby> 言 <rt> い </rt></ruby> う。<br>① これは 一つ 100<ruby> 円 <rt> えん </rt></ruby> です。ですから、3つで 300<ruby> 円 <rt> えん </rt></ruby> です。<br>② もう <ruby> 夜 <rt> よる </rt></ruby> 8<ruby> 時 <rt> じ </rt></ruby> だ。だから、<ruby> 教室 <rt> きょうしつ </rt></ruby> には だれも いないと <ruby> 思 <rt> おも </rt></ruby> う。<br>③ ここは <ruby> 人 <rt> ひと </rt></ruby> が よく <ruby> 通 <rt> とお </rt></ruby> るんだ。だから、ここに <ruby> 物 <rt> もの </rt></ruby> を おかないで。",
+                "translation": "1 Therefore / so: Introduce a conclusion (a fact, judgment, or suggestion) based on the previous sentence.\nThis costs 100 yen each. Therefore, three cost 300 yen.\nIt is already eight o'clock at night. So I think nobody is in the classroom.\nLots of people pass through here. So do not put things here."
               },
               {
-                "text": "2 それで：<ruby> 前 <rt> まえ </rt></ruby> の<ruby> 文 <rt> ぶん </rt></ruby> の<ruby> 結論 <rt> けつろん </rt></ruby>（<ruby> 事実 <rt> じじつ </rt></ruby>）を<ruby> 言 <rt> い </rt></ruby> う。<br>① <ruby> 小 <rt> ちい </rt></ruby> さい <ruby> 字 <rt> じ </rt></ruby> が <ruby> 見 <rt> み </rt></ruby> えなく なりました。それで、<ruby> 新 <rt> あたら </rt></ruby> しい めがねを <ruby> 買 <rt> か </rt></ruby> いました。<br>② <ruby> 会社 <rt> かいしゃ </rt></ruby> が <ruby> 遠 <rt> とお </rt></ruby> いです。それで、<ruby> 毎朝 <rt> まいあさ </rt></ruby> <ruby> 早 <rt> はや </rt></ruby> く <ruby> 家 <rt> いえ </rt></ruby> を <ruby> 出 <rt> で </rt></ruby> る。"
+                "text": "2 それで：<ruby> 前 <rt> まえ </rt></ruby> の<ruby> 文 <rt> ぶん </rt></ruby> の<ruby> 結論 <rt> けつろん </rt></ruby>（<ruby> 事実 <rt> じじつ </rt></ruby>）を<ruby> 言 <rt> い </rt></ruby> う。<br>① <ruby> 小 <rt> ちい </rt></ruby> さい <ruby> 字 <rt> じ </rt></ruby> が <ruby> 見 <rt> み </rt></ruby> えなく なりました。それで、<ruby> 新 <rt> あたら </rt></ruby> しい めがねを <ruby> 買 <rt> か </rt></ruby> いました。<br>② <ruby> 会社 <rt> かいしゃ </rt></ruby> が <ruby> 遠 <rt> とお </rt></ruby> いです。それで、<ruby> 毎朝 <rt> まいあさ </rt></ruby> <ruby> 早 <rt> はや </rt></ruby> く <ruby> 家 <rt> いえ </rt></ruby> を <ruby> 出 <rt> で </rt></ruby> る。",
+                "translation": "2 ???: State a factual result or conclusion based on the previous sentence.\n- I could no longer see small print. So I bought new glasses.\n- My office is far away. So I leave home early every morning."
               },
               {
-                "text": "3 けれど(も)：<ruby> 前 <rt> まえ </rt></ruby> の<ruby> 文 <rt> ぶん </rt></ruby> と<ruby> 反 <rt> はん </rt></ruby> すること、<ruby> 対 <rt> たい </rt></ruby> することを<ruby> 言 <rt> い </rt></ruby> う。<br>① とても がんばりました。けれども、いい てんは とれませんでした。<br>② この カメラは いい。けれど、少し <ruby> 重 <rt> おも </rt></ruby> い。"
+                "text": "3 けれど(も)：<ruby> 前 <rt> まえ </rt></ruby> の<ruby> 文 <rt> ぶん </rt></ruby> と<ruby> 反 <rt> はん </rt></ruby> すること、<ruby> 対 <rt> たい </rt></ruby> することを<ruby> 言 <rt> い </rt></ruby> う。<br>① とても がんばりました。けれども、いい てんは とれませんでした。<br>② この カメラは いい。けれど、少し <ruby> 重 <rt> おも </rt></ruby> い。",
+                "translation": "3 ???(?): Introduce something that contrasts with or opposes the previous sentence.\n- I tried very hard. However, I could not get a good score.\n- This camera is good. However, it is a little heavy."
               },
               {
-                "text": "4 それに：<ruby> 前 <rt> まえ </rt></ruby> の<ruby> 言葉 <rt> ことば </rt></ruby> や<ruby> 文 <rt> ぶん </rt></ruby> と同じようなことを<ruby> 付 <rt> つ </rt></ruby> け<ruby> 加 <rt> くわ </rt></ruby> える。<br>① バナナは おいしいです。それに、<ruby> 安 <rt> やす </rt></ruby> いです。<br>② <ruby> 雨 <rt> あめ </rt></ruby> が ふって いるし、それに、<ruby> 風 <rt> かぜ </rt></ruby> も ある。"
+                "text": "4 それに：<ruby> 前 <rt> まえ </rt></ruby> の<ruby> 言葉 <rt> ことば </rt></ruby> や<ruby> 文 <rt> ぶん </rt></ruby> と同じようなことを<ruby> 付 <rt> つ </rt></ruby> け<ruby> 加 <rt> くわ </rt></ruby> える。<br>① バナナは おいしいです。それに、<ruby> 安 <rt> やす </rt></ruby> いです。<br>② <ruby> 雨 <rt> あめ </rt></ruby> が ふって いるし、それに、<ruby> 風 <rt> かぜ </rt></ruby> も ある。",
+                "translation": "4 ???: Add information similar to what was said in the previous word or sentence.\n- Bananas are delicious. Besides, they are inexpensive.\n- It is raining, and on top of that, it is windy."
               },
               {
-                "text": "5 たとえば：<ruby> 前 <rt> まえ </rt></ruby> の<ruby> 言葉 <rt> ことば </rt></ruby> や<ruby> 文 <rt> ぶん </rt></ruby> の<ruby> 例 <rt> れい </rt></ruby> を<ruby> 言 <rt> い </rt></ruby> う。<br>① <ruby> 日本 <rt> にほん </rt></ruby> の スポーツ、たとえば、じゅうどうを やって みたいです。<br>② <ruby> 山田 <rt> やまだ </rt></ruby> さんは いつも おそく <ruby> 帰 <rt> かえ </rt></ruby> る。たとえば、きのうは 11<ruby> 時 <rt> じ </rt></ruby> に <ruby> 帰 <rt> かえ </rt></ruby> った。"
+                "text": "5 たとえば：<ruby> 前 <rt> まえ </rt></ruby> の<ruby> 言葉 <rt> ことば </rt></ruby> や<ruby> 文 <rt> ぶん </rt></ruby> の<ruby> 例 <rt> れい </rt></ruby> を<ruby> 言 <rt> い </rt></ruby> う。<br>① <ruby> 日本 <rt> にほん </rt></ruby> の スポーツ、たとえば、じゅうどうを やって みたいです。<br>② <ruby> 山田 <rt> やまだ </rt></ruby> さんは いつも おそく <ruby> 帰 <rt> かえ </rt></ruby> る。たとえば、きのうは 11<ruby> 時 <rt> じ </rt></ruby> に <ruby> 帰 <rt> かえ </rt></ruby> った。",
+                "translation": "5 ????: Give an example of what was mentioned previously.\n- I would like to try a Japanese sport, for example, judo.\n- Mr. Yamada always comes home late. For example, yesterday he came home at eleven."
               },
               {
-                "text": "6 (それ)では・じゃ：<ruby> 前 <rt> まえ </rt></ruby> の<ruby> 文 <rt> ぶん </rt></ruby> の<ruby> 情報 <rt> じょうほう </rt></ruby> を<ruby> 受 <rt> う </rt></ruby> けて、<ruby> 話者 <rt> わしゃ </rt></ruby> の<ruby> 推論 <rt> すいろん </rt></ruby> や<ruby> 意向 <rt> いこう </rt></ruby>、<ruby> 相手 <rt> あいて </rt></ruby> への<ruby> 働 <rt> はたら </rt></ruby> きかけなどを<ruby> 言 <rt> い </rt></ruby> う。<br>① トム「ぼくは <ruby> 兄 <rt> あに </rt></ruby> が います。」 <ruby> 先生 <rt> せんせい </rt></ruby> 「じゃ、<ruby> 二人 <rt> ふたり </rt></ruby> <ruby> 兄弟 <rt> きょうだい </rt></ruby> ですね。」<br>② じゅんびは できましたか。それでは、<ruby> 始 <rt> はじ </rt></ruby> めましょう。<br>③ えっ？ サラは パーティーに <ruby> 来 <rt> き </rt></ruby> ない？ じゃ、ぼくも やめようかな。"
+                "text": "6 (それ)では・じゃ：<ruby> 前 <rt> まえ </rt></ruby> の<ruby> 文 <rt> ぶん </rt></ruby> の<ruby> 情報 <rt> じょうほう </rt></ruby> を<ruby> 受 <rt> う </rt></ruby> けて、<ruby> 話者 <rt> わしゃ </rt></ruby> の<ruby> 推論 <rt> すいろん </rt></ruby> や<ruby> 意向 <rt> いこう </rt></ruby>、<ruby> 相手 <rt> あいて </rt></ruby> への<ruby> 働 <rt> はたら </rt></ruby> きかけなどを<ruby> 言 <rt> い </rt></ruby> う。<br>① トム「ぼくは <ruby> 兄 <rt> あに </rt></ruby> が います。」 <ruby> 先生 <rt> せんせい </rt></ruby> 「じゃ、<ruby> 二人 <rt> ふたり </rt></ruby> <ruby> 兄弟 <rt> きょうだい </rt></ruby> ですね。」<br>② じゅんびは できましたか。それでは、<ruby> 始 <rt> はじ </rt></ruby> めましょう。<br>③ えっ？ サラは パーティーに <ruby> 来 <rt> き </rt></ruby> ない？ じゃ、ぼくも やめようかな。",
+                "translation": "6 Well then / in that case: Respond to the previous information with an inference, decision, or suggestion.\nTom: \"I have an older brother.\" Teacher: \"Then there are two brothers in your family.\"\nAre you ready? Well then, let us begin.\nWhat? Sarah is not coming to the party? In that case, maybe I will skip it, too."
               }
             ]
           }
@@ -8555,16 +8618,19 @@
           {
             "point_id": "g_s3_15_1",
             "title": "副詞 (Adverbs)",
-            "explanation": "'もう' expresses that a certain state has been reached; 'まだ' expresses that it has not been reached. 'もう' can also be used with '1 + counter' or '少し' to express adding more of that quantity (③④).<br>'なかなか～ない' expresses that something doesn't happen easily despite effort/expectation.<br>'たぶん' expresses that the speaker thinks the probability is high. Used together with '～でしょう・～かもしれません'.<br>'きっと' expresses that the speaker has a strong conviction. Often used together with '～でしょう・～はずです'.<br>'必ず' expresses that something occurs without exception. Used together with '～でしょう・～はずです' to express strong conviction, and with '～ことにしています' etc.",
+            "explanation": "Mou means that something has happened or a state has been reached; mada means it has not happened yet or that a state continues. Mou can also mean ?one more? or ?a little more.? Nakanaka is commonly paired with a negative to express that something does not happen easily; yatto emphasizes success after difficulty, while toutou marks an eventual outcome.<br>Kanarazu expresses certainty or something done without fail, kitto expresses a strong expectation, and zehi is used to strongly recommend or invite. Choose based on whether you mean certainty, expectation, or encouragement.",
             "examples": [
               {
-                "text": "1 まだ もう<br>① トム「<ruby> 昼 <rt> ひる </rt></ruby> ご<ruby> 飯 <rt> はん </rt></ruby> は もう <ruby> 食 <rt> た </rt></ruby> べた？」<br>サラ「ううん、まだ <ruby> 食 <rt> た </rt></ruby> べて いない。」<br>② トム「<ruby> 銀行 <rt> ぎんこう </rt></ruby> は まだ <ruby> 開 <rt> あ </rt></ruby> いて いますか。」<br><ruby> 山田 <rt> やまだ </rt></ruby> 「4<ruby> 時 <rt> じ </rt></ruby> だから、もう しまって いますよ。」<br>③ これ、おいしい。もう 一つ <ruby> 食 <rt> た </rt></ruby> べても いい？<br>④ スープに もう 少し しおを <ruby> 入 <rt> い </rt></ruby> れて ください。"
+                "text": "1 まだ もう<br>① トム「<ruby> 昼 <rt> ひる </rt></ruby> ご<ruby> 飯 <rt> はん </rt></ruby> は もう <ruby> 食 <rt> た </rt></ruby> べた？」<br>サラ「ううん、まだ <ruby> 食 <rt> た </rt></ruby> べて いない。」<br>② トム「<ruby> 銀行 <rt> ぎんこう </rt></ruby> は まだ <ruby> 開 <rt> あ </rt></ruby> いて いますか。」<br><ruby> 山田 <rt> やまだ </rt></ruby> 「4<ruby> 時 <rt> じ </rt></ruby> だから、もう しまって いますよ。」<br>③ これ、おいしい。もう 一つ <ruby> 食 <rt> た </rt></ruby> べても いい？<br>④ スープに もう 少し しおを <ruby> 入 <rt> い </rt></ruby> れて ください。",
+                "translation": "1 Already / not yet\nTom: \"Have you eaten lunch yet?\"\nSarah: \"No, I have not eaten yet.\"\nTom: \"Is the bank still open?\"\nYamada: \"It is four o'clock, so it is already closed.\"\nThis is delicious. Can I have one more?\nPlease add a little more salt to the soup."
               },
               {
-                "text": "2 なかなか やっと とうとう<br>① バスが なかなか <ruby> 来 <rt> き </rt></ruby> ません。<br>② やっと <ruby> 仕事 <rt> しごと </rt></ruby> が <ruby> 終 <rt> お </rt></ruby> わりました。<br>③ テレビが とうとう こわれて しまった。"
+                "text": "2 なかなか やっと とうとう<br>① バスが なかなか <ruby> 来 <rt> き </rt></ruby> ません。<br>② やっと <ruby> 仕事 <rt> しごと </rt></ruby> が <ruby> 終 <rt> お </rt></ruby> わりました。<br>③ テレビが とうとう こわれて しまった。",
+                "translation": "2 ?????????????\n- The bus is taking a long time to come.\n- I finally finished my work.\n- The TV finally broke."
               },
               {
-                "text": "3 かならず きっと ぜひ<br>① わたしは ご<ruby> 飯 <rt> はん </rt></ruby> の <ruby> 後 <rt> あと </rt></ruby> で、かならず <ruby> 歯 <rt> は </rt></ruby> を みがいて いる。<br>② あしたの <ruby> 試合 <rt> しあい </rt></ruby> は かならず かつぞ！<br>③ <ruby> 今度 <rt> こんど </rt></ruby> の テストは きっと いい てんが とれるでしょう。<br>④ トム「ぜひ わたしの <ruby> 国 <rt> くに </rt></ruby> へ あそびに <ruby> 来 <rt> き </rt></ruby> て ください。」<br><ruby> 山田 <rt> やまだ </rt></ruby> 「ええ、ぜひ <ruby> 行 <rt> い </rt></ruby> きたいです。」"
+                "text": "3 かならず きっと ぜひ<br>① わたしは ご<ruby> 飯 <rt> はん </rt></ruby> の <ruby> 後 <rt> あと </rt></ruby> で、かならず <ruby> 歯 <rt> は </rt></ruby> を みがいて いる。<br>② あしたの <ruby> 試合 <rt> しあい </rt></ruby> は かならず かつぞ！<br>③ <ruby> 今度 <rt> こんど </rt></ruby> の テストは きっと いい てんが とれるでしょう。<br>④ トム「ぜひ わたしの <ruby> 国 <rt> くに </rt></ruby> へ あそびに <ruby> 来 <rt> き </rt></ruby> て ください。」<br><ruby> 山田 <rt> やまだ </rt></ruby> 「ええ、ぜひ <ruby> 行 <rt> い </rt></ruby> きたいです。」",
+                "translation": "3 Definitely / surely / by all means\nI always brush my teeth after eating.\nI will definitely win tomorrow's match!\nI am sure I will get a good score on the next test.\nTom: \"Please do come visit my country.\"\nYamada: \"Yes, I would love to go.\""
               }
             ]
           }
@@ -8692,10 +8758,11 @@
           {
             "point_id": "g_s3_16_1",
             "title": "1. ～すぎます",
-            "explanation": "Expresses exceeding an appropriate degree / doing ~ too much. Generally used in a negative sense.",
+            "explanation": "Attach -sugiru to the masu-stem of a verb to mean doing something too much. With an i-adjective, replace the final i with -sugiru; with a na-adjective or noun, add -sugiru. The result means ?too...? or ?excessively...? and often implies an undesirable degree.",
             "examples": [
               {
-                "text": "① おいしかったので、<ruby> 食 <rt> た </rt></ruby> べすぎました。<br>② パソコンを <ruby> 使 <rt> つか </rt></ruby> いすぎて、<ruby> 目 <rt> め </rt></ruby> が いたいです。<br>③ へやが <ruby> 寒 <rt> さむ </rt></ruby> すぎます。エアコンを つけても いいですか。<br>④ わたしは しずかすぎる <ruby> 所 <rt> ところ </rt></ruby> では <ruby> 勉強 <rt> べんきょう </rt></ruby> できません。"
+                "text": "① おいしかったので、<ruby> 食 <rt> た </rt></ruby> べすぎました。<br>② パソコンを <ruby> 使 <rt> つか </rt></ruby> いすぎて、<ruby> 目 <rt> め </rt></ruby> が いたいです。<br>③ へやが <ruby> 寒 <rt> さむ </rt></ruby> すぎます。エアコンを つけても いいですか。<br>④ わたしは しずかすぎる <ruby> 所 <rt> ところ </rt></ruby> では <ruby> 勉強 <rt> べんきょう </rt></ruby> できません。",
+                "translation": "- It was delicious, so I ate too much.\n- I used the computer too much, and now my eyes hurt.\n- The room is too cold. May I turn on the air conditioner?\n- I cannot study in a place that is too quiet."
               }
             ],
             "formula": "＜<ruby> 動 <rt> どう </rt></ruby><ruby> 去 <rt> きょ </rt></ruby> ます ・ <ruby> イ形 <rt> いけい </rt></ruby> ・<ruby> ナ形 <rt> なけい </rt></ruby>＞ ＋ すぎます"
@@ -8703,10 +8770,11 @@
           {
             "point_id": "g_s3_16_2",
             "title": "2. ～にくいです",
-            "explanation": "Expresses that something cannot be done easily (①②) or that something doesn't happen readily (③④). Can be used in both negative (①②③) and positive (④) senses.",
+            "explanation": "Attach -nikui to a verb's masu-stem to say that an action is difficult to do or that something is unlikely to happen. The difficulty may come from the object, conditions, or nature of the action; it does not necessarily mean impossible. It is the opposite of -yasui in this use.",
             "examples": [
               {
-                "text": "① <ruby> 説明 <rt> せつめい </rt></ruby> が ふくざつで、わかりにくいです。<br>② <ruby> 地図 <rt> ちず </rt></ruby> が <ruby> 見 <rt> み </rt></ruby> にくくて、こまりました。<br>③ くもりの <ruby> 日 <rt> ひ </rt></ruby> は せんたく<ruby> 物 <rt> もの </rt></ruby> が かわきにくい。<br>④ もっと <ruby> 切 <rt> き </rt></ruby> れにくい いとは ありませんか。"
+                "text": "① <ruby> 説明 <rt> せつめい </rt></ruby> が ふくざつで、わかりにくいです。<br>② <ruby> 地図 <rt> ちず </rt></ruby> が <ruby> 見 <rt> み </rt></ruby> にくくて、こまりました。<br>③ くもりの <ruby> 日 <rt> ひ </rt></ruby> は せんたく<ruby> 物 <rt> もの </rt></ruby> が かわきにくい。<br>④ もっと <ruby> 切 <rt> き </rt></ruby> れにくい いとは ありませんか。",
+                "translation": "- The explanation is complicated, so it is hard to understand.\n- The map was hard to see, and I had trouble.\n- Laundry does not dry easily on cloudy days.\n- Do you have any thread that is harder to break?"
               }
             ],
             "formula": "＜<ruby> 動 <rt> どう </rt></ruby><ruby> 去 <rt> きょ </rt></ruby> ます＞ ＋ にくいです"
@@ -8714,10 +8782,11 @@
           {
             "point_id": "g_s3_16_3",
             "title": "3. ～やすいです",
-            "explanation": "Expresses that something can be done easily (①②) or that something happens readily/too quickly (③④). Can be used in both positive (①②) and negative (③④) senses.",
+            "explanation": "Attach -yasui to a verb's masu-stem to say that an action is easy to do or that something readily happens. It can describe a useful quality, as in something easy to read, or an unwanted tendency, as in something that breaks easily. Its opposite is -nikui.",
             "examples": [
               {
-                "text": "① この じしょは <ruby> 字 <rt> じ </rt></ruby> が <ruby> 大 <rt> おお </rt></ruby> きくて、<ruby> 読 <rt> よ </rt></ruby> みやすいです。<br>② <ruby> 山 <rt> やま </rt></ruby> に のぼる ときは、<ruby> 歩 <rt> ある </rt></ruby> きやすい くつを はいて ください。<br>③ ガラスの コップは われやすい。<br>④ <ruby> 冬 <rt> ふゆ </rt></ruby> は かぜを ひきやすい きせつです。"
+                "text": "① この じしょは <ruby> 字 <rt> じ </rt></ruby> が <ruby> 大 <rt> おお </rt></ruby> きくて、<ruby> 読 <rt> よ </rt></ruby> みやすいです。<br>② <ruby> 山 <rt> やま </rt></ruby> に のぼる ときは、<ruby> 歩 <rt> ある </rt></ruby> きやすい くつを はいて ください。<br>③ ガラスの コップは われやすい。<br>④ <ruby> 冬 <rt> ふゆ </rt></ruby> は かぜを ひきやすい きせつです。",
+                "translation": "- This dictionary has large print, so it is easy to read.\n- When you climb a mountain, please wear shoes that are easy to walk in.\n- Glass cups break easily.\n- Winter is a season when it is easy to catch a cold."
               }
             ],
             "formula": "＜<ruby> 動 <rt> どう </rt></ruby><ruby> 去 <rt> きょ </rt></ruby> ます＞ ＋ やすいです"
@@ -8841,19 +8910,23 @@
           {
             "point_id": "g_s3_17_1",
             "title": "品詞 (Parts of speech)",
-            "explanation": "'Nouns' are treated as nouns. The dictionary form of verbs is also treated as a noun, but this is habitually limited to certain verbs, and a particle (を・で・に etc.) enters before them.",
+            "explanation": "Japanese words can shift grammatical roles through their form and the particles around them. A verb in its dictionary form can modify a nominalizer to make a noun-like phrase, and some verbs also have established noun forms.<br>Adjectives can form nouns that name a quality, while adjective or adverb forms describe how an action is done. Notice the bracketed notes in the examples: they contrast the noun-like expression with the corresponding verb, adjective, or full clause.",
             "examples": [
               {
-                "text": "1 <ruby> 名詞 <rt> めいし </rt></ruby> ⇔ <ruby> 動詞 <rt> どうし </rt></ruby><br>① <ruby> 料理 <rt> りょうり </rt></ruby> は すきですが、そうじは すきでは ありません。[⇔ <ruby> 料理 <rt> りょうり </rt></ruby> します、そうじします]<br>② <ruby> 帰 <rt> かえ </rt></ruby> りの きっぷは もう <ruby> 買 <rt> か </rt></ruby> いました。[⇔ <ruby> 帰 <rt> かえ </rt></ruby> ります]<br>③ <ruby> 山 <rt> やま </rt></ruby> のぼりは たのしいですよ。[⇔ <ruby> 山 <rt> やま </rt></ruby> に のぼります]"
+                "text": "1 <ruby> 名詞 <rt> めいし </rt></ruby> ⇔ <ruby> 動詞 <rt> どうし </rt></ruby><br>① <ruby> 料理 <rt> りょうり </rt></ruby> は すきですが、そうじは すきでは ありません。[⇔ <ruby> 料理 <rt> りょうり </rt></ruby> します、そうじします]<br>② <ruby> 帰 <rt> かえ </rt></ruby> りの きっぷは もう <ruby> 買 <rt> か </rt></ruby> いました。[⇔ <ruby> 帰 <rt> かえ </rt></ruby> ります]<br>③ <ruby> 山 <rt> やま </rt></ruby> のぼりは たのしいですよ。[⇔ <ruby> 山 <rt> やま </rt></ruby> に のぼります]",
+                "translation": "1 Noun and verb\nI like cooking, but I do not like cleaning. [verb: I cook; I clean.]\nI have already bought a ticket for the return trip. [verb: I will return.]\nMountain climbing is fun. [verb: We climb the mountain.]"
               },
               {
-                "text": "2 <ruby> 名詞 <rt> めいし </rt></ruby> ⇔ <ruby> 形容詞 <rt> けいようし </rt></ruby><br>① <ruby> 東京 <rt> とうきょう </rt></ruby> スカイツリーの <ruby> 高 <rt> たか </rt></ruby> さは 634メートルです。[⇔ <ruby> 高 <rt> たか </rt></ruby> い]<br>② <ruby> 場所 <rt> ばしょ </rt></ruby> の べんりさを <ruby> 考 <rt> かんが </rt></ruby> えて、ホテルを えらびます。[⇔ べんりな]"
+                "text": "2 <ruby> 名詞 <rt> めいし </rt></ruby> ⇔ <ruby> 形容詞 <rt> けいようし </rt></ruby><br>① <ruby> 東京 <rt> とうきょう </rt></ruby> スカイツリーの <ruby> 高 <rt> たか </rt></ruby> さは 634メートルです。[⇔ <ruby> 高 <rt> たか </rt></ruby> い]<br>② <ruby> 場所 <rt> ばしょ </rt></ruby> の べんりさを <ruby> 考 <rt> かんが </rt></ruby> えて、ホテルを えらびます。[⇔ べんりな]",
+                "translation": "2 Noun and adjective\nThe Tokyo Skytree is 634 meters tall. [adjective: tall]\nI choose a hotel after considering how convenient its location is. [adjective: convenient]"
               },
               {
-                "text": "3 <ruby> 副詞 <rt> ふくし </rt></ruby> ⇔ <ruby> 形容詞 <rt> けいようし </rt></ruby><br>① みんなで <ruby> 楽 <rt> たの </rt></ruby> しく <ruby> 話 <rt> はな </rt></ruby> しましょう。[⇔ <ruby> 楽 <rt> たの </rt></ruby> しい]<br>② <ruby> 手 <rt> て </rt></ruby> を きれいに あらって ください。[⇔ きれいな]"
+                "text": "3 <ruby> 副詞 <rt> ふくし </rt></ruby> ⇔ <ruby> 形容詞 <rt> けいようし </rt></ruby><br>① みんなで <ruby> 楽 <rt> たの </rt></ruby> しく <ruby> 話 <rt> はな </rt></ruby> しましょう。[⇔ <ruby> 楽 <rt> たの </rt></ruby> しい]<br>② <ruby> 手 <rt> て </rt></ruby> を きれいに あらって ください。[⇔ きれいな]",
+                "translation": "3 Adverb and adjective\nLet us all talk happily together. [adjective: happy]\nPlease wash your hands clean. [adjective: clean]"
               },
               {
-                "text": "4 <ruby> 名詞 <rt> めいし </rt></ruby> ⇔ <ruby> 文 <rt> ぶん </rt></ruby><br>① <ruby> 友 <rt> とも </rt></ruby> だちと <ruby> 話 <rt> はな </rt></ruby> すの／ことは <ruby> 楽 <rt> たの </rt></ruby> しいです。[⇔ <ruby> 友 <rt> とも </rt></ruby> だちと <ruby> 話 <rt> はな </rt></ruby> す]<br>② トムさんと <ruby> 会 <rt> あ </rt></ruby> う やくそくを したの／ことを わすれて いました。[⇔ トムさんと <ruby> 会 <rt> あ </rt></ruby> う やくそくを した]"
+                "text": "4 <ruby> 名詞 <rt> めいし </rt></ruby> ⇔ <ruby> 文 <rt> ぶん </rt></ruby><br>① <ruby> 友 <rt> とも </rt></ruby> だちと <ruby> 話 <rt> はな </rt></ruby> すの／ことは <ruby> 楽 <rt> たの </rt></ruby> しいです。[⇔ <ruby> 友 <rt> とも </rt></ruby> だちと <ruby> 話 <rt> はな </rt></ruby> す]<br>② トムさんと <ruby> 会 <rt> あ </rt></ruby> う やくそくを したの／ことを わすれて いました。[⇔ トムさんと <ruby> 会 <rt> あ </rt></ruby> う やくそくを した]",
+                "translation": "4 Noun and sentence\nTalking with friends is fun. [sentence: talk with friends]\nI had forgotten that I had promised to meet Tom. [sentence: I promised to meet Tom]"
               }
             ]
           }
